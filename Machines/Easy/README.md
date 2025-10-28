@@ -4,7 +4,7 @@ Writeups for Easy difficulty HackTheBox machines.
 
 ## Machines in this category
 
-No machines yet. Add your first writeup!
+- [Example.md](Example.md) - Example writeup demonstrating the template usage
 
 ## Tips for Easy Machines
 

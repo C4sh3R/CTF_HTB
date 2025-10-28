@@ -52,6 +52,10 @@ CTF_HTB/
 
 ## 🚀 Cómo Usar Este Repositorio
 
+### Inicio Rápido
+
+👉 **[Lee la Guía de Inicio Rápido](QUICKSTART.md)** para comenzar a documentar tus writeups inmediatamente.
+
 ### Añadir un Nuevo Writeup
 
 1. Copia la plantilla de `/Templates/WRITEUP_TEMPLATE.md`
