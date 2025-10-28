@@ -6,7 +6,7 @@
 - **Category**: Web
 - **Platform**: HackTheBox
 - **Date**: 2025-10-28
-- **Points**: N/A
+- **Points**: 900
 
 ## Challenge Description
 
