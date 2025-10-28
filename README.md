@@ -38,7 +38,7 @@ CTF_HTB/
 - **Total**: 0
 
 ### Desafíos Completados
-- **Web**: 0
+- **Web**: 1
 - **Crypto**: 0
 - **Pwn**: 0
 - **Reversing**: 0
@@ -48,7 +48,7 @@ CTF_HTB/
 - **OSINT**: 0
 - **Hardware**: 0
 - **Mobile**: 0
-- **Total**: 0
+- **Total**: 1
 
 ## 🚀 Cómo Usar Este Repositorio
 
