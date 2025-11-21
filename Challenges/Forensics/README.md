@@ -4,7 +4,7 @@ Writeups for Digital Forensics challenges.
 
 ## Challenges in this category
 
-No challenges yet. Add your first writeup!
+- [Manual](./Manual/writeup.md) - Very Easy
 
 ## Common Topics
 
