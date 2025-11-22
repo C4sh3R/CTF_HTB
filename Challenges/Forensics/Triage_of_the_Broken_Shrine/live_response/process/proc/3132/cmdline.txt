@@ -1,0 +1,1 @@
+/usr/libexec/gnome-terminal-server

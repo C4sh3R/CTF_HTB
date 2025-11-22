@@ -1,0 +1,151 @@
+total 0
+dr-x------ 2 meaow meaow 148 Nov 17 19:51 .
+dr-xr-xr-x 9 meaow meaow   0 Nov 17 19:51 ..
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 0 -> /dev/null
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 1 -> socket:[38694]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 10 -> socket:[43625]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 100 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite-shm
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 101 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/bounce-tracking-protection.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 102 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 103 -> /home/meaow/snap/firefox/common/.mozilla/firefox/Profile Groups/c387c2c3.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 104 -> /home/meaow/snap/firefox/common/.mozilla/firefox/Profile Groups/c387c2c3.sqlite-wal
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 105 -> /home/meaow/snap/firefox/common/.mozilla/firefox/Profile Groups/c387c2c3.sqlite-shm
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 107 -> socket:[38870]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 109 -> socket:[45430]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 11 -> socket:[43621]
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 110 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite-wal
+lr-x------ 1 meaow meaow  64 Nov 17 19:51 111 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 112 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 113 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite-wal
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 114 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/content-prefs.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 115 -> socket:[44713]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 116 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 117 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite-wal
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 118 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 119 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite-wal
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 12 -> socket:[43626]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 120 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 123 -> /home/meaow/.local/share/gvfs-metadata/root (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 127 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/domain_to_categories.sqlite
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 128 -> /home/meaow/.local/share/gvfs-metadata/root-1fb150f4.log (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 13 -> socket:[38713]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 132 -> socket:[38868]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 133 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/formhistory.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 137 -> socket:[44679]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 138 -> socket:[44636]
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 139 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite-wal
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 14 -> socket:[38714]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 140 -> socket:[44722]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 141 -> socket:[44618]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 142 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 143 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite-wal
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 145 -> socket:[45237]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 146 -> socket:[43800]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 147 -> socket:[44727]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 149 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 15 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 150 -> /memfd:pulseaudio (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 151 -> socket:[44747]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 152 -> socket:[43893]
+lr-x------ 1 meaow meaow  64 Nov 17 19:51 153 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 154 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 158 -> socket:[43850]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 159 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/protections.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 16 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 165 -> socket:[44824]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 166 -> socket:[44720]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 17 -> socket:[43627]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 171 -> socket:[44740]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 177 -> socket:[47106]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 178 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/storage/default/https+++github.com/ls/data.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 179 -> socket:[45319]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 18 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 186 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/storage/default/https+++www.google.com/ls/data.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 188 -> socket:[44819]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 19 -> /memfd:wayland-cursor (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 190 -> anon_inode:inotify
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 191 -> socket:[44902]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 2 -> socket:[38694]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 20 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/cookies.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 200 -> socket:[44028]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 21 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/.parentlock
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 22 -> /dev/dri/renderD128
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 23 -> anon_inode:[eventpoll]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 24 -> pipe:[44390]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 25 -> pipe:[44390]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 26 -> pipe:[44391]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 27 -> pipe:[44391]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 28 -> /snap/firefox/6565/usr/lib/firefox/omni.ja
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 29 -> /snap/firefox/6565/usr/lib/firefox/browser/omni.ja
+lr-x------ 1 meaow meaow  64 Nov 17 19:51 3 -> /dev/null
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 30 -> pipe:[44392]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 31 -> pipe:[44392]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 32 -> pipe:[43649]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 33 -> pipe:[43649]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 34 -> socket:[38732]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 35 -> pipe:[43650]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 36 -> pipe:[43650]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 38 -> pipe:[43652]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 39 -> pipe:[43652]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 4 -> /dev/null
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 40 -> socket:[38733]
+lr-x------ 1 meaow meaow  64 Nov 17 19:51 41 -> /home/meaow/snap/firefox/common/.cache/mozilla/firefox/jh9j8na6.default/startupCache/scriptCache-child-current.bin
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 42 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 43 -> /home/meaow/snap/firefox/common/.cache/mozilla/firefox/jh9j8na6.default/startupCache/scriptCache-current.bin
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 45 -> socket:[38777]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 46 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/storage.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 47 -> /dev/dri/renderD128
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 48 -> /dev/dri/renderD128
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 5 -> /dev/null
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 50 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 51 -> socket:[43656]
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 52 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/permissions.sqlite
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 53 -> pipe:[43658]
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 54 -> pipe:[43658]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 55 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 56 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/cookies.sqlite-wal
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 57 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 58 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 6 -> pipe:[43617]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 60 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/extensions/langpack-en-US@firefox.mozilla.org.xpi
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 61 -> socket:[43667]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 62 -> socket:[43661]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 63 -> socket:[43662]
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 64 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/cert9.db
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 65 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 66 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/key4.db
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 67 -> socket:[33788]
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 69 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite
+l-wx------ 1 meaow meaow  64 Nov 17 19:55 7 -> pipe:[43617]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 70 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 71 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 72 -> /memfd:pulseaudio (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:51 73 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 74 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite-wal
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 75 -> anon_inode:[eventpoll]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 76 -> /proc/2169/mountinfo
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 77 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 78 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 79 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 8 -> socket:[43618]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 80 -> socket:[38755]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 81 -> socket:[44485]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 82 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 83 -> socket:[38779]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 84 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 85 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 86 -> socket:[44506]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 87 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 88 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 89 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 9 -> socket:[43623]
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 90 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 91 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 92 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 93 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 94 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 95 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 96 -> socket:[44622]
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 97 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite-shm
+lr-x------ 1 meaow meaow  64 Nov 17 19:55 98 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite
+lrwx------ 1 meaow meaow  64 Nov 17 19:55 99 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite-wal

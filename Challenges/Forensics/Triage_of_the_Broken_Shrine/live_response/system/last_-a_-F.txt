@@ -1,0 +1,11 @@
+meaow    tty2         Mon Nov 17 19:43:56 2025   still logged in                       tty2
+meaow    seat0        Mon Nov 17 19:43:56 2025   still logged in                       login screen
+reboot   system boot  Mon Nov 17 19:43:39 2025   still running                         6.14.0-35-generic
+meaow    tty2         Mon Nov 10 22:56:10 2025 - crash                    (6+20:47)    tty2
+meaow    seat0        Mon Nov 10 22:56:10 2025 - crash                    (6+20:47)    login screen
+reboot   system boot  Mon Nov 10 22:55:52 2025   still running                         6.14.0-35-generic
+meaow    tty2         Mon Nov 10 20:11:52 2025 - crash                     (02:44)     tty2
+meaow    seat0        Mon Nov 10 20:11:52 2025 - crash                     (02:44)     login screen
+reboot   system boot  Mon Nov 10 20:11:15 2025   still running                         6.14.0-35-generic
+
+wtmp begins Mon Nov 10 20:11:15 2025

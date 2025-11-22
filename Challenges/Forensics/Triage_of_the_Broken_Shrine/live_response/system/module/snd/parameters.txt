@@ -1,0 +1,7 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 6 root root    0 Nov 17 19:57 ..
+-r--r--r-- 1 root root 4096 Nov 17 19:57 cards_limit
+-r--r--r-- 1 root root 4096 Nov 17 19:57 major
+-r--r--r-- 1 root root 4096 Nov 17 19:57 max_user_ctl_alloc_size
+-r--r--r-- 1 root root 4096 Nov 17 19:57 slots

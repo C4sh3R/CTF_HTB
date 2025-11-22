@@ -1,0 +1,6 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 6 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 dma32_pages_limit
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 page_pool_size
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 pages_limit

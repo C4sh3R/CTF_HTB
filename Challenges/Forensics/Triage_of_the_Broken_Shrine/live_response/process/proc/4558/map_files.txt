@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 meaow meaow  0 Nov 17 19:55 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:51 ..
+lr-------- 1 meaow meaow 64 Nov 17 19:55 60235b06f000-60235b8ff000 -> /snap/snapd/25577/usr/bin/snap
+lr-------- 1 meaow meaow 64 Nov 17 19:55 60235b8ff000-60235bda6000 -> /snap/snapd/25577/usr/bin/snap
+lr-------- 1 meaow meaow 64 Nov 17 19:55 60235bda6000-60235c540000 -> /snap/snapd/25577/usr/bin/snap
+lr-------- 1 meaow meaow 64 Nov 17 19:55 60235c540000-60235c59b000 -> /snap/snapd/25577/usr/bin/snap
+lr-------- 1 meaow meaow 64 Nov 17 19:55 60235c5cf000-60235c5d0000 -> /snap/snapd/25577/usr/bin/snap
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f740c000-7bc9f7434000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7434000-7bc9f75c9000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f75c9000-7bc9f7621000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7621000-7bc9f7622000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7622000-7bc9f7626000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7626000-7bc9f7628000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7635000-7bc9f763a000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7642000-7bc9f7644000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7644000-7bc9f766b000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f766b000-7bc9f7677000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7677000-7bc9f7679000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7bc9f7679000-7bc9f767b000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

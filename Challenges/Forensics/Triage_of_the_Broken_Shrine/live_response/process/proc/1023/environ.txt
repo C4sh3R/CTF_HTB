@@ -1,0 +1,9 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=9ae6a50b3ece4a7384a58899aabb0a1a
+JOURNAL_STREAM=9:19192
+STATE_DIRECTORY=/var/lib/power-profiles-daemon
+SYSTEMD_EXEC_PID=1023
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/power-profiles-daemon.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

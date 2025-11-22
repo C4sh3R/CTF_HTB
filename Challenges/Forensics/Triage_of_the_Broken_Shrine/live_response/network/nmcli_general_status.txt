@@ -1,0 +1,2 @@
+STATE      CONNECTIVITY  WIFI-HW  WIFI     WWAN-HW  WWAN    
+connected  full          missing  enabled  missing  enabled 

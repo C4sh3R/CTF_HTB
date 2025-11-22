@@ -1,0 +1,3 @@
+NAME           UUID                                  TYPE      DEVICE 
+netplan-ens33  14f59568-5076-387a-aef6-10adfcca2e26  ethernet  ens33  
+lo             c9438286-351a-484a-985e-186c53af8d07  loopback  lo     

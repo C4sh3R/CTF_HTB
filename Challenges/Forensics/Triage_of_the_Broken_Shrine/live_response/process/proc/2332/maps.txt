@@ -1,0 +1,126 @@
+5c678e934000-5c678e936000 r--p 00000000 08:02 801888                     /usr/libexec/gsd-disk-utility-notify
+5c678e936000-5c678e938000 r-xp 00002000 08:02 801888                     /usr/libexec/gsd-disk-utility-notify
+5c678e938000-5c678e939000 r--p 00004000 08:02 801888                     /usr/libexec/gsd-disk-utility-notify
+5c678e939000-5c678e93a000 r--p 00004000 08:02 801888                     /usr/libexec/gsd-disk-utility-notify
+5c678e93a000-5c678e93b000 rw-p 00005000 08:02 801888                     /usr/libexec/gsd-disk-utility-notify
+5c67ac5ed000-5c67ac62f000 rw-p 00000000 00:00 0                          [heap]
+72769c000000-72769c07e000 rw-p 00000000 00:00 0 
+72769c07e000-7276a0000000 ---p 00000000 00:00 0 
+7276a4000000-7276a4021000 rw-p 00000000 00:00 0 
+7276a4021000-7276a8000000 ---p 00000000 00:00 0 
+7276a8000000-7276a8040000 rw-p 00000000 00:00 0 
+7276a8040000-7276ac000000 ---p 00000000 00:00 0 
+7276ac000000-7276ac021000 rw-p 00000000 00:00 0 
+7276ac021000-7276b0000000 ---p 00000000 00:00 0 
+7276b205e000-7276b205f000 ---p 00000000 00:00 0 
+7276b205f000-7276b285f000 rw-p 00000000 00:00 0 
+7276b285f000-7276b2860000 ---p 00000000 00:00 0 
+7276b2860000-7276b3060000 rw-p 00000000 00:00 0 
+7276b3060000-7276b3061000 ---p 00000000 00:00 0 
+7276b3061000-7276b3861000 rw-p 00000000 00:00 0 
+7276b3861000-7276b3862000 ---p 00000000 00:00 0 
+7276b3862000-7276b4062000 rw-p 00000000 00:00 0 
+7276b4062000-7276b4066000 r--p 00000000 08:02 798205                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+7276b4066000-7276b40b3000 r-xp 00004000 08:02 798205                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+7276b40b3000-7276b40e3000 r--p 00051000 08:02 798205                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+7276b40e3000-7276b40e4000 r--p 00081000 08:02 798205                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+7276b40e4000-7276b40e5000 rw-p 00082000 08:02 798205                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+7276b40e5000-7276b40ea000 r--p 00000000 08:02 798366                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0
+7276b40ea000-7276b4112000 r-xp 00005000 08:02 798366                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0
+7276b4112000-7276b411b000 r--p 0002d000 08:02 798366                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0
+7276b411b000-7276b411c000 r--p 00035000 08:02 798366                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0
+7276b411c000-7276b411d000 rw-p 00036000 08:02 798366                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0
+7276b411d000-7276b4124000 r--p 00000000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7276b4124000-7276b4148000 r-xp 00007000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7276b4148000-7276b4151000 r--p 0002b000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7276b4151000-7276b4157000 r--p 00033000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7276b4157000-7276b4158000 rw-p 00039000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7276b4158000-7276b4160000 r--p 00000000 08:02 798074                     /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7276b4160000-7276b417b000 r-xp 00008000 08:02 798074                     /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7276b417b000-7276b4184000 r--p 00023000 08:02 798074                     /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7276b4184000-7276b4185000 r--p 0002c000 08:02 798074                     /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7276b4185000-7276b4186000 rw-p 0002d000 08:02 798074                     /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7276b4186000-7276b418c000 r--p 00000000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7276b418c000-7276b41a9000 r-xp 00006000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7276b41a9000-7276b41af000 r--p 00023000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7276b41af000-7276b41b0000 r--p 00029000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7276b41b0000-7276b41b1000 rw-p 0002a000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7276b41b1000-7276b41b3000 rw-p 00000000 00:00 0 
+7276b41b3000-7276b41bc000 r--p 00000000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7276b41bc000-7276b41f0000 r-xp 00009000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7276b41f0000-7276b41fd000 r--p 0003d000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7276b41fd000-7276b41ff000 r--p 00049000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7276b41ff000-7276b4200000 rw-p 0004b000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7276b4200000-7276b4228000 r--p 00000000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7276b4228000-7276b43b0000 r-xp 00028000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7276b43b0000-7276b43ff000 r--p 001b0000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7276b43ff000-7276b4403000 r--p 001fe000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7276b4403000-7276b4405000 rw-p 00202000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7276b4405000-7276b4412000 rw-p 00000000 00:00 0 
+7276b442b000-7276b442f000 rw-p 00000000 00:00 0 
+7276b442f000-7276b4431000 r--p 00000000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7276b4431000-7276b4438000 r-xp 00002000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7276b4438000-7276b4439000 r--p 00009000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7276b4439000-7276b443a000 r--p 0000a000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7276b443a000-7276b443b000 rw-p 0000b000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7276b443b000-7276b443d000 rw-p 00000000 00:00 0 
+7276b443d000-7276b443f000 r--p 00000000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7276b443f000-7276b4451000 r-xp 00002000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7276b4451000-7276b4457000 r--p 00014000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7276b4457000-7276b4458000 r--p 0001a000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7276b4458000-7276b4459000 rw-p 0001b000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7276b4459000-7276b445b000 r--p 00000000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7276b445b000-7276b445d000 r-xp 00002000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7276b445d000-7276b445e000 r--p 00004000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7276b445e000-7276b445f000 r--p 00004000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7276b445f000-7276b4460000 rw-p 00005000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7276b4460000-7276b4462000 r--p 00000000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7276b4462000-7276b44d0000 r-xp 00002000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7276b44d0000-7276b44f8000 r--p 00070000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7276b44f8000-7276b44f9000 r--p 00097000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7276b44f9000-7276b44fa000 rw-p 00098000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7276b44fa000-7276b450a000 r--p 00000000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7276b450a000-7276b4589000 r-xp 00010000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7276b4589000-7276b45e1000 r--p 0008f000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7276b45e1000-7276b45e2000 r--p 000e7000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7276b45e2000-7276b45e3000 rw-p 000e8000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7276b45e3000-7276b45e5000 rw-p 00000000 00:00 0 
+7276b45e5000-7276b4618000 r--p 00000000 08:02 787925                     /usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0
+7276b4618000-7276b4672000 r-xp 00033000 08:02 787925                     /usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0
+7276b4672000-7276b469e000 r--p 0008d000 08:02 787925                     /usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0
+7276b469e000-7276b46af000 r--p 000b8000 08:02 787925                     /usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0
+7276b46af000-7276b46b0000 rw-p 000c9000 08:02 787925                     /usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0
+7276b46b0000-7276b46b4000 r--p 00000000 08:02 798293                     /usr/lib/x86_64-linux-gnu/libnotify.so.4.0.0
+7276b46b4000-7276b46ba000 r-xp 00004000 08:02 798293                     /usr/lib/x86_64-linux-gnu/libnotify.so.4.0.0
+7276b46ba000-7276b46bc000 r--p 0000a000 08:02 798293                     /usr/lib/x86_64-linux-gnu/libnotify.so.4.0.0
+7276b46bc000-7276b46bd000 r--p 0000c000 08:02 798293                     /usr/lib/x86_64-linux-gnu/libnotify.so.4.0.0
+7276b46bd000-7276b46be000 rw-p 0000d000 08:02 798293                     /usr/lib/x86_64-linux-gnu/libnotify.so.4.0.0
+7276b46be000-7276b46cd000 r--p 00000000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7276b46cd000-7276b4704000 r-xp 0000f000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7276b4704000-7276b471d000 r--p 00046000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7276b471d000-7276b4720000 r--p 0005e000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7276b4720000-7276b4721000 rw-p 00061000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7276b4721000-7276b475a000 r--p 00000000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7276b475a000-7276b4871000 r-xp 00039000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7276b4871000-7276b48e6000 r--p 00150000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7276b48e6000-7276b48ee000 r--p 001c4000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7276b48ee000-7276b48ef000 rw-p 001cc000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7276b48ef000-7276b48f1000 rw-p 00000000 00:00 0 
+7276b48f1000-7276b490f000 r--p 00000000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7276b490f000-7276b49af000 r-xp 0001e000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7276b49af000-7276b4a37000 r--p 000be000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7276b4a37000-7276b4a38000 r--p 00146000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7276b4a38000-7276b4a39000 rw-p 00147000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7276b4a39000-7276b4a3a000 rw-p 00000000 00:00 0 
+7276b4a41000-7276b4a48000 r--s 00000000 08:02 788886                     /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7276b4a48000-7276b4a4a000 rw-p 00000000 00:00 0 
+7276b4a4a000-7276b4a4c000 r--p 00000000 00:00 0                          [vvar]
+7276b4a4c000-7276b4a4e000 r--p 00000000 00:00 0                          [vvar_vclock]
+7276b4a4e000-7276b4a50000 r-xp 00000000 00:00 0                          [vdso]
+7276b4a50000-7276b4a51000 r--p 00000000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7276b4a51000-7276b4a7c000 r-xp 00001000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7276b4a7c000-7276b4a86000 r--p 0002c000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7276b4a86000-7276b4a88000 r--p 00036000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7276b4a88000-7276b4a8a000 rw-p 00038000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffcd1ef3000-7ffcd1f14000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

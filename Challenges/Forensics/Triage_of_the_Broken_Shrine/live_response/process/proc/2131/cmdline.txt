@@ -1,0 +1,3 @@
+/usr/libexec/gnome-session-binary
+--systemd-service
+--session=ubuntu

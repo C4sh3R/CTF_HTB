@@ -1,0 +1,23 @@
+# This is private data. Do not parse.
+UID=1000
+USER=meaow
+ACTIVE=1
+IS_DISPLAY=1
+STATE=active
+REMOTE=0
+TYPE=wayland
+ORIGINAL_TYPE=wayland
+CLASS=user
+SCOPE=session-2.scope
+FIFO=/run/systemd/sessions/2.ref
+SEAT=seat0
+TTY=tty2
+TTY_VALIDITY=from-pam
+SERVICE=gdm-password
+VTNR=2
+LEADER=1908
+AUDIT=2
+REALTIME=1763401436537569
+MONOTONIC=22453849
+CONTROLLER=:1.77
+DEVICES=13:65 13:64 13:68 13:66 226:0 13:67 

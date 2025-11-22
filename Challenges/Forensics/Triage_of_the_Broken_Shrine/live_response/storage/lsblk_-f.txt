@@ -1,0 +1,19 @@
+NAME   FSTYPE   FSVER            LABEL                    UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+fd0                                                                                                           
+loop0  squashfs 4.0                                                                                  0   100% /snap/bare/5
+loop1  squashfs 4.0                                                                                  0   100% /snap/core22/2045
+loop2  squashfs 4.0                                                                                  0   100% /snap/core22/2139
+loop3  squashfs 4.0                                                                                  0   100% /snap/firmware-updater/167
+loop4  squashfs 4.0                                                                                  0   100% /snap/firefox/6565
+loop5  squashfs 4.0                                                                                  0   100% /snap/firmware-updater/210
+loop6  squashfs 4.0                                                                                  0   100% /snap/gnome-42-2204/202
+loop7  squashfs 4.0                                                                                  0   100% /snap/snap-store/1270
+loop8  squashfs 4.0                                                                                  0   100% /snap/gtk-common-themes/1535
+loop9  squashfs 4.0                                                                                  0   100% /snap/snapd-desktop-integration/315
+loop10 squashfs 4.0                                                                                  0   100% /snap/snapd/24792
+loop11 squashfs 4.0                                                                                  0   100% /snap/snapd/25577
+sda                                                                                                           
+|-sda1                                                                                                        
+`-sda2 ext4     1.0                                       d55d10f7-3be2-4fae-9f74-6ddb42a6afa5     27G    26% /
+sr0    iso9660                   CDROM                    2025-11-10-20-01-48-00                     0   100% /media/meaow/CDROM
+sr1    iso9660  Joliet Extension Ubuntu 24.04.3 LTS amd64 2025-08-05-18-20-26-00                     0   100% /media/meaow/Ubuntu 24.04.3 LTS amd64

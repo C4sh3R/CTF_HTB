@@ -1,0 +1,14 @@
+[Unit]
+# Auto-generated, DO NOT EDIT
+Description=Service for snap application firmware-updater.firmware-updater-app
+X-Snappy=yes
+
+[Service]
+EnvironmentFile=-/etc/environment
+ExecStart=/usr/bin/snap run firmware-updater.firmware-updater-app
+SyslogIdentifier=firmware-updater.firmware-updater-app
+Restart=on-failure
+WorkingDirectory=/var/snap/firmware-updater/210
+TimeoutStopSec=30
+Type=dbus
+BusName=com.canonical.firmware_updater

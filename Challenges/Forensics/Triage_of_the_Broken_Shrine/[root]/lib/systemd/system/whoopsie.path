@@ -1,0 +1,8 @@
+[Unit]
+Description=Start whoopsie on modification of the /var/crash directory
+
+[Path]
+PathChanged=/var/crash
+
+[Install]
+WantedBy=multi-user.target

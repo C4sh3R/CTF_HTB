@@ -1,0 +1,9 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=polkitd
+LOGNAME=polkitd
+INVOCATION_ID=d9a410c6371e43e5845d751f5573aae4
+JOURNAL_STREAM=9:19918
+SYSTEMD_EXEC_PID=1017
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/polkit.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

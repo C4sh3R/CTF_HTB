@@ -1,0 +1,9 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=eb8cc319a17c4230b61b17d8e1131228
+JOURNAL_STREAM=9:17338
+RUNTIME_DIRECTORY=/run/wpa_supplicant
+SYSTEMD_EXEC_PID=1111
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/wpa_supplicant.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

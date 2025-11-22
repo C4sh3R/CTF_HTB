@@ -1,0 +1,11 @@
+[Unit]
+Description=Generate snakeoil SSL keypair
+ConditionPathExists=!/etc/ssl/private/ssl-cert-snakeoil.key
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=-/usr/sbin/make-ssl-cert generate-default-snakeoil --force-overwrite
+
+[Install]
+WantedBy=multi-user.target

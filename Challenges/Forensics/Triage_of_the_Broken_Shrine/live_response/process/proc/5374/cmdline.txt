@@ -1,0 +1,3 @@
+/snap/firefox/6565/usr/lib/firefox/crashhelper
+5309
+/tmp/

@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 systemd-oom systemd-oom 12 Nov 17 19:43 .
+dr-xr-xr-x 9 systemd-oom systemd-oom  0 Nov 17 19:43 ..
+lr-x------ 1 systemd-oom systemd-oom 64 Nov 17 19:43 0 -> /dev/null
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:43 1 -> socket:[18259]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:47 10 -> socket:[18955]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:47 11 -> socket:[19132]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:47 12 -> socket:[26487]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:43 2 -> socket:[18259]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:43 3 -> socket:[12260]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:43 4 -> socket:[18948]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:47 5 -> anon_inode:[eventpoll]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:47 6 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:47 7 -> anon_inode:[signalfd]
+lrwx------ 1 systemd-oom systemd-oom 64 Nov 17 19:43 9 -> anon_inode:[timerfd]

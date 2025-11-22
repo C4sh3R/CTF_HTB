@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 meaow meaow 12 Nov 17 19:47 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:43 ..
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 0 -> /dev/null
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 1 -> socket:[28992]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 10 -> anon_inode:inotify
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 11 -> socket:[29032]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 12 -> socket:[29033]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 2 -> socket:[28994]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 3 -> socket:[29017]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 4 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 5 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 6 -> socket:[24537]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 7 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 8 -> anon_inode:[eventfd]

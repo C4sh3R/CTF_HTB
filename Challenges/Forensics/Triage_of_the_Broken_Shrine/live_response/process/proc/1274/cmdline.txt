@@ -1,0 +1,3 @@
+/usr/bin/python3
+/usr/share/unattended-upgrades/unattended-upgrade-shutdown
+--wait-for-signal

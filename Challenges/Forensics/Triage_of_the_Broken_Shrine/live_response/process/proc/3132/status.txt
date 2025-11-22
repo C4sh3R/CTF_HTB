@@ -1,0 +1,61 @@
+Name:	gnome-terminal-
+Umask:	0002
+State:	S (sleeping)
+Tgid:	3132
+Ngid:	0
+Pid:	3132
+PPid:	1921
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+Groups:	4 24 27 30 46 100 114 1000 
+NStgid:	3132
+NSpid:	3132
+NSpgid:	3132
+NSsid:	3132
+Kthread:	0
+VmPeak:	  599068 kB
+VmSize:	  558052 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   56712 kB
+VmRSS:	   56712 kB
+RssAnon:	   13408 kB
+RssFile:	   39440 kB
+RssShmem:	    3864 kB
+VmData:	   61900 kB
+VmStk:	     132 kB
+VmExe:	     152 kB
+VmLib:	   30196 kB
+VmPTE:	     272 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	6
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	11356
+nonvoluntary_ctxt_switches:	2514
+x86_Thread_features:	
+x86_Thread_features_locked:	

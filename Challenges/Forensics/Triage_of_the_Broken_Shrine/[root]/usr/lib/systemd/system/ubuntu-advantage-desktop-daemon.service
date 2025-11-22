@@ -1,0 +1,20 @@
+[Unit]
+Description=Desktop service for Ubuntu Advantage
+After=polkit.service
+
+[Service]
+Type=dbus
+BusName=com.canonical.UbuntuAdvantage
+ExecStart=/usr/libexec/ubuntu-advantage-desktop-daemon
+Restart=on-failure
+
+MemoryDenyWriteExecute=yes
+PrivateDevices=yes
+PrivateTmp=yes
+ProtectProc=invisible
+ProtectControlGroups=yes
+ProtectKernelLogs=yes
+ProtectKernelModules=yes
+ProtectKernelTunables=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes

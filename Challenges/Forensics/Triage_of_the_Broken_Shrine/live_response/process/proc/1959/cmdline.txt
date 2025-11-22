@@ -1,0 +1,4 @@
+/usr/bin/gnome-keyring-daemon
+--foreground
+--components=pkcs11,secrets
+--control-directory=/run/user/1000/keyring

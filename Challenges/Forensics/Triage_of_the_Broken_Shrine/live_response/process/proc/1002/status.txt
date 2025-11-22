@@ -1,0 +1,61 @@
+Name:	gnome-remote-de
+Umask:	0022
+State:	S (sleeping)
+Tgid:	1002
+Ngid:	0
+Pid:	1002
+PPid:	1
+TracerPid:	0
+Uid:	988	988	988	988
+Gid:	988	988	988	988
+FDSize:	128
+Groups:	988 
+NStgid:	1002
+NSpid:	1002
+NSpgid:	1002
+NSsid:	1002
+Kthread:	0
+VmPeak:	  578344 kB
+VmSize:	  512808 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   16416 kB
+VmRSS:	   16416 kB
+RssAnon:	    2432 kB
+RssFile:	   13984 kB
+RssShmem:	       0 kB
+VmData:	   51332 kB
+VmStk:	     132 kB
+VmExe:	     344 kB
+VmLib:	   23116 kB
+VmPTE:	     180 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	4
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100004002
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	176
+nonvoluntary_ctxt_switches:	74
+x86_Thread_features:	
+x86_Thread_features_locked:	

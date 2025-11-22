@@ -1,0 +1,1 @@
+[   10.680409] CPU: 0 UID: 0 PID: 848 Comm: plymouthd Not tainted 6.14.0-35-generic #35~24.04.1-Ubuntu

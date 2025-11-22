@@ -1,0 +1,1 @@
+kworker/R-charger_manager

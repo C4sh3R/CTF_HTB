@@ -1,0 +1,12 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 7 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 a4tech_workaround
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 elantech_smbus
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 proto
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rate
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 resetafter
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 resolution
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 resync_time
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 smartscroll
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 synaptics_intertouch

@@ -1,0 +1,11 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+USER=meaow
+LOGNAME=meaow
+HOME=/home/meaow
+SHELL=/bin/bash
+INVOCATION_ID=3dc5c764ba544eda94452e6976bb1508
+JOURNAL_STREAM=9:25401
+SYSTEMD_EXEC_PID=1921
+XDG_RUNTIME_DIR=/run/user/1000

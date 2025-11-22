@@ -1,0 +1,25 @@
+total 0
+dr-x------ 2 root root  0 Nov 17 19:55 .
+dr-xr-xr-x 9 root root  0 Nov 17 19:55 ..
+lr-------- 1 root root 64 Nov 17 19:55 630bfa098000-630bfa0c8000 -> /usr/bin/bash
+lr-------- 1 root root 64 Nov 17 19:55 630bfa0c8000-630bfa1b7000 -> /usr/bin/bash
+lr-------- 1 root root 64 Nov 17 19:55 630bfa1b7000-630bfa1ec000 -> /usr/bin/bash
+lr-------- 1 root root 64 Nov 17 19:55 630bfa1ec000-630bfa1f0000 -> /usr/bin/bash
+lr-------- 1 root root 64 Nov 17 19:55 630bfa1f0000-630bfa1f9000 -> /usr/bin/bash
+lr-------- 1 root root 64 Nov 17 19:55 7dd8aec00000-7dd8af175000 -> /usr/lib/locale/locale-archive
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af200000-7dd8af228000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af228000-7dd8af3b0000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af3b0000-7dd8af3ff000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af3ff000-7dd8af403000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af403000-7dd8af405000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af5c0000-7dd8af5ce000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af5ce000-7dd8af5e1000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af5e1000-7dd8af5ef000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af5ef000-7dd8af5f3000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af5f3000-7dd8af5f4000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af5fb000-7dd8af602000 -> /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af60a000-7dd8af60b000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af60b000-7dd8af636000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af636000-7dd8af640000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af640000-7dd8af642000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7dd8af642000-7dd8af644000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

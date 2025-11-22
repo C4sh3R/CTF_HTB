@@ -1,0 +1,4 @@
+/usr/libexec/gvfsd-trash
+--spawner
+:1.20
+/org/gtk/gvfs/exec_spaw/0

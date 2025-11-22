@@ -1,0 +1,10 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 6 root root    0 Nov 17 19:57 ..
+-r--r--r-- 1 root root 4096 Nov 17 19:57 seq_client_load
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 seq_default_timer_card
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 seq_default_timer_class
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 seq_default_timer_device
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 seq_default_timer_resolution
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 seq_default_timer_sclass
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 seq_default_timer_subdevice

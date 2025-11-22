@@ -1,0 +1,10 @@
+[Unit]
+Description=GNOME Terminal Server
+PartOf=graphical-session.target
+[Service]
+Slice=app-org.gnome.Terminal.slice
+Type=dbus
+BusName=org.gnome.Terminal
+ExecStart=/usr/libexec/gnome-terminal-server
+TimeoutStopSec=5s
+KillMode=process

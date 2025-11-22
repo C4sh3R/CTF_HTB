@@ -1,0 +1,2 @@
+/usr/libexec/gvfsd-fuse
+/run/user/1000/gvfs

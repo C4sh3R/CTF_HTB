@@ -1,0 +1,14 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+FDSTORE=512
+WATCHDOG_PID=1059
+WATCHDOG_USEC=180000000
+USER=root
+INVOCATION_ID=b7b12aa2b6c04a4b8324acefea2c805c
+JOURNAL_STREAM=9:19228
+RUNTIME_DIRECTORY=/run/systemd/inhibit:/run/systemd/seats:/run/systemd/sessions:/run/systemd/shutdown:/run/systemd/users
+STATE_DIRECTORY=/var/lib/systemd/linger
+SYSTEMD_EXEC_PID=1059
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/systemd-logind.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

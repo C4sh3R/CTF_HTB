@@ -1,0 +1,3 @@
+DEVICE  TYPE      STATE                   CONNECTION    
+ens33   ethernet  connected               netplan-ens33 
+lo      loopback  connected (externally)  lo            

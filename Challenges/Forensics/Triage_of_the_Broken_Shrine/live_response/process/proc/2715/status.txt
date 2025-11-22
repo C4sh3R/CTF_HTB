@@ -1,0 +1,61 @@
+Name:	xdg-desktop-por
+Umask:	0002
+State:	S (sleeping)
+Tgid:	2715
+Ngid:	0
+Pid:	2715
+PPid:	1921
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	128
+Groups:	4 24 27 30 46 100 114 1000 
+NStgid:	2715
+NSpid:	2715
+NSpgid:	2715
+NSsid:	2715
+Kthread:	0
+VmPeak:	  840868 kB
+VmSize:	  767136 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   14904 kB
+VmRSS:	   14596 kB
+RssAnon:	    2752 kB
+RssFile:	   11844 kB
+RssShmem:	       0 kB
+VmData:	   84628 kB
+VmStk:	     132 kB
+VmExe:	     440 kB
+VmLib:	   13496 kB
+VmPTE:	     188 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	7
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	627
+nonvoluntary_ctxt_switches:	247
+x86_Thread_features:	
+x86_Thread_features_locked:	

@@ -1,0 +1,2 @@
+/usr/libexec/at-spi2-registryd
+--use-gnome-session

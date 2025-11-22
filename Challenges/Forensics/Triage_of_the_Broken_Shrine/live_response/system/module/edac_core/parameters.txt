@@ -1,0 +1,9 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 check_pci_errors
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 edac_mc_log_ce
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 edac_mc_log_ue
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 edac_mc_panic_on_ue
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 edac_mc_poll_msec
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 edac_pci_panic_on_pe

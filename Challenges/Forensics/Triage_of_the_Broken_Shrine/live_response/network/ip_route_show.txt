@@ -1,0 +1,2 @@
+default via 192.168.153.2 dev ens33 proto dhcp src 192.168.153.131 metric 100 
+192.168.153.0/24 dev ens33 proto kernel scope link src 192.168.153.131 metric 100 

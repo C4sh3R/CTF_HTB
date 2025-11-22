@@ -1,0 +1,8 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 guest_halt_poll_allow_shrink
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 guest_halt_poll_grow
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 guest_halt_poll_grow_start
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 guest_halt_poll_ns
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 guest_halt_poll_shrink

@@ -1,0 +1,61 @@
+Name:	NetworkManager
+Umask:	0022
+State:	S (sleeping)
+Tgid:	1109
+Ngid:	0
+Pid:	1109
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	256
+Groups:	 
+NStgid:	1109
+NSpid:	1109
+NSpgid:	1109
+NSsid:	1109
+Kthread:	0
+VmPeak:	  398892 kB
+VmSize:	  336368 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   18884 kB
+VmRSS:	   18884 kB
+RssAnon:	    2816 kB
+RssFile:	   16068 kB
+RssShmem:	       0 kB
+VmData:	   35136 kB
+VmStk:	     132 kB
+VmExe:	    2496 kB
+VmLib:	   18016 kB
+VmPTE:	     156 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	4
+SigQ:	1/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100004a03
+CapInh:	0000000000000000
+CapPrm:	00000000200534e2
+CapEff:	00000000200534e2
+CapBnd:	00000000200534e2
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	528
+nonvoluntary_ctxt_switches:	487
+x86_Thread_features:	
+x86_Thread_features_locked:	

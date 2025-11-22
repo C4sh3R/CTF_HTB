@@ -1,0 +1,61 @@
+Name:	WebExtensions
+Umask:	0002
+State:	S (sleeping)
+Tgid:	5813
+Ngid:	0
+Pid:	5813
+PPid:	5455
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+Groups:	4 24 27 30 46 100 114 1000 
+NStgid:	5813
+NSpid:	5813
+NSpgid:	2169
+NSsid:	2169
+Kthread:	0
+VmPeak:	 2464416 kB
+VmSize:	 2459280 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   98340 kB
+VmRSS:	   95252 kB
+RssAnon:	   28916 kB
+RssFile:	   65304 kB
+RssShmem:	    1032 kB
+VmData:	   64064 kB
+VmStk:	     168 kB
+VmExe:	     804 kB
+VmLib:	  135464 kB
+VmPTE:	     696 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	21
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000011002
+SigCgt:	0000000f40800ef8
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	1
+Seccomp:	2
+Seccomp_filters:	3
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	606
+nonvoluntary_ctxt_switches:	732
+x86_Thread_features:	
+x86_Thread_features_locked:	

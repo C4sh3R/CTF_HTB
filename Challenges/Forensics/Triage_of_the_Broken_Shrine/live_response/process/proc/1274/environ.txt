@@ -1,0 +1,8 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=6b5db7129db94bc68ca0a190f70c77b7
+JOURNAL_STREAM=9:21566
+SYSTEMD_EXEC_PID=1274
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/unattended-upgrades.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

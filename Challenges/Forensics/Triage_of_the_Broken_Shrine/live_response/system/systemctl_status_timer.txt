@@ -1,0 +1,126 @@
+* fstrim.timer - Discard unused filesystem blocks once a week
+     Loaded: loaded (/usr/lib/systemd/system/fstrim.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Mon 2025-11-17 21:04:23 EET; 1h 6min left
+   Triggers: * fstrim.service
+       Docs: man:fstrim
+
+Nov 17 19:43:40 meaow systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+
+* anacron.timer - Trigger anacron every hour
+     Loaded: loaded (/usr/lib/systemd/system/anacron.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Mon 2025-11-17 20:32:59 EET; 35min left
+   Triggers: * anacron.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started anacron.timer - Trigger anacron every hour.
+
+* update-notifier-download.timer - Download data for packages that failed at package install time
+     Loaded: loaded (/usr/lib/systemd/system/update-notifier-download.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:41 EET; 13min ago
+    Trigger: Tue 2025-11-18 19:48:39 EET; 23h left
+   Triggers: * update-notifier-download.service
+
+Nov 17 19:43:41 meaow systemd[1]: Started update-notifier-download.timer - Download data for packages that failed at package install time.
+
+* sysstat-collect.timer - Run system activity accounting tool every 10 minutes
+     Loaded: loaded (/usr/lib/systemd/system/sysstat-collect.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Mon 2025-11-17 20:00:00 EET; 2min 35s left
+   Triggers: * sysstat-collect.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+
+* update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available
+     Loaded: loaded (/usr/lib/systemd/system/update-notifier-motd.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:41 EET; 13min ago
+    Trigger: Fri 2025-11-21 08:07:36 EET; 3 days left
+   Triggers: * update-notifier-motd.service
+
+Nov 17 19:43:41 meaow systemd[1]: Started update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+
+* e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems
+     Loaded: loaded (/usr/lib/systemd/system/e2scrub_all.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Sun 2025-11-23 03:10:54 EET; 5 days left
+   Triggers: * e2scrub_all.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+
+* motd-news.timer - Message of the Day
+     Loaded: loaded (/usr/lib/systemd/system/motd-news.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Tue 2025-11-18 03:38:37 EET; 7h left
+   Triggers: * motd-news.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started motd-news.timer - Message of the Day.
+
+* fwupd-refresh.timer - Refresh fwupd metadata regularly
+     Loaded: loaded (/usr/lib/systemd/system/fwupd-refresh.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Mon 2025-11-17 20:27:21 EET; 29min left
+   Triggers: * fwupd-refresh.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+
+* logrotate.timer - Daily rotation of log files
+     Loaded: loaded (/usr/lib/systemd/system/logrotate.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Tue 2025-11-18 00:00:00 EET; 4h 2min left
+   Triggers: * logrotate.service
+       Docs: man:logrotate(8)
+             man:logrotate.conf(5)
+
+Nov 17 19:43:40 meaow systemd[1]: Started logrotate.timer - Daily rotation of log files.
+
+* sysstat-summary.timer - Generate summary of yesterday's process accounting
+     Loaded: loaded (/usr/lib/systemd/system/sysstat-summary.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Tue 2025-11-18 00:07:00 EET; 4h 9min left
+   Triggers: * sysstat-summary.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started sysstat-summary.timer - Generate summary of yesterday's process accounting.
+
+* systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories
+     Loaded: loaded (/usr/lib/systemd/system/systemd-tmpfiles-clean.timer; static)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Mon 2025-11-17 19:58:32 EET; 1min 8s left
+   Triggers: * systemd-tmpfiles-clean.service
+       Docs: man:tmpfiles.d(5)
+             man:systemd-tmpfiles(8)
+
+Nov 17 19:43:40 meaow systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+
+* man-db.timer - Daily man-db regeneration
+     Loaded: loaded (/usr/lib/systemd/system/man-db.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Mon 2025-11-17 22:20:43 EET; 2h 23min left
+   Triggers: * man-db.service
+       Docs: man:mandb(8)
+
+Nov 17 19:43:40 meaow systemd[1]: Started man-db.timer - Daily man-db regeneration.
+
+* apt-daily-upgrade.timer - Daily apt upgrade and clean activities
+     Loaded: loaded (/usr/lib/systemd/system/apt-daily-upgrade.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Mon 2025-11-17 20:12:41 EET; 15min left
+   Triggers: * apt-daily-upgrade.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+
+* apt-daily.timer - Daily apt download activities
+     Loaded: loaded (/usr/lib/systemd/system/apt-daily.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Tue 2025-11-18 08:00:26 EET; 12h left
+   Triggers: * apt-daily.service
+
+Nov 17 19:43:40 meaow systemd[1]: Started apt-daily.timer - Daily apt download activities.
+
+* dpkg-db-backup.timer - Daily dpkg database backup timer
+     Loaded: loaded (/usr/lib/systemd/system/dpkg-db-backup.timer; enabled; preset: enabled)
+     Active: active (waiting) since Mon 2025-11-17 19:43:40 EET; 13min ago
+    Trigger: Tue 2025-11-18 00:00:00 EET; 4h 2min left
+   Triggers: * dpkg-db-backup.service
+       Docs: man:dpkg(1)
+
+Nov 17 19:43:40 meaow systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.

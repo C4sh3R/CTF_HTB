@@ -1,0 +1,61 @@
+Name:	dbus-daemon
+Umask:	0022
+State:	S (sleeping)
+Tgid:	998
+Ngid:	0
+Pid:	998
+PPid:	1
+TracerPid:	0
+Uid:	101	101	101	101
+Gid:	101	101	101	101
+FDSize:	128
+Groups:	 
+NStgid:	998
+NSpid:	998
+NSpgid:	998
+NSsid:	998
+Kthread:	0
+VmPeak:	   12336 kB
+VmSize:	   12208 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    7264 kB
+VmRSS:	    7264 kB
+RssAnon:	    2688 kB
+RssFile:	    4576 kB
+RssShmem:	       0 kB
+VmData:	    3252 kB
+VmStk:	     132 kB
+VmExe:	     148 kB
+VmLib:	    6056 kB
+VmPTE:	      72 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	1
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000000004001
+CapInh:	0000000000000000
+CapPrm:	0000000020000000
+CapEff:	0000000020000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	3361
+nonvoluntary_ctxt_switches:	944
+x86_Thread_features:	
+x86_Thread_features_locked:	

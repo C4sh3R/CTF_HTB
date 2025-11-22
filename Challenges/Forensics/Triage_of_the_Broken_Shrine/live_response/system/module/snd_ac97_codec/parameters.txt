@@ -1,0 +1,5 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 6 root root    0 Nov 17 19:57 ..
+-r--r--r-- 1 root root 4096 Nov 17 19:57 enable_loopback
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 power_save

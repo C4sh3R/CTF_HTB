@@ -1,0 +1,16 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+FDSTORE=4224
+LISTEN_PID=403
+LISTEN_FDS=3
+LISTEN_FDNAMES=systemd-journald-dev-log.socket:systemd-journald.socket:systemd-journald.socket
+WATCHDOG_PID=403
+WATCHDOG_USEC=180000000
+USER=root
+INVOCATION_ID=4bc8d6a9ee6a4c91adb4e4e760584299
+RUNTIME_DIRECTORY=/run/systemd/journal
+SYSTEMD_EXEC_PID=403
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/systemd-journald.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+TERM=linux

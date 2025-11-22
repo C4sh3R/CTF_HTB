@@ -1,0 +1,6 @@
+# This is a transient unit file, created programmatically via the systemd API. Do not edit.
+[Unit]
+Description=VTE child process 3139 launched by gnome-terminal-server process 3132
+
+[Scope]
+Slice=app-org.gnome.Terminal.slice

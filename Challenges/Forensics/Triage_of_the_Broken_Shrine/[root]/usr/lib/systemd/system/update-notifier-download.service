@@ -1,0 +1,7 @@
+[Unit]
+Description=Download data for packages that failed at package install time
+ConditionFileIsExecutable=/usr/lib/update-notifier/package-data-downloader
+
+[Service]
+ExecStart=/usr/lib/update-notifier/package-data-downloader
+Type=oneshot

@@ -1,0 +1,23 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_cpu_stall_cputime
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_cpu_stall_ftrace_dump
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_cpu_stall_suppress
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_cpu_stall_suppress_at_boot
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_cpu_stall_timeout
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_exp_cpu_stall_timeout
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_exp_stall_task_details
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_expedited
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_normal
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_normal_after_boot
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_collapse_lim
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_contend_lim
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_enqueue_lim
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_ipi_delay
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_lazy_lim
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_stall_info
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_stall_info_mult
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 rcu_task_stall_timeout
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_tasks_lazy_ms
+-r--r--r-- 1 root root 4096 Nov 17 19:57 rcu_tasks_trace_lazy_ms

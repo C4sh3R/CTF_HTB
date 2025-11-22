@@ -1,0 +1,18 @@
+[Unit]
+# Auto-generated, DO NOT EDIT
+Description=Timer firmware-notifier for snap application firmware-updater.firmware-notifier
+X-Snappy=yes
+
+[Timer]
+Unit=snap.firmware-updater.firmware-notifier.service
+OnCalendar=*-*-* 00:00
+OnCalendar=*-*-* 03:00
+OnCalendar=*-*-* 06:00
+OnCalendar=*-*-* 09:00
+OnCalendar=*-*-* 12:00
+OnCalendar=*-*-* 15:00
+OnCalendar=*-*-* 18:00
+OnCalendar=*-*-* 21:00
+
+[Install]
+WantedBy=timers.target

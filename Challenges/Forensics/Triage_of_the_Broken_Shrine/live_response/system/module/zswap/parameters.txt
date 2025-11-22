@@ -1,0 +1,9 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 accept_threshold_percent
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 compressor
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 enabled
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 max_pool_percent
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 shrinker_enabled
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 zpool

@@ -1,0 +1,7 @@
+#!/bin/sh
+# sysstat suspend/resume hack
+# for systemd's /usr/lib/systemd/system-sleep directory
+# (C) 2020 Sebastien Godard (sysstat <at> orange.fr)
+
+# Insert a comment in current daily datafile
+/usr/lib/sysstat/sa1 --sleep $*

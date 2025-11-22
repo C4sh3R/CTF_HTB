@@ -1,0 +1,60 @@
+total 0
+dr-x------ 2 meaow meaow 57 Nov 17 19:43 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:43 ..
+lr-x------ 1 meaow meaow 64 Nov 17 19:43 0 -> /dev/null
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 1 -> socket:[26503]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 10 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 11 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 12 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 13 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 14 -> socket:[25572]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 15 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 16 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 17 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 18 -> anon_inode:[eventfd]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 19 -> /run/user/1000/pipewire-0.lock
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 2 -> socket:[26503]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 20 -> anon_inode:[eventfd]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 21 -> /run/user/1000/pipewire-0-manager.lock
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 22 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 23 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 24 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 25 -> socket:[25587]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 26 -> socket:[25587]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 27 -> socket:[25587]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 28 -> socket:[24186]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 29 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 3 -> socket:[25464]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 30 -> socket:[24181]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 31 -> socket:[24181]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 32 -> socket:[24181]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 33 -> socket:[24187]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 34 -> anon_inode:[timerfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 35 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 36 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 37 -> anon_inode:[timerfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 38 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 39 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 4 -> socket:[25466]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 40 -> socket:[24185]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 41 -> socket:[24196]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 42 -> socket:[29708]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 43 -> socket:[29712]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 44 -> socket:[29764]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 45 -> anon_inode:[timerfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 46 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 47 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 48 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 49 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 5 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 50 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 51 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 52 -> socket:[28117]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 53 -> socket:[28410]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 54 -> socket:[28416]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 59 -> /dev/snd/seq
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 6 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 60 -> /dev/snd/seq
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 7 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 8 -> anon_inode:[signalfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 9 -> anon_inode:[signalfd]

@@ -1,0 +1,15 @@
+[Unit]
+Description=SSSD NSS Service responder socket
+Documentation=man:sssd.conf(5)
+After=sssd.service
+BindsTo=sssd.service
+Before=sssd-autofs.socket sssd-pac.socket sssd-pam.socket sssd-ssh.socket sssd-sudo.socket
+DefaultDependencies=no
+Conflicts=shutdown.target
+
+[Socket]
+ExecStartPre=/usr/libexec/sssd/sssd_check_socket_activated_responders -r nss
+ListenStream=/var/lib/sss/pipes/nss
+
+[Install]
+WantedBy=sssd.service

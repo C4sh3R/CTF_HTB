@@ -1,0 +1,21 @@
+[Unit]
+Description=GNOME Initial Setup Copy Worker
+
+# Make sure we complete very early before most consumers are started.
+Before=default.target graphical-session-pre.target
+
+# Run before any systemd activated consumers.
+Before=gnome-keyring-daemon.service
+
+# Never run in GDM
+ConditionUser=!@system
+
+ConditionPathExists=!%E/gnome-initial-setup-done
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/gnome-initial-setup-copy-worker
+Restart=no
+# We must not try to use the D-Bus session bus before `basic.target`,
+# so force use of the 'local' GVfs implementation that is safe to use.
+Environment=GIO_USE_VFS=local

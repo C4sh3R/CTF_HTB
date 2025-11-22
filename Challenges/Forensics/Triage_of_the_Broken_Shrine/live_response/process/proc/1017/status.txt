@@ -1,0 +1,61 @@
+Name:	polkitd
+Umask:	0077
+State:	S (sleeping)
+Tgid:	1017
+Ngid:	0
+Pid:	1017
+PPid:	1
+TracerPid:	0
+Uid:	987	987	987	987
+Gid:	987	987	987	987
+FDSize:	128
+Groups:	987 
+NStgid:	1017
+NSpid:	1017
+NSpgid:	1017
+NSsid:	1017
+Kthread:	0
+VmPeak:	  390964 kB
+VmSize:	  390964 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   11784 kB
+VmRSS:	   11784 kB
+RssAnon:	    3788 kB
+RssFile:	    7996 kB
+RssShmem:	       0 kB
+VmData:	   45416 kB
+VmStk:	     132 kB
+VmExe:	      64 kB
+VmLib:	    8480 kB
+VmPTE:	     120 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	4
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100000002
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	00000000000000c0
+CapAmb:	0000000000000000
+NoNewPrivs:	1
+Seccomp:	2
+Seccomp_filters:	31
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	1342
+nonvoluntary_ctxt_switches:	519
+x86_Thread_features:	
+x86_Thread_features_locked:	

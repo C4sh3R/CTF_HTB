@@ -1,0 +1,8 @@
+Filesystem     1K-blocks     Used Available Use% Mounted on
+tmpfs             396052     2020    394032   1% /run
+/dev/sda2       40970464 10495872  28361212  28% /
+tmpfs            1980244        0   1980244   0% /dev/shm
+tmpfs               5120        8      5112   1% /run/lock
+tmpfs             396048      128    395920   1% /run/user/1000
+/dev/sr0           97580    97580         0 100% /media/meaow/CDROM
+/dev/sr1         6197156  6197156         0 100% /media/meaow/Ubuntu 24.04.3 LTS amd64

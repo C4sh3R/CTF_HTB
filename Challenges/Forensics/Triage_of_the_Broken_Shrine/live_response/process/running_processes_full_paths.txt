@@ -1,0 +1,349 @@
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1/exe -> /usr/lib/systemd/systemd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/10/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/100/exe
+lrwxrwxrwx 1 gnome-remote-desktop gnome-remote-desktop 0 Nov 17 19:43 /proc/1002/exe -> /usr/libexec/gnome-remote-desktop-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/101/exe
+lrwxrwxrwx 1 polkitd              polkitd              0 Nov 17 19:43 /proc/1017/exe -> /usr/lib/polkit-1/polkitd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/102/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1023/exe -> /usr/libexec/power-profiles-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/103/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1032/exe -> /snap/snapd/25577/usr/lib/snapd/snapd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1036/exe -> /usr/libexec/accounts-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1037/exe -> /usr/sbin/cron
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/104/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1040/exe -> /usr/libexec/switcheroo-control
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/105/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1059/exe -> /usr/lib/systemd/systemd-logind
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/106/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1065/exe -> /usr/libexec/udisks2/udisksd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/107/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/108/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/109/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/11/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/110/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1103/exe -> /usr/sbin/avahi-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1106/exe -> /usr/sbin/rsyslogd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1109/exe -> /usr/sbin/NetworkManager
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/111/exe
+lrwxrwxrwx 1 root                 netdev               0 Nov 17 19:43 /proc/1111/exe -> /usr/sbin/wpa_supplicant
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/112/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/113/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/115/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/116/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1161/exe -> /usr/sbin/ModemManager
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/117/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/118/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/119/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/12/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/126/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1271/exe -> /usr/sbin/cupsd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1274/exe -> /usr/bin/python3.12
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/129/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1291/exe -> /usr/sbin/gdm3
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/13/exe
+lrwxrwxrwx 1 cups-browsed         lpadmin              0 Nov 17 19:47 /proc/1305/exe -> /usr/sbin/cups-browsed
+lrwxrwxrwx 1 kernoops             adm                  0 Nov 17 19:47 /proc/1307/exe -> /usr/sbin/kerneloops
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1309/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/131/exe
+lrwxrwxrwx 1 kernoops             adm                  0 Nov 17 19:47 /proc/1311/exe -> /usr/sbin/kerneloops
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/133/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/134/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/135/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1399/exe -> /usr/libexec/rtkit-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/14/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/148/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/15/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1506/exe
+lrwxrwxrwx 1 colord               colord               0 Nov 17 19:43 /proc/1521/exe -> /usr/libexec/colord
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1572/exe -> /usr/libexec/upowerd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/16/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/17/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/172/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/175/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/18/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/19/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/1908/exe -> /usr/libexec/gdm-session-worker
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/1921/exe -> /usr/lib/systemd/systemd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/1928/exe -> /usr/lib/systemd/systemd-executor
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/1937/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/1938/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/1945/exe -> /usr/bin/wireplumber
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/1951/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/1959/exe -> /usr/bin/gnome-keyring-daemon
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/1965/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/2/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/20/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2005/exe -> /usr/libexec/xdg-document-portal
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2009/exe -> /usr/libexec/xdg-permission-store
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/2016/exe -> /usr/bin/fusermount3
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/202/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/203/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2039/exe -> /usr/libexec/gdm-wayland-session
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/204/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2044/exe -> /usr/libexec/gnome-session-binary
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/205/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/21/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2106/exe -> /usr/libexec/gcr-ssh-agent
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2107/exe -> /usr/libexec/gnome-session-ctl
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2121/exe -> /usr/libexec/gvfsd
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2129/exe -> /usr/libexec/gvfsd-fuse
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2131/exe -> /usr/libexec/gnome-session-binary
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/216/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2169/exe -> /usr/bin/gnome-shell
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/217/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2172/exe -> /usr/libexec/at-spi-bus-launcher
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2182/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/22/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/220/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/221/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/222/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/2220/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/223/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2236/exe -> /usr/libexec/at-spi2-registryd
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/224/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/225/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2253/exe -> /usr/libexec/gnome-shell-calendar-server
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/226/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/227/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2272/exe -> /usr/libexec/evolution-source-registry
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2274/exe -> /usr/bin/gjs-console
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/228/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2288/exe -> /usr/bin/ibus-daemon
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2289/exe -> /usr/libexec/gsd-a11y-settings
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/229/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2292/exe -> /usr/libexec/gsd-color
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2296/exe -> /usr/libexec/gsd-datetime
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/23/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/230/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2300/exe -> /usr/libexec/gsd-housekeeping
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2301/exe -> /usr/libexec/gsd-keyboard
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2308/exe -> /usr/libexec/gsd-media-keys
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2309/exe -> /usr/libexec/gsd-power
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/231/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2311/exe -> /usr/libexec/gsd-print-notifications
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2312/exe -> /usr/libexec/gsd-rfkill
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2313/exe -> /usr/libexec/gsd-screensaver-proxy
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2316/exe -> /usr/libexec/gsd-sharing
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2319/exe -> /usr/libexec/gsd-smartcard
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/232/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2320/exe -> /usr/libexec/gsd-sound
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/233/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2330/exe -> /usr/libexec/gsd-wacom
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2332/exe -> /usr/libexec/gsd-disk-utility-notify
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2336/exe -> /usr/libexec/evolution-data-server/evolution-alarm-notify
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/234/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/235/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/236/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/237/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/238/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/239/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/24/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/240/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/241/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/242/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/243/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2439/exe -> /usr/libexec/gvfs-udisks2-volume-monitor
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/244/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/245/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/246/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2468/exe -> /usr/libexec/ibus-memconf
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/247/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2476/exe -> /usr/libexec/ibus-extension-gtk3
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/248/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2488/exe -> /usr/libexec/ibus-portal
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/249/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/25/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/250/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2500/exe -> /usr/libexec/goa-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/251/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2516/exe -> /usr/libexec/gsd-printer
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/252/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/253/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2530/exe -> /usr/libexec/goa-identity-service
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2531/exe -> /usr/libexec/gvfs-goa-volume-monitor
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/254/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2541/exe -> /usr/libexec/evolution-calendar-factory
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2549/exe -> /usr/libexec/gvfs-afc-volume-monitor
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/255/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2557/exe -> /usr/libexec/gvfs-gphoto2-volume-monitor
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/256/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2563/exe -> /usr/libexec/gvfs-mtp-volume-monitor
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/257/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2579/exe -> /usr/libexec/evolution-addressbook-factory
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/258/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/259/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/26/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/260/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/261/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2615/exe -> /usr/libexec/ibus-engine-simple
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/262/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/263/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2636/exe -> /usr/libexec/dconf-service
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/264/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2646/exe -> /usr/libexec/gvfsd-metadata
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2647/exe -> /usr/libexec/gvfsd-trash
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/265/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/266/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/267/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2678/exe -> /usr/libexec/tracker-miner-fs-3
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/268/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/269/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/27/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/270/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2701/exe -> /usr/bin/gjs-console
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/271/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2715/exe -> /usr/libexec/xdg-desktop-portal
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/272/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2720/exe -> /usr/libexec/xdg-desktop-portal-gnome
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/273/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/274/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/275/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/276/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/2760/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/2762/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/277/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/2777/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/278/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2780/exe -> /usr/bin/gjs-console
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/279/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/2820/exe -> /usr/libexec/xdg-desktop-portal-gtk
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:43 /proc/2841/exe -> /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/29/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:44 /proc/2900/exe -> /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/2923/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/3/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/30/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/303/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/304/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/31/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/3132/exe -> /usr/libexec/gnome-terminal-server
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/3139/exe -> /usr/bin/bash
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/315/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/3154/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:47 /proc/3174/exe -> /usr/bin/update-notifier
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/32/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/33/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:45 /proc/3318/exe -> /usr/lib/jvm/java-25-openjdk-amd64/bin/java
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/34/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/35/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/354/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/355/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/36/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/37/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/38/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/39/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/4/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/40/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/403/exe -> /usr/lib/systemd/systemd-journald
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/41/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/4129/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/42/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/4207/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/4233/exe -> /usr/bin/ncat
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/4235/exe -> /usr/bin/dash
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/4237/exe -> /usr/bin/python3.12
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/4238/exe -> /usr/bin/bash
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/425/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/426/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/43/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/431/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/438/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/44/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/4558/exe -> /snap/snapd/25577/usr/bin/snap
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/457/exe -> /usr/bin/udevadm
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/46/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/47/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/48/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/49/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/5/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/50/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/52/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/526/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/53/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5309/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5374/exe -> /snap/firefox/6565/usr/lib/firefox/crashhelper
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/54/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5455/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5460/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5482/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5491/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/55/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/56/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/57/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/571/exe
+lrwxrwxrwx 1 systemd-oom          systemd-oom          0 Nov 17 19:47 /proc/573/exe -> /usr/lib/systemd/systemd-oomd
+lrwxrwxrwx 1 systemd-resolve      systemd-resolve      0 Nov 17 19:43 /proc/578/exe -> /usr/lib/systemd/systemd-resolved
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/58/exe
+lrwxrwxrwx 1 systemd-timesync     systemd-timesync     0 Nov 17 19:44 /proc/580/exe -> /usr/lib/systemd/systemd-timesyncd
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5813/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/59/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/5992/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/6/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/60/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/61/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/6141/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/6146/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:51 /proc/6163/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/62/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6203/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6221/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:52 /proc/6222/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:52 /proc/6263/exe -> /snap/firefox/6565/usr/lib/firefox/firefox
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:52 /proc/6299/exe -> /usr/bin/nautilus
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/63/exe
+lrwxrwxrwx 1 meaow                meaow                0 Nov 17 19:55 /proc/6320/exe -> /usr/libexec/gvfsd-recent
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6329/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6343/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6369/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6372/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6389/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6390/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/64/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6421/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/65/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/66/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6654/exe -> /usr/bin/sudo
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6655/exe -> /usr/bin/sudo
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/6656/exe -> /usr/bin/dash
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/67/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/68/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/697/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/698/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/699/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/7/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/701/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/702/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/71/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/72/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/73/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/74/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/75/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/76/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/760/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/77/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/78/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/79/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/8/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/80/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/81/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/82/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/83/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:55 /proc/8394/exe -> /usr/bin/dash
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/84/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/85/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/86/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/87/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/88/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/89/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/90/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/91/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/92/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/93/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/94/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/95/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/96/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/97/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/98/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:47 /proc/99/exe
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/997/exe -> /usr/sbin/avahi-daemon
+lrwxrwxrwx 1 root                 root                 0 Nov 17 19:43 /proc/998/exe -> /usr/bin/dbus-daemon

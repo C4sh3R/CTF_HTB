@@ -1,0 +1,6 @@
+#!/bin/sh
+# Inform clone image creators about strict network-manager cfg for cloud-init
+if [ -f /etc/cloud/cloud.cfg.d/99-installer-use-networkmanager.cfg ]; then
+  echo "WARNING: cloud-init network config is limited to using network-manager."
+  echo "If this is undesirable: rm /etc/cloud/cloud.cfg.d/99-installer-use-networkmanager.cfg"
+fi

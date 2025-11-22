@@ -1,0 +1,12 @@
+total 0
+dr-x------ 2 cups-browsed lpadmin  9 Nov 17 19:43 .
+dr-xr-xr-x 9 cups-browsed lpadmin  0 Nov 17 19:43 ..
+lr-x------ 1 cups-browsed lpadmin 64 Nov 17 19:43 0 -> /dev/null
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:43 1 -> socket:[23476]
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:43 2 -> socket:[23476]
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:43 3 -> anon_inode:[eventfd]
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:43 4 -> socket:[23508]
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:47 5 -> socket:[23503]
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:47 6 -> anon_inode:[eventfd]
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:47 7 -> socket:[23509]
+lrwx------ 1 cups-browsed lpadmin 64 Nov 17 19:47 8 -> anon_inode:[eventfd]

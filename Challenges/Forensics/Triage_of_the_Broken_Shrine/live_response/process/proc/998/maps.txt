@@ -1,0 +1,117 @@
+5a7beadb9000-5a7beadc2000 r--p 00000000 08:02 787075                     /usr/bin/dbus-daemon
+5a7beadc2000-5a7beade7000 r-xp 00009000 08:02 787075                     /usr/bin/dbus-daemon
+5a7beade7000-5a7beadf1000 r--p 0002e000 08:02 787075                     /usr/bin/dbus-daemon
+5a7beadf1000-5a7beadf3000 r--p 00037000 08:02 787075                     /usr/bin/dbus-daemon
+5a7beadf3000-5a7beadf4000 rw-p 00039000 08:02 787075                     /usr/bin/dbus-daemon
+5a7c0851f000-5a7c086b7000 rw-p 00000000 00:00 0                          [heap]
+77a1429f3000-77a1429f4000 rw-p 00000000 00:00 0 
+77a142a14000-77a142b67000 rw-p 00000000 00:00 0 
+77a142b67000-77a142b77000 r--p 00000000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+77a142b77000-77a142bf6000 r-xp 00010000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+77a142bf6000-77a142c4e000 r--p 0008f000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+77a142c4e000-77a142c4f000 r--p 000e7000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+77a142c4f000-77a142c50000 rw-p 000e8000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+77a142c50000-77a142c58000 r--p 00000000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+77a142c58000-77a142c97000 r-xp 00008000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+77a142c97000-77a142ca7000 r--p 00047000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+77a142ca7000-77a142cab000 r--p 00056000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+77a142cab000-77a142cac000 rw-p 0005a000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+77a142cac000-77a142cae000 r--p 00000000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+77a142cae000-77a142d1c000 r-xp 00002000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+77a142d1c000-77a142d44000 r--p 00070000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+77a142d44000-77a142d45000 r--p 00097000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+77a142d45000-77a142d46000 rw-p 00098000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+77a142d46000-77a142d4a000 r--p 00000000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+77a142d4a000-77a142df1000 r-xp 00004000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+77a142df1000-77a142dfe000 r--p 000ab000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+77a142dfe000-77a142dff000 r--p 000b7000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+77a142dff000-77a142e00000 rw-p 000b8000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+77a142e00000-77a142e28000 r--p 00000000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+77a142e28000-77a142fb0000 r-xp 00028000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+77a142fb0000-77a142fff000 r--p 001b0000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+77a142fff000-77a143003000 r--p 001fe000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+77a143003000-77a143005000 rw-p 00202000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+77a143005000-77a143012000 rw-p 00000000 00:00 0 
+77a143025000-77a143027000 r--p 00000000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+77a143027000-77a14302f000 r-xp 00002000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+77a14302f000-77a143031000 r--p 0000a000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+77a143031000-77a143032000 r--p 0000b000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+77a143032000-77a143033000 rw-p 0000c000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+77a143033000-77a143038000 rw-p 00000000 00:00 0 
+77a143038000-77a14303c000 r--p 00000000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+77a14303c000-77a143052000 r-xp 00004000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+77a143052000-77a14305b000 r--p 0001a000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+77a14305b000-77a14305c000 r--p 00023000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+77a14305c000-77a14305d000 rw-p 00024000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+77a14305d000-77a143060000 r--p 00000000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+77a143060000-77a143082000 r-xp 00003000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+77a143082000-77a14308d000 r--p 00025000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+77a14308d000-77a14308e000 r--p 00030000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+77a14308e000-77a14308f000 rw-p 00031000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+77a14308f000-77a143091000 rw-p 00000000 00:00 0 
+77a143091000-77a143094000 r--p 00000000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+77a143094000-77a1430af000 r-xp 00003000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+77a1430af000-77a1430b1000 r--p 0001e000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+77a1430b1000-77a1430b2000 r--p 00020000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+77a1430b2000-77a1430b3000 rw-p 00021000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+77a1430b3000-77a1430c2000 r--p 00000000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+77a1430c2000-77a1431b6000 r-xp 0000f000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+77a1431b6000-77a1431f1000 r--p 00103000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+77a1431f1000-77a1431f6000 r--p 0013e000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+77a1431f6000-77a1431fa000 rw-p 00143000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+77a1431fa000-77a1431fb000 rw-p 00000000 00:00 0 
+77a1431fb000-77a1431fe000 r--p 00000000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+77a1431fe000-77a143204000 r-xp 00003000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+77a143204000-77a143206000 r--p 00009000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+77a143206000-77a143207000 r--p 0000b000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+77a143207000-77a143208000 rw-p 0000c000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+77a143208000-77a14320b000 r--p 00000000 08:02 797873                     /usr/lib/x86_64-linux-gnu/libapparmor.so.1.17.1
+77a14320b000-77a143214000 r-xp 00003000 08:02 797873                     /usr/lib/x86_64-linux-gnu/libapparmor.so.1.17.1
+77a143214000-77a14321a000 r--p 0000c000 08:02 797873                     /usr/lib/x86_64-linux-gnu/libapparmor.so.1.17.1
+77a14321a000-77a14321b000 r--p 00012000 08:02 797873                     /usr/lib/x86_64-linux-gnu/libapparmor.so.1.17.1
+77a14321b000-77a14321c000 rw-p 00013000 08:02 797873                     /usr/lib/x86_64-linux-gnu/libapparmor.so.1.17.1
+77a14321c000-77a14321e000 r--p 00000000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+77a14321e000-77a143221000 r-xp 00002000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+77a143221000-77a143222000 r--p 00005000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+77a143222000-77a143223000 r--p 00005000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+77a143223000-77a143224000 rw-p 00006000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+77a143224000-77a143226000 rw-p 00000000 00:00 0 
+77a143226000-77a143229000 r--p 00000000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+77a143229000-77a143231000 r-xp 00003000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+77a143231000-77a143246000 r--p 0000b000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+77a143246000-77a143247000 r--p 0001f000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+77a143247000-77a143248000 rw-p 00020000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+77a143248000-77a143254000 rw-p 00000000 00:00 0 
+77a143254000-77a14325a000 r--p 00000000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+77a14325a000-77a143277000 r-xp 00006000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+77a143277000-77a14327d000 r--p 00023000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+77a14327d000-77a14327e000 r--p 00029000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+77a14327e000-77a14327f000 rw-p 0002a000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+77a14327f000-77a143281000 rw-p 00000000 00:00 0 
+77a143281000-77a143285000 r--p 00000000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+77a143285000-77a1432a2000 r-xp 00004000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+77a1432a2000-77a1432aa000 r--p 00021000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+77a1432aa000-77a1432ac000 r--p 00028000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+77a1432ac000-77a1432ad000 rw-p 0002a000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+77a1432ad000-77a1432c3000 r--p 00000000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+77a1432c3000-77a143352000 r-xp 00016000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+77a143352000-77a143380000 r--p 000a5000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+77a143380000-77a14338b000 r--p 000d2000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+77a14338b000-77a14338c000 rw-p 000dd000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+77a14338c000-77a14338d000 rw-p 00000000 00:00 0 
+77a14338d000-77a143399000 r--p 00000000 08:02 797967                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+77a143399000-77a1433c9000 r-xp 0000c000 08:02 797967                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+77a1433c9000-77a1433da000 r--p 0003c000 08:02 797967                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+77a1433da000-77a1433db000 r--p 0004c000 08:02 797967                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+77a1433db000-77a1433dc000 rw-p 0004d000 08:02 797967                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+77a1433ea000-77a1433ec000 rw-p 00000000 00:00 0 
+77a1433ec000-77a1433ee000 r--p 00000000 00:00 0                          [vvar]
+77a1433ee000-77a1433f0000 r--p 00000000 00:00 0                          [vvar_vclock]
+77a1433f0000-77a1433f2000 r-xp 00000000 00:00 0                          [vdso]
+77a1433f2000-77a1433f3000 r--p 00000000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77a1433f3000-77a14341e000 r-xp 00001000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77a14341e000-77a143428000 r--p 0002c000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77a143428000-77a14342a000 r--p 00036000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77a14342a000-77a14342c000 rw-p 00038000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffe7a370000-7ffe7a391000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
