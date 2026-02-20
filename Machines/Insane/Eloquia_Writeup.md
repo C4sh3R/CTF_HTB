@@ -198,7 +198,7 @@ curl http://eloquia.htb/static/assets/images/blog/output.txt
 ### 🚩 Flag de Usuario
 ```bash
 # Via DLL que ejecuta: type C:\Users\web\Desktop\user.txt > ...output.txt
-d9d26bc045*********
+[REDACTED]
 ```
 
 ---
@@ -393,7 +393,7 @@ T+0:03  root.txt copiado a C:\temp\ + Olivia añadida a Administrators
 ### 🚩 Flag de Root
 ```powershell
 *Evil-WinRM* PS> type C:\temp\root.txt
-f9f****************
+[REDACTED]
 ```
 
 ---
