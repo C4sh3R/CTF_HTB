@@ -5,10 +5,6 @@
 **Fecha:** 2026-02-18 / 2026-02-19
 **Estado:** ✅ COMPLETADA — Ambas flags obtenidas
 
-**Flags:**
-- 🚩 User: `d9d26bc045a0a9187330ced25d01a1c1`
-- 🚩 Root: `f9fdb8a2ffd80223ca5e319f5c46a5cf`
-
 ---
 
 ## Resumen de la Cadena de Ataque
@@ -202,7 +198,7 @@ curl http://eloquia.htb/static/assets/images/blog/output.txt
 ### 🚩 Flag de Usuario
 ```bash
 # Via DLL que ejecuta: type C:\Users\web\Desktop\user.txt > ...output.txt
-d9d26bc045a0a9187330ced25d01a1c1
+d9d26bc045*********
 ```
 
 ---
@@ -397,7 +393,7 @@ T+0:03  root.txt copiado a C:\temp\ + Olivia añadida a Administrators
 ### 🚩 Flag de Root
 ```powershell
 *Evil-WinRM* PS> type C:\temp\root.txt
-f9fdb8a2ffd80223ca5e319f5c46a5cf
+f9f****************
 ```
 
 ---
