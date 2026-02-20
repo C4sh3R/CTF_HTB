@@ -309,7 +309,7 @@ Subir como banner de artículo → ejecutar via load_extension → leer salida.
 
 ### Conexión
 ```bash
-evil-winrm -i 10.129.244.81 -u 'Olivia.KAT' -p 'S3cureP@sswdIGu3ss'
+evil-winrm -i 10.129.244.81 -u 'Olivia.KAT' -p '*********'
 ```
 
 ### Verificar Permisos
@@ -403,7 +403,7 @@ f9f****************
 | Sistema | Usuario | Contraseña | Origen |
 |---------|---------|------------|--------|
 | eloquia.htb (Django) | admin | ****** | seleniumSimulator.py |
-| eloquia.htb (Django) | Olivia.KAT | S3cureP@sswdIGu3ss | Edge DPAPI |
+| eloquia.htb (Django) | Olivia.KAT | ********* | Edge DPAPI |
 | chatgpt.com | olivia.kat | ****** | Edge DPAPI |
 | Windows (WinRM) | Olivia.KAT | ***** | Edge DPAPI (reutilización de contraseña) |
 | qooqle.htb | atk1771443256 | ****** | Cuenta de atacante registrada |
