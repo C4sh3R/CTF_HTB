@@ -1,0 +1,7 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-r--r--r-- 1 root root 4096 Nov 17 19:57 csum
+-r--r--r-- 1 root root 4096 Nov 17 19:57 gso
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 napi_tx
+-r--r--r-- 1 root root 4096 Nov 17 19:57 napi_weight

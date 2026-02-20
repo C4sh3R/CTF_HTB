@@ -1,0 +1,10 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-r--r--r-- 1 root root 4096 Nov 17 19:57 force_irq_on
+-r--r--r-- 1 root root 4096 Nov 17 19:57 ibrs_off
+-r--r--r-- 1 root root 4096 Nov 17 19:57 max_cstate
+-r--r--r-- 1 root root 4096 Nov 17 19:57 no_acpi
+-r--r--r-- 1 root root 4096 Nov 17 19:57 preferred_cstates
+-r--r--r-- 1 root root 4096 Nov 17 19:57 states_off
+-r--r--r-- 1 root root 4096 Nov 17 19:57 use_acpi

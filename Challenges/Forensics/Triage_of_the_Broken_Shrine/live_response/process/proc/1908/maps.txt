@@ -1,0 +1,287 @@
+60accb9b7000-60accb9c3000 r--p 00000000 08:02 801855                     /usr/libexec/gdm-session-worker
+60accb9c3000-60accb9e3000 r-xp 0000c000 08:02 801855                     /usr/libexec/gdm-session-worker
+60accb9e3000-60accb9f0000 r--p 0002c000 08:02 801855                     /usr/libexec/gdm-session-worker
+60accb9f0000-60accb9f5000 r--p 00039000 08:02 801855                     /usr/libexec/gdm-session-worker
+60accb9f5000-60accb9f6000 rw-p 0003e000 08:02 801855                     /usr/libexec/gdm-session-worker
+60accb9f6000-60accb9f7000 rw-p 00000000 00:00 0 
+60acd4686000-60acd4746000 rw-p 00000000 00:00 0                          [heap]
+7863dc000000-7863dc021000 rw-p 00000000 00:00 0 
+7863dc021000-7863e0000000 ---p 00000000 00:00 0 
+7863e0000000-7863e0021000 rw-p 00000000 00:00 0 
+7863e0021000-7863e4000000 ---p 00000000 00:00 0 
+7863e4000000-7863e4021000 rw-p 00000000 00:00 0 
+7863e4021000-7863e8000000 ---p 00000000 00:00 0 
+7863ea11c000-7863ea124000 r--p 00000000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7863ea124000-7863ea163000 r-xp 00008000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7863ea163000-7863ea173000 r--p 00047000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7863ea173000-7863ea177000 r--p 00056000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7863ea177000-7863ea178000 rw-p 0005a000 08:02 798310                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7863ea178000-7863ea183000 r--p 00000000 08:02 801636                     /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+7863ea183000-7863ea1dd000 r-xp 0000b000 08:02 801636                     /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+7863ea1dd000-7863ea1f5000 r--p 00065000 08:02 801636                     /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+7863ea1f5000-7863ea1fb000 r--p 0007c000 08:02 801636                     /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+7863ea1fb000-7863ea1fc000 rw-p 00082000 08:02 801636                     /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+7863ea1fc000-7863ea1fd000 rw-p 00000000 00:00 0 
+7863ea1fd000-7863ea1fe000 ---p 00000000 00:00 0 
+7863ea1fe000-7863ea9fe000 rw-p 00000000 00:00 0 
+7863ea9fe000-7863ea9ff000 ---p 00000000 00:00 0 
+7863ea9ff000-7863eb1ff000 rw-p 00000000 00:00 0 
+7863eb1ff000-7863eb200000 ---p 00000000 00:00 0 
+7863eb200000-7863eba00000 rw-p 00000000 00:00 0 
+7863eba00000-7863ebf75000 r--p 00000000 08:02 826972                     /usr/lib/locale/locale-archive
+7863ebfb5000-7863ebfb7000 r--p 00000000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7863ebfb7000-7863ebfbf000 r-xp 00002000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7863ebfbf000-7863ebfc1000 r--p 0000a000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7863ebfc1000-7863ebfc2000 r--p 0000b000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7863ebfc2000-7863ebfc3000 rw-p 0000c000 08:02 798309                     /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7863ebfc3000-7863ebfc7000 r--p 00000000 08:02 797954                     /usr/lib/x86_64-linux-gnu/libcrack.so.2.9.0
+7863ebfc7000-7863ebfcb000 r-xp 00004000 08:02 797954                     /usr/lib/x86_64-linux-gnu/libcrack.so.2.9.0
+7863ebfcb000-7863ebfcd000 r--p 00008000 08:02 797954                     /usr/lib/x86_64-linux-gnu/libcrack.so.2.9.0
+7863ebfcd000-7863ebfce000 r--p 0000a000 08:02 797954                     /usr/lib/x86_64-linux-gnu/libcrack.so.2.9.0
+7863ebfce000-7863ebfcf000 rw-p 0000b000 08:02 797954                     /usr/lib/x86_64-linux-gnu/libcrack.so.2.9.0
+7863ebfcf000-7863ebfd3000 rw-p 00000000 00:00 0 
+7863ebfda000-7863ebfe1000 r--s 00000000 08:02 788886                     /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7863ebfe1000-7863ebfe3000 r--p 00000000 08:02 787116                     /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+7863ebfe3000-7863ebfe5000 r-xp 00002000 08:02 787116                     /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+7863ebfe5000-7863ebfe6000 r--p 00004000 08:02 787116                     /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+7863ebfe6000-7863ebfe7000 r--p 00004000 08:02 787116                     /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+7863ebfe7000-7863ebfe8000 rw-p 00005000 08:02 787116                     /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+7863ebfe9000-7863ebfeb000 r--p 00000000 08:02 798387                     /usr/lib/x86_64-linux-gnu/libpwquality.so.1.0.2
+7863ebfeb000-7863ebfee000 r-xp 00002000 08:02 798387                     /usr/lib/x86_64-linux-gnu/libpwquality.so.1.0.2
+7863ebfee000-7863ebfef000 r--p 00005000 08:02 798387                     /usr/lib/x86_64-linux-gnu/libpwquality.so.1.0.2
+7863ebfef000-7863ebff0000 r--p 00006000 08:02 798387                     /usr/lib/x86_64-linux-gnu/libpwquality.so.1.0.2
+7863ebff0000-7863ebff1000 rw-p 00007000 08:02 798387                     /usr/lib/x86_64-linux-gnu/libpwquality.so.1.0.2
+7863ebff1000-7863ebff2000 r--p 00000000 08:02 801624                     /usr/lib/x86_64-linux-gnu/security/pam_pwquality.so
+7863ebff2000-7863ebff3000 r-xp 00001000 08:02 801624                     /usr/lib/x86_64-linux-gnu/security/pam_pwquality.so
+7863ebff3000-7863ebff4000 r--p 00002000 08:02 801624                     /usr/lib/x86_64-linux-gnu/security/pam_pwquality.so
+7863ebff4000-7863ebff5000 r--p 00002000 08:02 801624                     /usr/lib/x86_64-linux-gnu/security/pam_pwquality.so
+7863ebff5000-7863ebff6000 rw-p 00003000 08:02 801624                     /usr/lib/x86_64-linux-gnu/security/pam_pwquality.so
+7863ebff6000-7863ebff7000 r--p 00000000 08:02 827050                     /usr/lib/x86_64-linux-gnu/security/pam_umask.so
+7863ebff7000-7863ebff8000 r-xp 00001000 08:02 827050                     /usr/lib/x86_64-linux-gnu/security/pam_umask.so
+7863ebff8000-7863ebff9000 r--p 00002000 08:02 827050                     /usr/lib/x86_64-linux-gnu/security/pam_umask.so
+7863ebff9000-7863ebffa000 r--p 00002000 08:02 827050                     /usr/lib/x86_64-linux-gnu/security/pam_umask.so
+7863ebffa000-7863ebffb000 rw-p 00003000 08:02 827050                     /usr/lib/x86_64-linux-gnu/security/pam_umask.so
+7863ebffb000-7863ebffc000 r--p 00000000 08:02 802131                     /usr/lib/x86_64-linux-gnu/security/pam_env.so
+7863ebffc000-7863ebffe000 r-xp 00001000 08:02 802131                     /usr/lib/x86_64-linux-gnu/security/pam_env.so
+7863ebffe000-7863ebfff000 r--p 00003000 08:02 802131                     /usr/lib/x86_64-linux-gnu/security/pam_env.so
+7863ebfff000-7863ec000000 r--p 00003000 08:02 802131                     /usr/lib/x86_64-linux-gnu/security/pam_env.so
+7863ec000000-7863ec001000 rw-p 00004000 08:02 802131                     /usr/lib/x86_64-linux-gnu/security/pam_env.so
+7863ec001000-7863ec003000 r--p 00000000 08:02 827027                     /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+7863ec003000-7863ec007000 r-xp 00002000 08:02 827027                     /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+7863ec007000-7863ec008000 r--p 00006000 08:02 827027                     /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+7863ec008000-7863ec009000 r--p 00006000 08:02 827027                     /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+7863ec009000-7863ec00a000 rw-p 00007000 08:02 827027                     /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+7863ec00a000-7863ec00b000 r--p 00000000 08:02 827026                     /usr/lib/x86_64-linux-gnu/security/pam_keyinit.so
+7863ec00b000-7863ec00c000 r-xp 00001000 08:02 827026                     /usr/lib/x86_64-linux-gnu/security/pam_keyinit.so
+7863ec00c000-7863ec00d000 r--p 00002000 08:02 827026                     /usr/lib/x86_64-linux-gnu/security/pam_keyinit.so
+7863ec00d000-7863ec00e000 r--p 00002000 08:02 827026                     /usr/lib/x86_64-linux-gnu/security/pam_keyinit.so
+7863ec00e000-7863ec00f000 rw-p 00003000 08:02 827026                     /usr/lib/x86_64-linux-gnu/security/pam_keyinit.so
+7863ec00f000-7863ec010000 r--p 00000000 08:02 827030                     /usr/lib/x86_64-linux-gnu/security/pam_loginuid.so
+7863ec010000-7863ec011000 r-xp 00001000 08:02 827030                     /usr/lib/x86_64-linux-gnu/security/pam_loginuid.so
+7863ec011000-7863ec012000 r--p 00002000 08:02 827030                     /usr/lib/x86_64-linux-gnu/security/pam_loginuid.so
+7863ec012000-7863ec013000 r--p 00002000 08:02 827030                     /usr/lib/x86_64-linux-gnu/security/pam_loginuid.so
+7863ec013000-7863ec014000 rw-p 00003000 08:02 827030                     /usr/lib/x86_64-linux-gnu/security/pam_loginuid.so
+7863ec014000-7863ec016000 r--p 00000000 08:02 827041                     /usr/lib/x86_64-linux-gnu/security/pam_selinux.so
+7863ec016000-7863ec019000 r-xp 00002000 08:02 827041                     /usr/lib/x86_64-linux-gnu/security/pam_selinux.so
+7863ec019000-7863ec01a000 r--p 00005000 08:02 827041                     /usr/lib/x86_64-linux-gnu/security/pam_selinux.so
+7863ec01a000-7863ec01b000 r--p 00005000 08:02 827041                     /usr/lib/x86_64-linux-gnu/security/pam_selinux.so
+7863ec01b000-7863ec01c000 rw-p 00006000 08:02 827041                     /usr/lib/x86_64-linux-gnu/security/pam_selinux.so
+7863ec01c000-7863ec01d000 r--p 00000000 08:02 827029                     /usr/lib/x86_64-linux-gnu/security/pam_localuser.so
+7863ec01d000-7863ec01e000 r-xp 00001000 08:02 827029                     /usr/lib/x86_64-linux-gnu/security/pam_localuser.so
+7863ec01e000-7863ec01f000 r--p 00002000 08:02 827029                     /usr/lib/x86_64-linux-gnu/security/pam_localuser.so
+7863ec01f000-7863ec020000 r--p 00002000 08:02 827029                     /usr/lib/x86_64-linux-gnu/security/pam_localuser.so
+7863ec020000-7863ec021000 rw-p 00003000 08:02 827029                     /usr/lib/x86_64-linux-gnu/security/pam_localuser.so
+7863ec021000-7863ec023000 r--p 00000000 08:02 801609                     /usr/lib/x86_64-linux-gnu/security/pam_gnome_keyring.so
+7863ec023000-7863ec026000 r-xp 00002000 08:02 801609                     /usr/lib/x86_64-linux-gnu/security/pam_gnome_keyring.so
+7863ec026000-7863ec027000 r--p 00005000 08:02 801609                     /usr/lib/x86_64-linux-gnu/security/pam_gnome_keyring.so
+7863ec027000-7863ec028000 r--p 00006000 08:02 801609                     /usr/lib/x86_64-linux-gnu/security/pam_gnome_keyring.so
+7863ec028000-7863ec029000 rw-p 00007000 08:02 801609                     /usr/lib/x86_64-linux-gnu/security/pam_gnome_keyring.so
+7863ec029000-7863ec02a000 r--p 00000000 08:02 801596                     /usr/lib/x86_64-linux-gnu/security/pam_cap.so
+7863ec02a000-7863ec02c000 r-xp 00001000 08:02 801596                     /usr/lib/x86_64-linux-gnu/security/pam_cap.so
+7863ec02c000-7863ec02d000 r--p 00003000 08:02 801596                     /usr/lib/x86_64-linux-gnu/security/pam_cap.so
+7863ec02d000-7863ec02e000 r--p 00003000 08:02 801596                     /usr/lib/x86_64-linux-gnu/security/pam_cap.so
+7863ec02e000-7863ec02f000 rw-p 00004000 08:02 801596                     /usr/lib/x86_64-linux-gnu/security/pam_cap.so
+7863ec02f000-7863ec030000 r--p 00000000 08:02 827036                     /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+7863ec030000-7863ec031000 r-xp 00001000 08:02 827036                     /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+7863ec031000-7863ec032000 r--p 00002000 08:02 827036                     /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+7863ec032000-7863ec033000 r--p 00002000 08:02 827036                     /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+7863ec033000-7863ec034000 rw-p 00003000 08:02 827036                     /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+7863ec034000-7863ec035000 r--p 00000000 08:02 798331                     /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+7863ec035000-7863ec036000 r-xp 00001000 08:02 798331                     /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+7863ec036000-7863ec037000 r--p 00002000 08:02 798331                     /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+7863ec037000-7863ec038000 r--p 00002000 08:02 798331                     /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+7863ec038000-7863ec039000 rw-p 00003000 08:02 798331                     /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+7863ec039000-7863ec03c000 r--p 00000000 08:02 801632                     /usr/lib/x86_64-linux-gnu/security/pam_sss.so
+7863ec03c000-7863ec046000 r-xp 00003000 08:02 801632                     /usr/lib/x86_64-linux-gnu/security/pam_sss.so
+7863ec046000-7863ec048000 r--p 0000d000 08:02 801632                     /usr/lib/x86_64-linux-gnu/security/pam_sss.so
+7863ec048000-7863ec049000 r--p 0000e000 08:02 801632                     /usr/lib/x86_64-linux-gnu/security/pam_sss.so
+7863ec049000-7863ec04a000 rw-p 0000f000 08:02 801632                     /usr/lib/x86_64-linux-gnu/security/pam_sss.so
+7863ec04a000-7863ec04d000 r--p 00000000 08:02 827051                     /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+7863ec04d000-7863ec055000 r-xp 00003000 08:02 827051                     /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+7863ec055000-7863ec057000 r--p 0000b000 08:02 827051                     /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+7863ec057000-7863ec058000 r--p 0000d000 08:02 827051                     /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+7863ec058000-7863ec059000 rw-p 0000e000 08:02 827051                     /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+7863ec059000-7863ec06c000 rw-p 00000000 00:00 0 
+7863ec06c000-7863ec073000 r--p 00000000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7863ec073000-7863ec097000 r-xp 00007000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7863ec097000-7863ec0a0000 r--p 0002b000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7863ec0a0000-7863ec0a6000 r--p 00033000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7863ec0a6000-7863ec0a7000 rw-p 00039000 08:02 797916                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7863ec0a7000-7863ec0ab000 r--p 00000000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+7863ec0ab000-7863ec0c1000 r-xp 00004000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+7863ec0c1000-7863ec0ca000 r--p 0001a000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+7863ec0ca000-7863ec0cb000 r--p 00023000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+7863ec0cb000-7863ec0cc000 rw-p 00024000 08:02 798105                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+7863ec0cc000-7863ec0ce000 r--p 00000000 08:02 797955                     /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7863ec0ce000-7863ec0e3000 r-xp 00002000 08:02 797955                     /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7863ec0e3000-7863ec0fc000 r--p 00017000 08:02 797955                     /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7863ec0fc000-7863ec0fd000 r--p 0002f000 08:02 797955                     /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7863ec0fd000-7863ec0fe000 rw-p 00030000 08:02 797955                     /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7863ec0fe000-7863ec106000 rw-p 00000000 00:00 0 
+7863ec106000-7863ec10f000 r--p 00000000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7863ec10f000-7863ec143000 r-xp 00009000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7863ec143000-7863ec150000 r--p 0003d000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7863ec150000-7863ec152000 r--p 00049000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7863ec152000-7863ec153000 rw-p 0004b000 08:02 798253                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7863ec153000-7863ec155000 r--p 00000000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7863ec155000-7863ec167000 r-xp 00002000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7863ec167000-7863ec16d000 r--p 00014000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7863ec16d000-7863ec16e000 r--p 0001a000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7863ec16e000-7863ec16f000 rw-p 0001b000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7863ec16f000-7863ec171000 r--p 00000000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7863ec171000-7863ec1df000 r-xp 00002000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7863ec1df000-7863ec207000 r--p 00070000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7863ec207000-7863ec208000 r--p 00097000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7863ec208000-7863ec209000 rw-p 00098000 08:02 798348                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7863ec209000-7863ec219000 r--p 00000000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7863ec219000-7863ec298000 r-xp 00010000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7863ec298000-7863ec2f0000 r--p 0008f000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7863ec2f0000-7863ec2f1000 r--p 000e7000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7863ec2f1000-7863ec2f2000 rw-p 000e8000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7863ec2f2000-7863ec2f6000 r--p 00000000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+7863ec2f6000-7863ec39d000 r-xp 00004000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+7863ec39d000-7863ec3aa000 r--p 000ab000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+7863ec3aa000-7863ec3ab000 r--p 000b7000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+7863ec3ab000-7863ec3ac000 rw-p 000b8000 08:02 798588                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+7863ec3ac000-7863ec3af000 r--p 00000000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+7863ec3af000-7863ec3d1000 r-xp 00003000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+7863ec3d1000-7863ec3dc000 r--p 00025000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+7863ec3dc000-7863ec3dd000 r--p 00030000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+7863ec3dd000-7863ec3de000 rw-p 00031000 08:02 798230                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+7863ec3de000-7863ec3e1000 r--p 00000000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7863ec3e1000-7863ec3fc000 r-xp 00003000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7863ec3fc000-7863ec3fe000 r--p 0001e000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7863ec3fe000-7863ec3ff000 r--p 00020000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7863ec3ff000-7863ec400000 rw-p 00021000 08:02 798229                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7863ec400000-7863ec428000 r--p 00000000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7863ec428000-7863ec5b0000 r-xp 00028000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7863ec5b0000-7863ec5ff000 r--p 001b0000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7863ec5ff000-7863ec603000 r--p 001fe000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7863ec603000-7863ec605000 rw-p 00202000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7863ec605000-7863ec612000 rw-p 00000000 00:00 0 
+7863ec612000-7863ec614000 r--p 00000000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7863ec614000-7863ec617000 r-xp 00002000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7863ec617000-7863ec618000 r--p 00005000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7863ec618000-7863ec619000 r--p 00005000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7863ec619000-7863ec61a000 rw-p 00006000 08:02 797938                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7863ec61a000-7863ec61c000 rw-p 00000000 00:00 0 
+7863ec61c000-7863ec61e000 r--p 00000000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7863ec61e000-7863ec620000 r-xp 00002000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7863ec620000-7863ec621000 r--p 00004000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7863ec621000-7863ec622000 r--p 00004000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7863ec622000-7863ec623000 rw-p 00005000 08:02 798088                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+7863ec623000-7863ec625000 r--p 00000000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7863ec625000-7863ec62c000 r-xp 00002000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7863ec62c000-7863ec62d000 r--p 00009000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7863ec62d000-7863ec62e000 r--p 0000a000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7863ec62e000-7863ec62f000 rw-p 0000b000 08:02 798032                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+7863ec62f000-7863ec631000 rw-p 00000000 00:00 0 
+7863ec631000-7863ec640000 r--p 00000000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7863ec640000-7863ec734000 r-xp 0000f000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7863ec734000-7863ec76f000 r--p 00103000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7863ec76f000-7863ec774000 r--p 0013e000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7863ec774000-7863ec778000 rw-p 00143000 08:02 798067                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7863ec778000-7863ec779000 rw-p 00000000 00:00 0 
+7863ec779000-7863ec77c000 r--p 00000000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7863ec77c000-7863ec782000 r-xp 00003000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7863ec782000-7863ec784000 r--p 00009000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7863ec784000-7863ec785000 r--p 0000b000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7863ec785000-7863ec786000 rw-p 0000c000 08:02 797939                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7863ec786000-7863ec788000 rw-p 00000000 00:00 0 
+7863ec788000-7863ec78b000 r--p 00000000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7863ec78b000-7863ec793000 r-xp 00003000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7863ec793000-7863ec7a8000 r--p 0000b000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7863ec7a8000-7863ec7a9000 r--p 0001f000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7863ec7a9000-7863ec7aa000 rw-p 00020000 08:02 797891                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7863ec7aa000-7863ec7b6000 rw-p 00000000 00:00 0 
+7863ec7b6000-7863ec7b7000 r--p 00000000 08:02 797777                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7863ec7b7000-7863ec7b9000 r-xp 00001000 08:02 797777                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7863ec7b9000-7863ec7ba000 r--p 00003000 08:02 797777                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7863ec7ba000-7863ec7bb000 r--p 00003000 08:02 797777                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7863ec7bb000-7863ec7bc000 rw-p 00004000 08:02 797777                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7863ec7bc000-7863ec7bf000 r--p 00000000 08:02 787115                     /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+7863ec7bf000-7863ec7c8000 r-xp 00003000 08:02 787115                     /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+7863ec7c8000-7863ec7cb000 r--p 0000c000 08:02 787115                     /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+7863ec7cb000-7863ec7cc000 r--p 0000f000 08:02 787115                     /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+7863ec7cc000-7863ec7cd000 rw-p 00010000 08:02 787115                     /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+7863ec7cd000-7863ec7d6000 r--p 00000000 08:02 798208                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+7863ec7d6000-7863ec7ee000 r-xp 00009000 08:02 798208                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+7863ec7ee000-7863ec7f7000 r--p 00021000 08:02 798208                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+7863ec7f7000-7863ec7f8000 r--p 0002a000 08:02 798208                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+7863ec7f8000-7863ec7f9000 rw-p 0002b000 08:02 798208                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+7863ec7f9000-7863ec807000 r--p 00000000 08:02 797867                     /usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0
+7863ec807000-7863ec81f000 r-xp 0000e000 08:02 797867                     /usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0
+7863ec81f000-7863ec82b000 r--p 00026000 08:02 797867                     /usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0
+7863ec82b000-7863ec82f000 r--p 00031000 08:02 797867                     /usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0
+7863ec82f000-7863ec830000 rw-p 00035000 08:02 797867                     /usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0
+7863ec830000-7863ec832000 rw-p 00000000 00:00 0 
+7863ec832000-7863ec838000 r--p 00000000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7863ec838000-7863ec855000 r-xp 00006000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7863ec855000-7863ec85b000 r--p 00023000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7863ec85b000-7863ec85c000 r--p 00029000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7863ec85c000-7863ec85d000 rw-p 0002a000 08:02 798419                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7863ec85d000-7863ec85f000 rw-p 00000000 00:00 0 
+7863ec85f000-7863ec898000 r--p 00000000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7863ec898000-7863ec9af000 r-xp 00039000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7863ec9af000-7863eca24000 r--p 00150000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7863eca24000-7863eca2c000 r--p 001c4000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7863eca2c000-7863eca2d000 rw-p 001cc000 08:02 798081                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+7863eca2d000-7863eca2f000 rw-p 00000000 00:00 0 
+7863eca2f000-7863eca4d000 r--p 00000000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7863eca4d000-7863ecaed000 r-xp 0001e000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7863ecaed000-7863ecb75000 r--p 000be000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7863ecb75000-7863ecb76000 r--p 00146000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7863ecb76000-7863ecb77000 rw-p 00147000 08:02 798085                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7863ecb77000-7863ecb78000 rw-p 00000000 00:00 0 
+7863ecb78000-7863ecb87000 r--p 00000000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7863ecb87000-7863ecbbe000 r-xp 0000f000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7863ecbbe000-7863ecbd7000 r--p 00046000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7863ecbd7000-7863ecbda000 r--p 0005e000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7863ecbda000-7863ecbdb000 rw-p 00061000 08:02 798103                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+7863ecbdb000-7863ecbf1000 r--p 00000000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+7863ecbf1000-7863ecc80000 r-xp 00016000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+7863ecc80000-7863eccae000 r--p 000a5000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+7863eccae000-7863eccb9000 r--p 000d2000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+7863eccb9000-7863eccba000 rw-p 000dd000 08:02 798459                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+7863eccba000-7863eccbb000 rw-p 00000000 00:00 0 
+7863eccbe000-7863eccbf000 r--p 00000000 08:02 827046                     /usr/lib/x86_64-linux-gnu/security/pam_succeed_if.so
+7863eccbf000-7863eccc1000 r-xp 00001000 08:02 827046                     /usr/lib/x86_64-linux-gnu/security/pam_succeed_if.so
+7863eccc1000-7863eccc2000 r--p 00003000 08:02 827046                     /usr/lib/x86_64-linux-gnu/security/pam_succeed_if.so
+7863eccc2000-7863eccc3000 r--p 00003000 08:02 827046                     /usr/lib/x86_64-linux-gnu/security/pam_succeed_if.so
+7863eccc3000-7863eccc4000 rw-p 00004000 08:02 827046                     /usr/lib/x86_64-linux-gnu/security/pam_succeed_if.so
+7863eccc4000-7863eccc5000 r--p 00000000 08:02 827035                     /usr/lib/x86_64-linux-gnu/security/pam_nologin.so
+7863eccc5000-7863eccc6000 r-xp 00001000 08:02 827035                     /usr/lib/x86_64-linux-gnu/security/pam_nologin.so
+7863eccc6000-7863eccc7000 r--p 00002000 08:02 827035                     /usr/lib/x86_64-linux-gnu/security/pam_nologin.so
+7863eccc7000-7863eccc8000 r--p 00002000 08:02 827035                     /usr/lib/x86_64-linux-gnu/security/pam_nologin.so
+7863eccc8000-7863eccc9000 rw-p 00003000 08:02 827035                     /usr/lib/x86_64-linux-gnu/security/pam_nologin.so
+7863eccc9000-7863ecccb000 rw-p 00000000 00:00 0 
+7863ecccb000-7863ecccd000 r--p 00000000 00:00 0                          [vvar]
+7863ecccd000-7863ecccf000 r--p 00000000 00:00 0                          [vvar_vclock]
+7863ecccf000-7863eccd1000 r-xp 00000000 00:00 0                          [vdso]
+7863eccd1000-7863eccd2000 r--p 00000000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7863eccd2000-7863eccfd000 r-xp 00001000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7863eccfd000-7863ecd07000 r--p 0002c000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7863ecd07000-7863ecd09000 r--p 00036000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7863ecd09000-7863ecd0b000 rw-p 00038000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fffde271000-7fffde2b6000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

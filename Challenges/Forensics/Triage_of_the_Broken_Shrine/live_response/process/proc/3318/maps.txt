@@ -1,0 +1,304 @@
+72000000-72001000 ---p 00000000 00:00 0 
+72001000-72d8d000 rw-p 00001000 08:02 827194                             /usr/lib/jvm/java-25-openjdk-amd64/lib/server/classes.jsa
+72d8d000-73000000 ---p 00000000 00:00 0 
+73000000-73040000 rw-p 00000000 00:00 0 
+73040000-730c0000 rw-p 00000000 00:00 0 
+730c0000-73220000 rw-p 00000000 00:00 0 
+73220000-73240000 ---p 00000000 00:00 0 
+73240000-73250000 rw-p 00000000 00:00 0 
+73250000-b3000000 ---p 00000000 00:00 0 
+c3800000-c8700000 rw-p 00000000 00:00 0 
+c8700000-ffe00000 ---p 00000000 00:00 0 
+ffe00000-fff21000 rw-p 00dc0000 08:02 827194                             /usr/lib/jvm/java-25-openjdk-amd64/lib/server/classes.jsa
+fff21000-100000000 rw-p 00000000 00:00 0 
+565804eb2000-565804eb3000 r--p 00000000 08:02 801647                     /usr/lib/jvm/java-25-openjdk-amd64/bin/java
+565804eb3000-565804eb4000 r-xp 00001000 08:02 801647                     /usr/lib/jvm/java-25-openjdk-amd64/bin/java
+565804eb4000-565804eb5000 r--p 00002000 08:02 801647                     /usr/lib/jvm/java-25-openjdk-amd64/bin/java
+565804eb5000-565804eb6000 r--p 00002000 08:02 801647                     /usr/lib/jvm/java-25-openjdk-amd64/bin/java
+565804eb6000-565804eb7000 rw-p 00003000 08:02 801647                     /usr/lib/jvm/java-25-openjdk-amd64/bin/java
+56583b9ee000-56583ba36000 rw-p 00000000 00:00 0                          [heap]
+7fd14c000000-7fd14c021000 rw-p 00000000 00:00 0 
+7fd14c021000-7fd150000000 ---p 00000000 00:00 0 
+7fd150000000-7fd150041000 rw-p 00000000 00:00 0 
+7fd150041000-7fd154000000 ---p 00000000 00:00 0 
+7fd154000000-7fd154021000 rw-p 00000000 00:00 0 
+7fd154021000-7fd158000000 ---p 00000000 00:00 0 
+7fd158000000-7fd15803e000 rw-p 00000000 00:00 0 
+7fd15803e000-7fd15c000000 ---p 00000000 00:00 0 
+7fd15c000000-7fd15c395000 rw-p 00000000 00:00 0 
+7fd15c395000-7fd160000000 ---p 00000000 00:00 0 
+7fd160000000-7fd1600a7000 rw-p 00000000 00:00 0 
+7fd1600a7000-7fd164000000 ---p 00000000 00:00 0 
+7fd164000000-7fd16411d000 rw-p 00000000 00:00 0 
+7fd16411d000-7fd168000000 ---p 00000000 00:00 0 
+7fd168000000-7fd168021000 rw-p 00000000 00:00 0 
+7fd168021000-7fd16c000000 ---p 00000000 00:00 0 
+7fd16c000000-7fd16c021000 rw-p 00000000 00:00 0 
+7fd16c021000-7fd170000000 ---p 00000000 00:00 0 
+7fd170000000-7fd170021000 rw-p 00000000 00:00 0 
+7fd170021000-7fd174000000 ---p 00000000 00:00 0 
+7fd174000000-7fd174021000 rw-p 00000000 00:00 0 
+7fd174021000-7fd178000000 ---p 00000000 00:00 0 
+7fd178000000-7fd178021000 rw-p 00000000 00:00 0 
+7fd178021000-7fd17c000000 ---p 00000000 00:00 0 
+7fd17c000000-7fd17c021000 rw-p 00000000 00:00 0 
+7fd17c021000-7fd180000000 ---p 00000000 00:00 0 
+7fd180000000-7fd1823b1000 rw-p 00000000 00:00 0 
+7fd1823b1000-7fd184000000 ---p 00000000 00:00 0 
+7fd184000000-7fd184021000 rw-p 00000000 00:00 0 
+7fd184021000-7fd188000000 ---p 00000000 00:00 0 
+7fd188000000-7fd188021000 rw-p 00000000 00:00 0 
+7fd188021000-7fd18c000000 ---p 00000000 00:00 0 
+7fd18c000000-7fd18e565000 rw-p 00000000 00:00 0 
+7fd18e565000-7fd190000000 ---p 00000000 00:00 0 
+7fd190000000-7fd190e49000 rw-p 00000000 00:00 0 
+7fd190e49000-7fd194000000 ---p 00000000 00:00 0 
+7fd194000000-7fd194021000 rw-p 00000000 00:00 0 
+7fd194021000-7fd198000000 ---p 00000000 00:00 0 
+7fd198000000-7fd198021000 rw-p 00000000 00:00 0 
+7fd198021000-7fd19c000000 ---p 00000000 00:00 0 
+7fd19c000000-7fd19c021000 rw-p 00000000 00:00 0 
+7fd19c021000-7fd1a0000000 ---p 00000000 00:00 0 
+7fd1a0000000-7fd1a0021000 rw-p 00000000 00:00 0 
+7fd1a0021000-7fd1a4000000 ---p 00000000 00:00 0 
+7fd1a4000000-7fd1a4021000 rw-p 00000000 00:00 0 
+7fd1a4021000-7fd1a8000000 ---p 00000000 00:00 0 
+7fd1a9efd000-7fd1a9f01000 ---p 00000000 00:00 0 
+7fd1a9f01000-7fd1a9ffd000 rw-p 00000000 00:00 0 
+7fd1a9ffd000-7fd1aa001000 ---p 00000000 00:00 0 
+7fd1aa001000-7fd1aa0fd000 rw-p 00000000 00:00 0 
+7fd1aa0fd000-7fd1aa101000 ---p 00000000 00:00 0 
+7fd1aa101000-7fd1aa1fd000 rw-p 00000000 00:00 0 
+7fd1aa1fd000-7fd1aa201000 ---p 00000000 00:00 0 
+7fd1aa201000-7fd1aa2fd000 rw-p 00000000 00:00 0 
+7fd1aa2fd000-7fd1aa301000 ---p 00000000 00:00 0 
+7fd1aa301000-7fd1aa3fd000 rw-p 00000000 00:00 0 
+7fd1aa3fd000-7fd1aa401000 ---p 00000000 00:00 0 
+7fd1aa401000-7fd1aa4fd000 rw-p 00000000 00:00 0 
+7fd1aa4fd000-7fd1aa501000 ---p 00000000 00:00 0 
+7fd1aa501000-7fd1aa5fd000 rw-p 00000000 00:00 0 
+7fd1aa5fd000-7fd1aa601000 ---p 00000000 00:00 0 
+7fd1aa601000-7fd1aa6fd000 rw-p 00000000 00:00 0 
+7fd1aa6fd000-7fd1aa701000 ---p 00000000 00:00 0 
+7fd1aa701000-7fd1aa7fd000 rw-p 00000000 00:00 0 
+7fd1aa7fd000-7fd1aa801000 ---p 00000000 00:00 0 
+7fd1aa801000-7fd1aa8fd000 rw-p 00000000 00:00 0 
+7fd1aa8fd000-7fd1aa901000 ---p 00000000 00:00 0 
+7fd1aa901000-7fd1aa9fd000 rw-p 00000000 00:00 0 
+7fd1aa9fd000-7fd1aaa01000 ---p 00000000 00:00 0 
+7fd1aaa01000-7fd1aaafd000 rw-p 00000000 00:00 0 
+7fd1aaafd000-7fd1aab01000 ---p 00000000 00:00 0 
+7fd1aab01000-7fd1aabfd000 rw-p 00000000 00:00 0 
+7fd1aabfd000-7fd1aac01000 ---p 00000000 00:00 0 
+7fd1aac01000-7fd1aacfd000 rw-p 00000000 00:00 0 
+7fd1aacfd000-7fd1aad01000 ---p 00000000 00:00 0 
+7fd1aad01000-7fd1aadfd000 rw-p 00000000 00:00 0 
+7fd1aadfd000-7fd1aadfe000 ---p 00000000 00:00 0 
+7fd1aadfe000-7fd1aaefe000 rw-p 00000000 00:00 0 
+7fd1aaefe000-7fd1aaeff000 ---p 00000000 00:00 0 
+7fd1aaeff000-7fd1aafff000 rw-p 00000000 00:00 0 
+7fd1aafff000-7fd1ab000000 ---p 00000000 00:00 0 
+7fd1ab000000-7fd1ab100000 rw-p 00000000 00:00 0 
+7fd1ab100000-7fd1ab104000 ---p 00000000 00:00 0 
+7fd1ab104000-7fd1ab200000 rw-p 00000000 00:00 0 
+7fd1ab200000-7fd1ab204000 ---p 00000000 00:00 0 
+7fd1ab204000-7fd1ab300000 rw-p 00000000 00:00 0 
+7fd1ab300000-7fd1ab304000 ---p 00000000 00:00 0 
+7fd1ab304000-7fd1ab400000 rw-p 00000000 00:00 0 
+7fd1ab400000-7fd1ab404000 ---p 00000000 00:00 0 
+7fd1ab404000-7fd1ab500000 rw-p 00000000 00:00 0 
+7fd1ab500000-7fd1ab504000 ---p 00000000 00:00 0 
+7fd1ab504000-7fd1ab600000 rw-p 00000000 00:00 0 
+7fd1ab600000-7fd1ab604000 ---p 00000000 00:00 0 
+7fd1ab604000-7fd1ab700000 rw-p 00000000 00:00 0 
+7fd1ab700000-7fd1ab704000 ---p 00000000 00:00 0 
+7fd1ab704000-7fd1ab800000 rw-p 00000000 00:00 0 
+7fd1ab800000-7fd1ab804000 ---p 00000000 00:00 0 
+7fd1ab804000-7fd1ab900000 rw-p 00000000 00:00 0 
+7fd1ab900000-7fd1ab904000 ---p 00000000 00:00 0 
+7fd1ab904000-7fd1aba00000 rw-p 00000000 00:00 0 
+7fd1aba00000-7fd1abf75000 r--p 00000000 08:02 826972                     /usr/lib/locale/locale-archive
+7fd1ac000000-7fd1ac400000 rw-p 00000000 00:00 0 
+7fd1ac400000-7fd1ac700000 rw-p 00000000 00:00 0 
+7fd1ac700000-7fd1ac740000 rw-p 00000000 00:00 0 
+7fd1ac740000-7fd1ac780000 rw-p 00000000 00:00 0 
+7fd1ac780000-7fd1ac8c0000 rw-p 00000000 00:00 0 
+7fd1ac8c0000-7fd1ac900000 rw-p 00000000 00:00 0 
+7fd1ac900000-7fd1acb00000 rw-p 00000000 00:00 0 
+7fd1acb00000-7fd1acdc0000 rw-p 00000000 00:00 0 
+7fd1acdc0000-7fd1acf00000 rw-p 00000000 00:00 0 
+7fd1acf00000-7fd1ad380000 rw-p 00000000 00:00 0 
+7fd1ad380000-7fd1ad400000 rw-p 00000000 00:00 0 
+7fd1ad400000-7fd1ad700000 rw-p 00000000 00:00 0 
+7fd1ad700000-7fd1ad800000 rw-p 00000000 00:00 0 
+7fd1ad800000-7fd1ad910000 rw-p 00000000 00:00 0 
+7fd1ad910000-7fd1b0000000 ---p 00000000 00:00 0 
+7fd1b0000000-7fd1b0021000 rw-p 00000000 00:00 0 
+7fd1b0021000-7fd1b4000000 ---p 00000000 00:00 0 
+7fd1b4000000-7fd1b4021000 rw-p 00000000 00:00 0 
+7fd1b4021000-7fd1b8000000 ---p 00000000 00:00 0 
+7fd1b8000000-7fd1b8021000 rw-p 00000000 00:00 0 
+7fd1b8021000-7fd1bc000000 ---p 00000000 00:00 0 
+7fd1bc000000-7fd1bc021000 rw-p 00000000 00:00 0 
+7fd1bc021000-7fd1c0000000 ---p 00000000 00:00 0 
+7fd1c0000000-7fd1c0021000 rw-p 00000000 00:00 0 
+7fd1c0021000-7fd1c4000000 ---p 00000000 00:00 0 
+7fd1c4000000-7fd1c4021000 rw-p 00000000 00:00 0 
+7fd1c4021000-7fd1c8000000 ---p 00000000 00:00 0 
+7fd1c8000000-7fd1c8026000 rw-p 00000000 00:00 0 
+7fd1c8026000-7fd1cc000000 ---p 00000000 00:00 0 
+7fd1cc077000-7fd1cc07b000 ---p 00000000 00:00 0 
+7fd1cc07b000-7fd1cc177000 rw-p 00000000 00:00 0 
+7fd1cc177000-7fd1cc17b000 ---p 00000000 00:00 0 
+7fd1cc17b000-7fd1cc277000 rw-p 00000000 00:00 0 
+7fd1cc277000-7fd1cc27b000 ---p 00000000 00:00 0 
+7fd1cc27b000-7fd1cc377000 rw-p 00000000 00:00 0 
+7fd1cc377000-7fd1cc3f8000 rw-p 00000000 00:00 0 
+7fd1cc3f8000-7fd1cc3f9000 ---p 00000000 00:00 0 
+7fd1cc3f9000-7fd1cc4f9000 rw-p 00000000 00:00 0 
+7fd1cc4f9000-7fd1cc4fa000 ---p 00000000 00:00 0 
+7fd1cc4fa000-7fd1cc5fa000 rw-p 00000000 00:00 0 
+7fd1cc5fa000-7fd1cc5fb000 ---p 00000000 00:00 0 
+7fd1cc5fb000-7fd1cc6fb000 rw-p 00000000 00:00 0 
+7fd1cc6fb000-7fd1cc6fc000 ---p 00000000 00:00 0 
+7fd1cc6fc000-7fd1cc7fc000 rw-p 00000000 00:00 0 
+7fd1cc7fc000-7fd1cec00000 rw-p 00000000 00:00 0 
+7fd1cec11000-7fd1cec12000 ---p 00000000 00:00 0 
+7fd1cec12000-7fd1ced12000 rw-p 00000000 00:00 0 
+7fd1ced12000-7fd1ced13000 ---p 00000000 00:00 0 
+7fd1ced13000-7fd1cee13000 rw-p 00000000 00:00 0 
+7fd1cee13000-7fd1cee14000 ---p 00000000 00:00 0 
+7fd1cee14000-7fd1cef14000 rw-p 00000000 00:00 0 
+7fd1cef14000-7fd1cf050000 rw-p 00000000 00:00 0 
+7fd1cf050000-7fd1cfe2c000 ---p 00000000 00:00 0 
+7fd1cfe2c000-7fd1cfe5c000 rw-p 00000000 00:00 0 
+7fd1cfe5c000-7fd1d0017000 ---p 00000000 00:00 0 
+7fd1d0017000-7fd1d0040000 rw-p 00000000 00:00 0 
+7fd1d0040000-7fd1d01fb000 ---p 00000000 00:00 0 
+7fd1d01fb000-7fd1d0600000 rw-p 00000000 00:00 0 
+7fd1d0600000-7fd1d12f0000 rwxp 00000000 00:00 0 
+7fd1d12f0000-7fd1d7b37000 ---p 00000000 00:00 0 
+7fd1d7b37000-7fd1d7da7000 rwxp 00000000 00:00 0 
+7fd1d7da7000-7fd1d80c7000 ---p 00000000 00:00 0 
+7fd1d80c7000-7fd1d8447000 rwxp 00000000 00:00 0 
+7fd1d8447000-7fd1df600000 ---p 00000000 00:00 0 
+7fd1df600000-7fd1e7f9a000 r--s 00000000 08:02 827191                     /usr/lib/jvm/java-25-openjdk-amd64/lib/modules
+7fd1e7fbe000-7fd1e7fbf000 r--p 00000000 08:02 827187                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libsimdsort.so
+7fd1e7fbf000-7fd1e7ff8000 r-xp 00001000 08:02 827187                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libsimdsort.so
+7fd1e7ff8000-7fd1e7ffe000 r--p 0003a000 08:02 827187                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libsimdsort.so
+7fd1e7ffe000-7fd1e7fff000 r--p 0003f000 08:02 827187                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libsimdsort.so
+7fd1e7fff000-7fd1e8000000 rw-p 00040000 08:02 827187                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libsimdsort.so
+7fd1e8000000-7fd1e8664000 rw-p 00000000 00:00 0 
+7fd1e8664000-7fd1ec000000 ---p 00000000 00:00 0 
+7fd1ec008000-7fd1ec00c000 ---p 00000000 00:00 0 
+7fd1ec00c000-7fd1ec02a000 rw-p 00000000 00:00 0 
+7fd1ec02a000-7fd1ec031000 rw-p 00000000 00:00 0 
+7fd1ec031000-7fd1ec115000 ---p 00000000 00:00 0 
+7fd1ec115000-7fd1ec12f000 rw-p 00000000 00:00 0 
+7fd1ec12f000-7fd1ec200000 ---p 00000000 00:00 0 
+7fd1ec200000-7fd1ec29d000 r--p 00000000 08:02 798454                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7fd1ec29d000-7fd1ec3e5000 r-xp 0009d000 08:02 798454                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7fd1ec3e5000-7fd1ec46c000 r--p 001e5000 08:02 798454                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7fd1ec46c000-7fd1ec477000 r--p 0026b000 08:02 798454                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7fd1ec477000-7fd1ec47a000 rw-p 00276000 08:02 798454                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7fd1ec47a000-7fd1ec47e000 rw-p 00000000 00:00 0 
+7fd1ec48a000-7fd1ec48e000 r--p 00000000 08:02 827189                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libverify.so
+7fd1ec48e000-7fd1ec497000 r-xp 00004000 08:02 827189                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libverify.so
+7fd1ec497000-7fd1ec499000 r--p 0000d000 08:02 827189                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libverify.so
+7fd1ec499000-7fd1ec49b000 r--p 0000e000 08:02 827189                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libverify.so
+7fd1ec49b000-7fd1ec49c000 rw-p 00010000 08:02 827189                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libverify.so
+7fd1ec49c000-7fd1ec49e000 r--p 00000000 08:02 827179                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement_ext.so
+7fd1ec49e000-7fd1ec4a2000 r-xp 00002000 08:02 827179                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement_ext.so
+7fd1ec4a2000-7fd1ec4a3000 r--p 00006000 08:02 827179                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement_ext.so
+7fd1ec4a3000-7fd1ec4a4000 r--p 00007000 08:02 827179                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement_ext.so
+7fd1ec4a4000-7fd1ec4a5000 rw-p 00008000 08:02 827179                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement_ext.so
+7fd1ec4a5000-7fd1ec500000 rw-p 00000000 00:00 0 
+7fd1ec500000-7fd1ec504000 ---p 00000000 00:00 0 
+7fd1ec504000-7fd1ec600000 rw-p 00000000 00:00 0 
+7fd1ec600000-7fd1ec8d9000 r--p 00000000 08:02 827199                     /usr/lib/jvm/java-25-openjdk-amd64/lib/server/libjvm.so
+7fd1ec8d9000-7fd1ed8de000 r-xp 002d9000 08:02 827199                     /usr/lib/jvm/java-25-openjdk-amd64/lib/server/libjvm.so
+7fd1ed8de000-7fd1edbea000 r--p 012de000 08:02 827199                     /usr/lib/jvm/java-25-openjdk-amd64/lib/server/libjvm.so
+7fd1edbea000-7fd1edcd2000 r--p 015e9000 08:02 827199                     /usr/lib/jvm/java-25-openjdk-amd64/lib/server/libjvm.so
+7fd1edcd2000-7fd1edcfd000 rw-p 016d1000 08:02 827199                     /usr/lib/jvm/java-25-openjdk-amd64/lib/server/libjvm.so
+7fd1edcfd000-7fd1edd79000 rw-p 00000000 00:00 0 
+7fd1edd79000-7fd1edd7a000 r--p 00000000 08:02 827161                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libextnet.so
+7fd1edd7a000-7fd1edd7b000 r-xp 00001000 08:02 827161                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libextnet.so
+7fd1edd7b000-7fd1edd7c000 r--p 00002000 08:02 827161                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libextnet.so
+7fd1edd7c000-7fd1edd7d000 r--p 00002000 08:02 827161                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libextnet.so
+7fd1edd7d000-7fd1edd7e000 rw-p 00003000 08:02 827161                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libextnet.so
+7fd1edd7e000-7fd1edd80000 r--p 00000000 08:02 827177                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement.so
+7fd1edd80000-7fd1edd81000 r-xp 00002000 08:02 827177                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement.so
+7fd1edd81000-7fd1edd82000 r--p 00003000 08:02 827177                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement.so
+7fd1edd82000-7fd1edd83000 r--p 00003000 08:02 827177                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement.so
+7fd1edd83000-7fd1edd84000 rw-p 00004000 08:02 827177                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libmanagement.so
+7fd1edd84000-7fd1edd86000 r--p 00000000 08:02 827190                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libzip.so
+7fd1edd86000-7fd1edd8b000 r-xp 00002000 08:02 827190                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libzip.so
+7fd1edd8b000-7fd1edd8d000 r--p 00007000 08:02 827190                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libzip.so
+7fd1edd8d000-7fd1edd8e000 r--p 00008000 08:02 827190                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libzip.so
+7fd1edd8e000-7fd1edd8f000 rw-p 00009000 08:02 827190                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libzip.so
+7fd1edd8f000-7fd1edd92000 r--p 00000000 08:02 827181                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnet.so
+7fd1edd92000-7fd1edd9a000 r-xp 00003000 08:02 827181                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnet.so
+7fd1edd9a000-7fd1edd9c000 r--p 0000b000 08:02 827181                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnet.so
+7fd1edd9c000-7fd1edd9d000 r--p 0000c000 08:02 827181                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnet.so
+7fd1edd9d000-7fd1edd9e000 rw-p 0000d000 08:02 827181                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnet.so
+7fd1edd9e000-7fd1ede00000 rw-p 00000000 00:00 0 
+7fd1ede00000-7fd1ede28000 r--p 00000000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd1ede28000-7fd1edfb0000 r-xp 00028000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd1edfb0000-7fd1edfff000 r--p 001b0000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd1edfff000-7fd1ee003000 r--p 001fe000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd1ee003000-7fd1ee005000 rw-p 00202000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd1ee005000-7fd1ee012000 rw-p 00000000 00:00 0 
+7fd1ee012000-7fd1ee019000 r--p 00000000 08:02 827182                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnio.so
+7fd1ee019000-7fd1ee023000 r-xp 00007000 08:02 827182                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnio.so
+7fd1ee023000-7fd1ee027000 r--p 00011000 08:02 827182                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnio.so
+7fd1ee027000-7fd1ee028000 r--p 00015000 08:02 827182                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnio.so
+7fd1ee028000-7fd1ee029000 rw-p 00016000 08:02 827182                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libnio.so
+7fd1ee029000-7fd1ee02e000 rw-p 00000000 00:00 0 
+7fd1ee02e000-7fd1ee035000 ---p 00000000 00:00 0 
+7fd1ee035000-7fd1ee041000 r--p 00000000 08:02 827168                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjava.so
+7fd1ee041000-7fd1ee050000 r-xp 0000c000 08:02 827168                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjava.so
+7fd1ee050000-7fd1ee055000 r--p 0001b000 08:02 827168                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjava.so
+7fd1ee055000-7fd1ee056000 r--p 00020000 08:02 827168                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjava.so
+7fd1ee056000-7fd1ee057000 rw-p 00021000 08:02 827168                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjava.so
+7fd1ee057000-7fd1ee058000 rw-p 00000000 00:00 0 
+7fd1ee058000-7fd1ee060000 rw-s 00000000 08:02 2490393                    /tmp/hsperfdata_root/3318
+7fd1ee060000-7fd1ee064000 r--p 00000000 08:02 798061                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fd1ee064000-7fd1ee088000 r-xp 00004000 08:02 798061                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fd1ee088000-7fd1ee08c000 r--p 00028000 08:02 798061                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fd1ee08c000-7fd1ee08d000 r--p 0002b000 08:02 798061                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fd1ee08d000-7fd1ee08e000 rw-p 0002c000 08:02 798061                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7fd1ee08e000-7fd1ee09e000 r--p 00000000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7fd1ee09e000-7fd1ee11d000 r-xp 00010000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7fd1ee11d000-7fd1ee175000 r--p 0008f000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7fd1ee175000-7fd1ee176000 r--p 000e7000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7fd1ee176000-7fd1ee177000 rw-p 000e8000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7fd1ee177000-7fd1ee179000 rw-p 00000000 00:00 0 
+7fd1ee179000-7fd1ee17b000 r--p 00000000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7fd1ee17b000-7fd1ee18d000 r-xp 00002000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7fd1ee18d000-7fd1ee193000 r--p 00014000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7fd1ee193000-7fd1ee194000 r--p 0001a000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7fd1ee194000-7fd1ee195000 rw-p 0001b000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+7fd1ee198000-7fd1ee199000 ---p 00000000 00:00 0 
+7fd1ee199000-7fd1ee19a000 r--p 00000000 00:00 0 
+7fd1ee19a000-7fd1ee19b000 ---p 00000000 00:00 0 
+7fd1ee19b000-7fd1ee19d000 r--p 00000000 08:02 827171                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjimage.so
+7fd1ee19d000-7fd1ee1a0000 r-xp 00002000 08:02 827171                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjimage.so
+7fd1ee1a0000-7fd1ee1a1000 r--p 00005000 08:02 827171                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjimage.so
+7fd1ee1a1000-7fd1ee1a2000 r--p 00006000 08:02 827171                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjimage.so
+7fd1ee1a2000-7fd1ee1a3000 rw-p 00007000 08:02 827171                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjimage.so
+7fd1ee1a3000-7fd1ee1a5000 r--p 00000000 08:02 827172                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjli.so
+7fd1ee1a5000-7fd1ee1af000 r-xp 00002000 08:02 827172                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjli.so
+7fd1ee1af000-7fd1ee1b2000 r--p 0000c000 08:02 827172                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjli.so
+7fd1ee1b2000-7fd1ee1b3000 r--p 0000f000 08:02 827172                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjli.so
+7fd1ee1b3000-7fd1ee1b4000 rw-p 00010000 08:02 827172                     /usr/lib/jvm/java-25-openjdk-amd64/lib/libjli.so
+7fd1ee1b4000-7fd1ee1b6000 rw-p 00000000 00:00 0 
+7fd1ee1b6000-7fd1ee1b8000 r--p 00000000 00:00 0                          [vvar]
+7fd1ee1b8000-7fd1ee1ba000 r--p 00000000 00:00 0                          [vvar_vclock]
+7fd1ee1ba000-7fd1ee1bc000 r-xp 00000000 00:00 0                          [vdso]
+7fd1ee1bc000-7fd1ee1bd000 r--p 00000000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd1ee1bd000-7fd1ee1e8000 r-xp 00001000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd1ee1e8000-7fd1ee1f2000 r--p 0002c000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd1ee1f2000-7fd1ee1f4000 r--p 00036000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd1ee1f4000-7fd1ee1f6000 rw-p 00038000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fff4747d000-7fff4749e000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

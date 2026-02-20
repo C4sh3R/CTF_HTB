@@ -1,0 +1,13 @@
+[Unit]
+# Auto-generated, DO NOT EDIT
+Description=Service for snap application firmware-updater.firmware-notifier
+X-Snappy=yes
+
+[Service]
+EnvironmentFile=-/etc/environment
+ExecStart=/usr/bin/snap run --timer="00:00-24:00/8" firmware-updater.firmware-notifier
+SyslogIdentifier=firmware-updater.firmware-notifier
+Restart=on-failure
+WorkingDirectory=/var/snap/firmware-updater/210
+TimeoutStopSec=30
+Type=simple

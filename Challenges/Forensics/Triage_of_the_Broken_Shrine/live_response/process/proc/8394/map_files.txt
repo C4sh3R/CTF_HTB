@@ -1,0 +1,18 @@
+total 0
+dr-x------ 2 root root  0 Nov 17 19:55 .
+dr-xr-xr-x 9 root root  0 Nov 17 19:55 ..
+lr-------- 1 root root 64 Nov 17 19:55 5db03f9f6000-5db03f9fa000 -> /usr/bin/dash
+lr-------- 1 root root 64 Nov 17 19:55 5db03f9fa000-5db03fa0f000 -> /usr/bin/dash
+lr-------- 1 root root 64 Nov 17 19:55 5db03fa0f000-5db03fa14000 -> /usr/bin/dash
+lr-------- 1 root root 64 Nov 17 19:55 5db03fa14000-5db03fa16000 -> /usr/bin/dash
+lr-------- 1 root root 64 Nov 17 19:55 5db03fa16000-5db03fa17000 -> /usr/bin/dash
+lr-------- 1 root root 64 Nov 17 19:55 71d8ba800000-71d8ba828000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 71d8ba828000-71d8ba9b0000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 71d8ba9b0000-71d8ba9ff000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 71d8ba9ff000-71d8baa03000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 71d8baa03000-71d8baa05000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 71d8baace000-71d8baacf000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 71d8baacf000-71d8baafa000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 71d8baafa000-71d8bab04000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 71d8bab04000-71d8bab06000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 71d8bab06000-71d8bab08000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

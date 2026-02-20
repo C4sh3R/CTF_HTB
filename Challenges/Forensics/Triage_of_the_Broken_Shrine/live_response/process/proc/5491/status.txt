@@ -1,0 +1,61 @@
+Name:	RDD Process
+Umask:	0002
+State:	S (sleeping)
+Tgid:	5491
+Ngid:	0
+Pid:	5491
+PPid:	5455
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+Groups:	4 24 27 30 46 100 114 1000 
+NStgid:	5491
+NSpid:	5491
+NSpgid:	2169
+NSsid:	2169
+Kthread:	0
+VmPeak:	  441208 kB
+VmSize:	  441192 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   45756 kB
+VmRSS:	   45756 kB
+RssAnon:	   11404 kB
+RssFile:	   34096 kB
+RssShmem:	     256 kB
+VmData:	   55668 kB
+VmStk:	     136 kB
+VmExe:	     804 kB
+VmLib:	  182920 kB
+VmPTE:	     420 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	5
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000011002
+SigCgt:	0000000f40000ef8
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	1
+Seccomp:	2
+Seccomp_filters:	3
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	135
+nonvoluntary_ctxt_switches:	39
+x86_Thread_features:	
+x86_Thread_features_locked:	

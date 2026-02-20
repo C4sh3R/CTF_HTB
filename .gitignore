@@ -1,0 +1,81 @@
+# CTF Artifacts
+*.pcap
+*.pcapng
+*.cap
+*.dump
+*.dmp
+*.mem
+
+# Exploit binaries and payloads
+exploit
+payload
+shell
+*.exe
+*.elf
+
+# Private information
+*flag.txt
+*user.txt
+*root.txt
+*.hash
+*.pwd
+credentials.txt
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.o
+*.so
+*.a
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Disk images
+*.iso
+*.img
+*.vmdk
+*.vdi
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.old
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Node modules
+node_modules/
+
+# Reverse engineering
+*.idb
+*.i64
+*.nam
+*.til
+
+# Exception: Allow markdown files with these names for documentation
+!*flag*.md
+!*user*.md
+!*root*.md

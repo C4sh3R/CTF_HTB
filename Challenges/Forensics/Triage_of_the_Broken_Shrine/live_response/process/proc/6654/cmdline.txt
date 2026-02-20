@@ -1,0 +1,4 @@
+sudo
+./uac
+ir_triage
+/tmp

@@ -1,0 +1,45 @@
+total 0
+dr-x------ 2 root root  0 Nov 17 19:55 .
+dr-xr-xr-x 9 root root  0 Nov 17 19:43 ..
+lr-------- 1 root root 64 Nov 17 19:55 5d52c6736000-5d52c6739000 -> /usr/sbin/cron
+lr-------- 1 root root 64 Nov 17 19:55 5d52c6739000-5d52c6741000 -> /usr/sbin/cron
+lr-------- 1 root root 64 Nov 17 19:55 5d52c6741000-5d52c6743000 -> /usr/sbin/cron
+lr-------- 1 root root 64 Nov 17 19:55 5d52c6743000-5d52c6744000 -> /usr/sbin/cron
+lr-------- 1 root root 64 Nov 17 19:55 5d52c6744000-5d52c6745000 -> /usr/sbin/cron
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3bc00000-7d1a3c175000 -> /usr/lib/locale/locale-archive
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c200000-7d1a3c228000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c228000-7d1a3c3b0000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c3b0000-7d1a3c3ff000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c3ff000-7d1a3c403000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c403000-7d1a3c405000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c481000-7d1a3c483000 -> /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c483000-7d1a3c486000 -> /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c486000-7d1a3c487000 -> /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c487000-7d1a3c488000 -> /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c488000-7d1a3c489000 -> /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c48b000-7d1a3c48d000 -> /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c48d000-7d1a3c4fb000 -> /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c4fb000-7d1a3c523000 -> /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c523000-7d1a3c524000 -> /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c524000-7d1a3c525000 -> /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c525000-7d1a3c528000 -> /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c528000-7d1a3c530000 -> /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c530000-7d1a3c545000 -> /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c545000-7d1a3c546000 -> /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c546000-7d1a3c547000 -> /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c553000-7d1a3c559000 -> /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c559000-7d1a3c576000 -> /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c576000-7d1a3c57c000 -> /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c57c000-7d1a3c57d000 -> /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c57d000-7d1a3c57e000 -> /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c580000-7d1a3c583000 -> /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c583000-7d1a3c58c000 -> /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c58c000-7d1a3c58f000 -> /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c58f000-7d1a3c590000 -> /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c590000-7d1a3c591000 -> /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c598000-7d1a3c59f000 -> /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c5a7000-7d1a3c5a8000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c5a8000-7d1a3c5d3000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c5d3000-7d1a3c5dd000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c5dd000-7d1a3c5df000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 7d1a3c5df000-7d1a3c5e1000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

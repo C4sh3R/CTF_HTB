@@ -1,0 +1,49 @@
+00400000-00420000 r--p 00000000 08:02 788368                             /usr/bin/python3.12
+00420000-00703000 r-xp 00020000 08:02 788368                             /usr/bin/python3.12
+00703000-00a28000 r--p 00303000 08:02 788368                             /usr/bin/python3.12
+00a28000-00a29000 r--p 00627000 08:02 788368                             /usr/bin/python3.12
+00a29000-00ba7000 rw-p 00628000 08:02 788368                             /usr/bin/python3.12
+00ba7000-00bab000 rw-p 00000000 00:00 0 
+2d17b000-2d241000 rw-p 00000000 00:00 0                                  [heap]
+74183ae00000-74183b000000 rw-p 00000000 00:00 0 
+74183b000000-74183b575000 r--p 00000000 08:02 826972                     /usr/lib/locale/locale-archive
+74183b600000-74183b628000 r--p 00000000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+74183b628000-74183b7b0000 r-xp 00028000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+74183b7b0000-74183b7ff000 r--p 001b0000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+74183b7ff000-74183b803000 r--p 001fe000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+74183b803000-74183b805000 rw-p 00202000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+74183b805000-74183b812000 rw-p 00000000 00:00 0 
+74183b847000-74183b84a000 r--p 00000000 08:02 789787                     /usr/lib/python3.12/lib-dynload/termios.cpython-312-x86_64-linux-gnu.so
+74183b84a000-74183b84c000 r-xp 00003000 08:02 789787                     /usr/lib/python3.12/lib-dynload/termios.cpython-312-x86_64-linux-gnu.so
+74183b84c000-74183b84e000 r--p 00005000 08:02 789787                     /usr/lib/python3.12/lib-dynload/termios.cpython-312-x86_64-linux-gnu.so
+74183b84e000-74183b84f000 r--p 00006000 08:02 789787                     /usr/lib/python3.12/lib-dynload/termios.cpython-312-x86_64-linux-gnu.so
+74183b84f000-74183b851000 rw-p 00007000 08:02 789787                     /usr/lib/python3.12/lib-dynload/termios.cpython-312-x86_64-linux-gnu.so
+74183b851000-74183b8b5000 rw-p 00000000 00:00 0 
+74183b8b5000-74183b8b9000 r--p 00000000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+74183b8b9000-74183b8d6000 r-xp 00004000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+74183b8d6000-74183b8de000 r--p 00021000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+74183b8de000-74183b8e0000 r--p 00028000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+74183b8e0000-74183b8e1000 rw-p 0002a000 08:02 798026                     /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+74183b8e1000-74183b8e3000 r--p 00000000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+74183b8e3000-74183b8f5000 r-xp 00002000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+74183b8f5000-74183b8fb000 r--p 00014000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+74183b8fb000-74183b8fc000 r--p 0001a000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+74183b8fc000-74183b8fd000 rw-p 0001b000 08:02 798587                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+74183b8fd000-74183b90d000 r--p 00000000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+74183b90d000-74183b98c000 r-xp 00010000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+74183b98c000-74183b9e4000 r--p 0008f000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+74183b9e4000-74183b9e5000 r--p 000e7000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+74183b9e5000-74183b9e6000 rw-p 000e8000 08:02 788900                     /usr/lib/x86_64-linux-gnu/libm.so.6
+74183b9e9000-74183b9ed000 rw-p 00000000 00:00 0 
+74183b9ed000-74183b9f4000 r--s 00000000 08:02 788886                     /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+74183b9f4000-74183b9f6000 rw-p 00000000 00:00 0 
+74183b9f6000-74183b9f8000 r--p 00000000 00:00 0                          [vvar]
+74183b9f8000-74183b9fa000 r--p 00000000 00:00 0                          [vvar_vclock]
+74183b9fa000-74183b9fc000 r-xp 00000000 00:00 0                          [vdso]
+74183b9fc000-74183b9fd000 r--p 00000000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+74183b9fd000-74183ba28000 r-xp 00001000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+74183ba28000-74183ba32000 r--p 0002c000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+74183ba32000-74183ba34000 r--p 00036000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+74183ba34000-74183ba36000 rw-p 00038000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffec8e28000-7ffec8e49000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

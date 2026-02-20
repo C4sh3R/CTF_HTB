@@ -1,0 +1,3 @@
+192.168.153.2 dev ens33 lladdr 00:50:56:e3:62:0b REACHABLE 
+192.168.153.128 dev ens33 lladdr 00:0c:29:10:50:7a STALE 
+192.168.153.1 dev ens33 lladdr 00:50:56:c0:00:08 STALE 

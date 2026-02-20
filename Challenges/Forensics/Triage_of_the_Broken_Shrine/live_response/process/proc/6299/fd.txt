@@ -1,0 +1,32 @@
+total 0
+dr-x------ 2 meaow meaow 29 Nov 17 19:55 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:52 ..
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 0 -> /dev/null
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 1 -> socket:[45402]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 10 -> /home/meaow/.local/share/nautilus/tags/meta.db-shm
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 11 -> /home/meaow/.local/share/nautilus/tags/meta.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 13 -> socket:[46343]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 14 -> /memfd:wayland-cursor (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 15 -> socket:[46344]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 16 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 17 -> /memfd:mutter-shared (deleted)
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 18 -> anon_inode:inotify
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 19 -> socket:[46361]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 2 -> socket:[45403]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 20 -> socket:[45408]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 21 -> /home/meaow/.local/share/gvfs-metadata/home-f9437026.log
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 22 -> /home/meaow/.local/share/gvfs-metadata/home
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 23 -> socket:[45003]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 24 -> /proc/6299/mountinfo
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 25 -> /dev/dri/renderD128
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 26 -> /dev/dri/renderD128
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 27 -> /dev/dri/renderD128
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 28 -> socket:[46349]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 29 -> /home/meaow/Downloads/uac-main/artifacts/files/logs
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 3 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 4 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 5 -> socket:[46341]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 6 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 7 -> socket:[46342]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 8 -> /home/meaow/.local/share/nautilus/tags/meta.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 9 -> /home/meaow/.local/share/nautilus/tags/meta.db-wal

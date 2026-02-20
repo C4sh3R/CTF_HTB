@@ -1,0 +1,61 @@
+Name:	wireplumber
+Umask:	0002
+State:	S (sleeping)
+Tgid:	1945
+Ngid:	0
+Pid:	1945
+PPid:	1921
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+Groups:	4 24 27 30 46 100 114 1000 
+NStgid:	1945
+NSpid:	1945
+NSpgid:	1945
+NSsid:	1945
+Kthread:	0
+VmPeak:	  406804 kB
+VmSize:	  406788 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   18600 kB
+VmRSS:	   18600 kB
+RssAnon:	    4864 kB
+RssFile:	   13736 kB
+RssShmem:	       0 kB
+VmData:	   53924 kB
+VmStk:	     132 kB
+VmExe:	       8 kB
+VmLib:	   12504 kB
+VmPTE:	     148 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	6
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100004003
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	1
+Seccomp:	2
+Seccomp_filters:	3
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	983
+nonvoluntary_ctxt_switches:	423
+x86_Thread_features:	
+x86_Thread_features_locked:	

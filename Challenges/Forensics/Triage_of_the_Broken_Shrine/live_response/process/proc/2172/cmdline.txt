@@ -1,0 +1,2 @@
+/usr/libexec/at-spi-bus-launcher
+--launch-immediately

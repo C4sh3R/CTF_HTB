@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 systemd-timesync systemd-timesync 17 Nov 17 19:43 .
+dr-xr-xr-x 9 systemd-timesync systemd-timesync  0 Nov 17 19:43 ..
+lr-x------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:43 0 -> /dev/null
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:43 1 -> socket:[720]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 10 -> socket:[20688]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 11 -> socket:[20689]
+lr-x------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 12 -> anon_inode:inotify
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 14 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 15 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 16 -> socket:[20829]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 17 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:43 2 -> socket:[720]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:43 3 -> socket:[20681]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:43 4 -> anon_inode:[eventpoll]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 5 -> anon_inode:[signalfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 6 -> anon_inode:[timerfd]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 7 -> /sys/fs/cgroup/system.slice/systemd-timesyncd.service/memory.pressure
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:47 8 -> socket:[20686]
+lrwx------ 1 systemd-timesync systemd-timesync 64 Nov 17 19:43 9 -> socket:[20687]

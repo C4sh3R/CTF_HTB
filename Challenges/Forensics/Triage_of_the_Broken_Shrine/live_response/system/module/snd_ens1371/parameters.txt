@@ -1,0 +1,9 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 7 root root    0 Nov 17 19:57 ..
+-r--r--r-- 1 root root 4096 Nov 17 19:57 enable
+-r--r--r-- 1 root root 4096 Nov 17 19:57 id
+-r--r--r-- 1 root root 4096 Nov 17 19:57 index
+-r--r--r-- 1 root root 4096 Nov 17 19:57 joystick_port
+-r--r--r-- 1 root root 4096 Nov 17 19:57 lineio
+-r--r--r-- 1 root root 4096 Nov 17 19:57 spdif

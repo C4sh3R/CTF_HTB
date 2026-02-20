@@ -1,0 +1,7 @@
+               Local time: Mon 2025-11-17 19:57:24 EET
+           Universal time: Mon 2025-11-17 17:57:24 UTC
+                 RTC time: Mon 2025-11-17 17:57:24
+                Time zone: Europe/Athens (EET, +0200)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no

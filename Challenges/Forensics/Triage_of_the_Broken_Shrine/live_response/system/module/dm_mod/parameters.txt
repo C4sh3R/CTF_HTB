@@ -1,0 +1,12 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 dm_mq_nr_hw_queues
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 dm_mq_queue_depth
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 dm_numa_node
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 kcopyd_subjob_size_kb
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 reserved_bio_based_ios
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 reserved_rq_based_ios
+-r--r--r-- 1 root root 4096 Nov 17 19:57 stats_current_allocated_bytes
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 swap_bios
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 use_blk_mq

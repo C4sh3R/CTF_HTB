@@ -1,0 +1,17 @@
+# /usr/lib/systemd/system/sysstat-collect.service
+# (C) 2014 Tomasz Torcz <tomek@pipebreaker.pl>
+#
+# sysstat-12.6.1 systemd unit file:
+#        Collects system activity data
+#        Activated by sysstat-collect.timer unit
+
+[Unit]
+Description=system activity accounting tool
+Documentation=man:sa1(8)
+After=sysstat.service
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/lib/sysstat/sa1 1 1
+

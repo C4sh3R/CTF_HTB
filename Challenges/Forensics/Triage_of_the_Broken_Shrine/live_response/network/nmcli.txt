@@ -1,0 +1,25 @@
+ens33: connected to netplan-ens33
+	"Intel 82545EM"
+	ethernet (e1000), 00:0C:29:75:F7:12, hw, mtu 1500
+	ip4 default
+	inet4 192.168.153.131/24
+	route4 192.168.153.0/24 metric 100
+	route4 default via 192.168.153.2 metric 100
+	inet6 fe80::20c:29ff:fe75:f712/64
+	route6 fe80::/64 metric 256
+
+lo: connected (externally) to lo
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, sw, mtu 65536
+	inet4 127.0.0.1/8
+	inet6 ::1/128
+
+DNS configuration:
+	servers: 192.168.153.2
+	domains: localdomain
+	interface: ens33
+
+Use "nmcli device show" to get complete information about known devices and
+"nmcli connection show" to get an overview on active connection profiles.
+
+Consult nmcli(1) and nmcli-examples(7) manual pages for complete usage details.

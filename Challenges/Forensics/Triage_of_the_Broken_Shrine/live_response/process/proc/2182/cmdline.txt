@@ -1,0 +1,5 @@
+/usr/bin/dbus-daemon
+--config-file=/usr/share/defaults/at-spi2/accessibility.conf
+--nofork
+--print-address
+--address=unix:path=/run/user/1000/at-spi/bus

@@ -1,0 +1,1 @@
+/usr/libexec/power-profiles-daemon

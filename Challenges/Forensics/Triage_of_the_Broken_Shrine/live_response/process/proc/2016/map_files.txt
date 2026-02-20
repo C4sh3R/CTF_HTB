@@ -1,0 +1,18 @@
+total 0
+dr-x------ 2 root root   0 Nov 17 19:55 .
+dr-xr-xr-x 9 root meaow  0 Nov 17 19:43 ..
+lr-------- 1 root root  64 Nov 17 19:55 636ec4585000-636ec4587000 -> /usr/bin/fusermount3
+lr-------- 1 root root  64 Nov 17 19:55 636ec4587000-636ec458c000 -> /usr/bin/fusermount3
+lr-------- 1 root root  64 Nov 17 19:55 636ec458c000-636ec458e000 -> /usr/bin/fusermount3
+lr-------- 1 root root  64 Nov 17 19:55 636ec458e000-636ec458f000 -> /usr/bin/fusermount3
+lr-------- 1 root root  64 Nov 17 19:55 636ec458f000-636ec4590000 -> /usr/bin/fusermount3
+lr-------- 1 root root  64 Nov 17 19:55 7a6163a00000-7a6163a28000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root  64 Nov 17 19:55 7a6163a28000-7a6163bb0000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root  64 Nov 17 19:55 7a6163bb0000-7a6163bff000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root  64 Nov 17 19:55 7a6163bff000-7a6163c03000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root  64 Nov 17 19:55 7a6163c03000-7a6163c05000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root  64 Nov 17 19:55 7a6163d1e000-7a6163d1f000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root  64 Nov 17 19:55 7a6163d1f000-7a6163d4a000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root  64 Nov 17 19:55 7a6163d4a000-7a6163d54000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root  64 Nov 17 19:55 7a6163d54000-7a6163d56000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root  64 Nov 17 19:55 7a6163d56000-7a6163d58000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

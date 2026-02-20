@@ -1,0 +1,8 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=bf65016c00d64d62aebe61871986343a
+JOURNAL_STREAM=9:21609
+SYSTEMD_EXEC_PID=1291
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/gdm.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

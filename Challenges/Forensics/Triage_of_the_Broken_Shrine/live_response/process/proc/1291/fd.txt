@@ -1,0 +1,18 @@
+total 0
+dr-x------ 2 root root 15 Nov 17 19:43 .
+dr-xr-xr-x 9 root root  0 Nov 17 19:43 ..
+lr-x------ 1 root root 64 Nov 17 19:43 0 -> /dev/null
+lrwx------ 1 root root 64 Nov 17 19:43 1 -> socket:[21609]
+lrwx------ 1 root root 64 Nov 17 19:43 10 -> socket:[21620]
+lrwx------ 1 root root 64 Nov 17 19:43 11 -> socket:[21621]
+lrwx------ 1 root root 64 Nov 17 19:47 15 -> socket:[25304]
+lrwx------ 1 root root 64 Nov 17 19:47 16 -> anon_inode:[pidfd]
+lrwx------ 1 root root 64 Nov 17 19:47 17 -> socket:[26433]
+lrwx------ 1 root root 64 Nov 17 19:43 2 -> socket:[21609]
+lrwx------ 1 root root 64 Nov 17 19:47 20 -> socket:[26614]
+lrwx------ 1 root root 64 Nov 17 19:43 3 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Nov 17 19:43 4 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Nov 17 19:47 5 -> socket:[23443]
+lrwx------ 1 root root 64 Nov 17 19:47 6 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Nov 17 19:47 7 -> socket:[21615]
+lr-x------ 1 root root 64 Nov 17 19:47 8 -> /sys/devices/virtual/tty/tty0/active

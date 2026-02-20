@@ -1,0 +1,15 @@
+[Unit]
+Description=Mount unit for firefox, revision 6565
+After=snapd.mounts-pre.target
+Before=snapd.mounts.target
+
+[Mount]
+What=/var/lib/snapd/snaps/firefox_6565.snap
+Where=/snap/firefox/6565
+Type=squashfs
+Options=nodev,ro,x-gdu.hide,x-gvfs-hide
+LazyUnmount=yes
+
+[Install]
+WantedBy=snapd.mounts.target
+WantedBy=multi-user.target

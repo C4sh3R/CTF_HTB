@@ -1,0 +1,3 @@
+/usr/libexec/gcr-ssh-agent
+--base-dir
+/run/user/1000/gcr

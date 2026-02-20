@@ -1,0 +1,3 @@
+fusermount3
+rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal
+/run/user/1000/doc

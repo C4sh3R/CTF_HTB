@@ -1,0 +1,37 @@
+[Unit]
+
+Description=Braille Device Support
+Documentation=man:brltty(1)
+Documentation=http://brltty.com/
+
+DefaultDependencies=no
+Before=sysinit.target
+
+RequiresMountsFor=/var/lib/brltty
+RequiresMountsFor=/var/lib/BrlAPI
+
+After=systemd-udev-settle.service
+Wants=systemd-udev-settle.service
+
+
+
+[Service]
+
+Type=notify
+ExecStartPre=/bin/sh -c 'PIDFILE=/run/brltty-initramfs.pid ; if [ -s $PIDFILE ]; then kill $(cat $PIDFILE) ; rm -f $PIDFILE ; fi'
+ExecStart=/bin/brltty --no-daemon
+
+TimeoutStartSec=5
+TimeoutStopSec=10
+
+Restart=always
+RestartSec=30
+
+Nice=-10
+OOMScoreAdjust=-900
+
+
+[Install]
+WantedBy=sysinit.target
+
+

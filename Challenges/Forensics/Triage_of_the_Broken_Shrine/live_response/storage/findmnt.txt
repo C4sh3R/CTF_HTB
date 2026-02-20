@@ -1,0 +1,41 @@
+TARGET                                            SOURCE                 FSTYPE          OPTIONS
+/                                                 /dev/sda2              ext4            rw,relatime
+|-/sys                                            sysfs                  sysfs           rw,nosuid,nodev,noexec,relatime
+| |-/sys/kernel/security                          securityfs             securityfs      rw,nosuid,nodev,noexec,relatime
+| |-/sys/fs/cgroup                                cgroup2                cgroup2         rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot
+| |-/sys/fs/pstore                                pstore                 pstore          rw,nosuid,nodev,noexec,relatime
+| |-/sys/fs/bpf                                   bpf                    bpf             rw,nosuid,nodev,noexec,relatime,mode=700
+| |-/sys/kernel/debug                             debugfs                debugfs         rw,nosuid,nodev,noexec,relatime
+| |-/sys/kernel/tracing                           tracefs                tracefs         rw,nosuid,nodev,noexec,relatime
+| |-/sys/fs/fuse/connections                      fusectl                fusectl         rw,nosuid,nodev,noexec,relatime
+| `-/sys/kernel/config                            configfs               configfs        rw,nosuid,nodev,noexec,relatime
+|-/proc                                           proc                   proc            rw,nosuid,nodev,noexec,relatime
+| `-/proc/sys/fs/binfmt_misc                      systemd-1              autofs          rw,relatime,fd=32,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=12248
+|   `-/proc/sys/fs/binfmt_misc                    binfmt_misc            binfmt_misc     rw,nosuid,nodev,noexec,relatime
+|-/dev                                            udev                   devtmpfs        rw,nosuid,relatime,size=1939936k,nr_inodes=484984,mode=755,inode64
+| |-/dev/pts                                      devpts                 devpts          rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000
+| |-/dev/shm                                      tmpfs                  tmpfs           rw,nosuid,nodev,inode64
+| |-/dev/mqueue                                   mqueue                 mqueue          rw,nosuid,nodev,noexec,relatime
+| `-/dev/hugepages                                hugetlbfs              hugetlbfs       rw,nosuid,nodev,relatime,pagesize=2M
+|-/run                                            tmpfs                  tmpfs           rw,nosuid,nodev,noexec,relatime,size=396052k,mode=755,inode64
+| |-/run/lock                                     tmpfs                  tmpfs           rw,nosuid,nodev,noexec,relatime,size=5120k,inode64
+| |-/run/snapd/ns                                 tmpfs[/snapd/ns]       tmpfs           rw,nosuid,nodev,noexec,relatime,size=396052k,mode=755,inode64
+| | |-/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026532827]] nsfs            rw
+| | `-/run/snapd/ns/firefox.mnt                   nsfs[mnt:[4026532761]] nsfs            rw
+| `-/run/user/1000                                tmpfs                  tmpfs           rw,nosuid,nodev,relatime,size=396048k,nr_inodes=99012,mode=700,uid=1000,gid=1000,inode64
+|   |-/run/user/1000/doc                          portal                 fuse.portal     rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
+|   `-/run/user/1000/gvfs                         gvfsd-fuse             fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000
+|-/snap/bare/5                                    /dev/loop0             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/core22/2045                               /dev/loop1             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/core22/2139                               /dev/loop2             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/firmware-updater/167                      /dev/loop3             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/firefox/6565                              /dev/loop4             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/firmware-updater/210                      /dev/loop5             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/snap-store/1270                           /dev/loop7             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/gnome-42-2204/202                         /dev/loop6             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/snapd-desktop-integration/315             /dev/loop9             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/snapd/24792                               /dev/loop10            squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/snapd/25577                               /dev/loop11            squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/snap/gtk-common-themes/1535                    /dev/loop8             squashfs        ro,nodev,relatime,errors=continue,threads=single
+|-/media/meaow/CDROM                              /dev/sr0               iso9660         ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=1000,gid=1000,dmode=500,fmode=400,iocharset=utf8
+`-/media/meaow/Ubuntu 24.04.3 LTS amd64           /dev/sr1               iso9660         ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=1000,gid=1000,dmode=500,fmode=400,iocharset=utf8

@@ -1,0 +1,14 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+LISTEN_PID=457
+LISTEN_FDS=2
+LISTEN_FDNAMES=systemd-udevd-kernel.socket:systemd-udevd-control.socket
+WATCHDOG_PID=457
+WATCHDOG_USEC=180000000
+USER=root
+INVOCATION_ID=dea1a717ba7e4dc6b9cac40388736661
+JOURNAL_STREAM=9:14506
+SYSTEMD_EXEC_PID=457
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/systemd-udevd.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

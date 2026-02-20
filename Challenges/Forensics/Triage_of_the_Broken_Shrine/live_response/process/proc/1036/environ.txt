@@ -1,0 +1,12 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=21666a7686d54ee9ad43a6f875734f4f
+JOURNAL_STREAM=9:17247
+STATE_DIRECTORY=/var/lib/AccountsService
+SYSTEMD_EXEC_PID=1036
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/accounts-daemon.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+GVFS_DISABLE_FUSE=1
+GIO_USE_VFS=local
+GVFS_REMOTE_VOLUME_MONITOR_IGNORE=1

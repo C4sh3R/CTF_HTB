@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 root root  0 Nov 17 19:55 .
+dr-xr-xr-x 9 root root  0 Nov 17 19:43 ..
+lr-------- 1 root root 64 Nov 17 19:55 5f60b75d6000-5f60b8201000 -> /snap/snapd/25577/usr/lib/snapd/snapd
+lr-------- 1 root root 64 Nov 17 19:55 5f60b8201000-5f60b87c9000 -> /snap/snapd/25577/usr/lib/snapd/snapd
+lr-------- 1 root root 64 Nov 17 19:55 5f60b87c9000-5f60b91f0000 -> /snap/snapd/25577/usr/lib/snapd/snapd
+lr-------- 1 root root 64 Nov 17 19:55 5f60b91f0000-5f60b9259000 -> /snap/snapd/25577/usr/lib/snapd/snapd
+lr-------- 1 root root 64 Nov 17 19:55 5f60b928d000-5f60b928e000 -> /snap/snapd/25577/usr/lib/snapd/snapd
+lr-------- 1 root root 64 Nov 17 19:55 74879c7dd000-74879c805000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 74879c805000-74879c99a000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 74879c99a000-74879c9f2000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 74879c9f2000-74879c9f3000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 74879c9f3000-74879c9f7000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 74879c9f7000-74879c9f9000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 74879ca06000-74879ca0b000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Nov 17 19:55 74879ca13000-74879ca15000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 74879ca15000-74879ca3c000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 74879ca3c000-74879ca48000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 74879ca48000-74879ca4a000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Nov 17 19:55 74879ca4a000-74879ca4c000 -> /snap/snapd/25577/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

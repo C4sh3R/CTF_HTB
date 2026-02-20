@@ -1,0 +1,19 @@
+total 0
+dr-x------ 2 meaow meaow 16 Nov 17 19:47 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:43 ..
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 0 -> /dev/null
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 1 -> socket:[24480]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 10 -> socket:[29167]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 11 -> socket:[29169]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 12 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 13 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 14 -> anon_inode:[eventfd]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 16 -> anon_inode:inotify
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 2 -> socket:[24480]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 3 -> socket:[28996]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 4 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 5 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 6 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 7 -> socket:[28997]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 8 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 9 -> /memfd:wayland-cursor (deleted)

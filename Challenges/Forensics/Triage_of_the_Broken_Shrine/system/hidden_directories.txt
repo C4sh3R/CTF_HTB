@@ -1,0 +1,22 @@
+/tmp/snap-private-tmp/snap.firefox/tmp/.X11-unix
+/tmp/snap-private-tmp/snap.firefox/tmp/.snap
+/tmp/snap-private-tmp/snap.snapd-desktop-integration/tmp/.X11-unix
+/tmp/snap-private-tmp/snap.snapd-desktop-integration/tmp/.snap
+/tmp/.XIM-unix
+/tmp/.font-unix
+/tmp/.X11-unix
+/tmp/.ICE-unix
+/etc/.java
+/etc/.java/.systemPrefs
+/run/user/1000/systemd/propagate/.os-release-stage
+/run/speech-dispatcher/.cache
+/run/systemd/propagate/.os-release-stage
+/var/lib/gdm3/.local
+/var/lib/gdm3/.cache
+/var/lib/gdm3/.config
+/var/lib/gnome-remote-desktop/.local
+/var/lib/gnome-remote-desktop/.cache
+/var/lib/colord/.cache
+/media/meaow/Ubuntu 24.04.3 LTS amd64/.disk
+/usr/lib/modules/6.14.0-35-generic/vdso/.build-id
+/usr/lib/debug/.build-id

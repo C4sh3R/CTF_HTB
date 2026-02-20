@@ -1,0 +1,858 @@
+total 0
+dr-x------ 2 meaow meaow  0 Nov 17 19:55 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:51 ..
+lr-------- 1 meaow meaow 64 Nov 17 19:55 5c243e888000-5c243e8af000 -> /snap/firefox/6565/usr/lib/firefox/firefox
+lr-------- 1 meaow meaow 64 Nov 17 19:55 5c243e8af000-5c243e978000 -> /snap/firefox/6565/usr/lib/firefox/firefox
+lr-------- 1 meaow meaow 64 Nov 17 19:55 5c243e978000-5c243e97a000 -> /snap/firefox/6565/usr/lib/firefox/firefox
+lr-------- 1 meaow meaow 64 Nov 17 19:55 5c243e97a000-5c243e97b000 -> /snap/firefox/6565/usr/lib/firefox/firefox
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7ce9fe400000-7ce9fe471000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebe1685000-7cebe1800000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebe1800000-7cebe224a000 -> /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebe22a0000-7cebe22ef000 -> /usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebe235f000-7cebe2400000 -> /usr/share/fonts/truetype/noto/NotoSansSymbols2-Regular.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebe6701000-7cebe677f000 -> /usr/share/fonts/truetype/noto/NotoSans-Bold.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebe677f000-7cebe67fd000 -> /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebe7641000-7cebe7700000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebe9f47000-7cebe9ffe000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebeac1b000-7cebeac26000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebeac26000-7cebeac2d000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebeac2d000-7cebeac93000 -> /usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebeac93000-7cebeacf8000 -> /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebeacf8000-7cebeae00000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebeaf02000-7cebeaf45000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebeaf45000-7cebeb04d000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebeb053000-7cebeb062000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebed011000-7cebed01f000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebed01f000-7cebed039000 -> /usr/share/fonts/X11/Type1/NimbusSans-Regular.pfb
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebef80c000-7cebef830000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebef871000-7cebefc00000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0701000-7cebf0702000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0702000-7cebf0703000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0703000-7cebf0704000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0704000-7cebf0705000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0705000-7cebf0706000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0706000-7cebf0707000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0707000-7cebf0708000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0708000-7cebf0709000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf0709000-7cebf070a000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf070a000-7cebf070b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf070b000-7cebf070c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf070c000-7cebf070d000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebf07f8000-7cebf0900000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2400000-7cebf2401000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2401000-7cebf2407000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2407000-7cebf2408000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2413000-7cebf2414000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2414000-7cebf2415000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2415000-7cebf2416000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2457000-7cebf2458000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2458000-7cebf2459000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2459000-7cebf245a000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf245a000-7cebf2460000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2460000-7cebf2468000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf2468000-7cebf2476000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebf24f8000-7cebf2600000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e00000-7cebf3e01000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e01000-7cebf3e02000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e02000-7cebf3e04000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e04000-7cebf3e05000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e05000-7cebf3e06000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e07000-7cebf3e09000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e09000-7cebf3e0b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e0b000-7cebf3e0d000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e0d000-7cebf3e0e000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e0e000-7cebf3e0f000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e0f000-7cebf3e10000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e10000-7cebf3e11000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e11000-7cebf3e12000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e12000-7cebf3e13000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e18000-7cebf3e1b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e1b000-7cebf3e1d000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e1d000-7cebf3e21000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e21000-7cebf3e29000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e29000-7cebf3e2a000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e2a000-7cebf3e2d000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e2d000-7cebf3e2e000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e2e000-7cebf3e2f000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e2f000-7cebf3e30000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf3e71000-7cebf4200000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf9800000-7cebf9801000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebf98f8000-7cebf9a00000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf9b00000-7cebf9b02000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf9b02000-7cebf9b03000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf9bee000-7cebf9bef000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebf9c71000-7cebfa000000 -> /memfd:gdk-wayland (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfa200000-7cebfa201000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfa262000-7cebfa2f2000 -> /usr/share/fonts/truetype/noto/NotoSerif-Regular.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfa7f8000-7cebfa900000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfae0e000-7cebfae12000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfae12000-7cebfae15000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd067000-7cebfd068000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd06e000-7cebfd07c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd087000-7cebfd088000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd090000-7cebfd091000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd091000-7cebfd092000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd092000-7cebfd09a000 -> /home/meaow/snap/firefox/common/.mozilla/firefox/Profile Groups/c387c2c3.sqlite-shm
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd09a000-7cebfd0a8000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfd0e9000-7cebfd113000 -> /snap/firefox/6565/usr/lib/firefox/libfreeblpriv3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfd113000-7cebfd1f8000 -> /snap/firefox/6565/usr/lib/firefox/libfreeblpriv3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfd1f8000-7cebfd1fb000 -> /snap/firefox/6565/usr/lib/firefox/libfreeblpriv3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfd1fb000-7cebfd1fc000 -> /snap/firefox/6565/usr/lib/firefox/libfreeblpriv3.so
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd904000-7cebfd905000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd909000-7cebfd90a000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd90a000-7cebfd90b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd90b000-7cebfd90c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd90c000-7cebfd90d000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd90d000-7cebfd91b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd91b000-7cebfd923000 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/favicons.sqlite-shm
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfd923000-7cebfd92b000 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/places.sqlite-shm
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfd92f000-7cebfd932000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfd932000-7cebfd938000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfda7d000-7cebfda7e000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd00000-7cebfdd01000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd01000-7cebfdd02000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd02000-7cebfdd13000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd17000-7cebfdd18000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd18000-7cebfdd19000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd19000-7cebfdd1f000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd68000-7cebfdd82000 -> /snap/firefox/6565/usr/lib/firefox/libsoftokn3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfdd82000-7cebfddba000 -> /snap/firefox/6565/usr/lib/firefox/libsoftokn3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfddba000-7cebfddbc000 -> /snap/firefox/6565/usr/lib/firefox/libsoftokn3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfddbc000-7cebfddbd000 -> /snap/firefox/6565/usr/lib/firefox/libsoftokn3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfe60f000-7cebfe717000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebfe717000-7cebfe81f000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebff821000-7cebff8c5000 -> /snap/firefox/6565/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebff8c5000-7cebffb43000 -> /snap/firefox/6565/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebffb43000-7cebffc75000 -> /snap/firefox/6565/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebffc75000-7cebffcff000 -> /snap/firefox/6565/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cebffcff000-7cebffd00000 -> /snap/firefox/6565/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec00500000-7cec00600000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec00900000-7cec00901000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec00912000-7cec00913000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec00913000-7cec00914000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec00921000-7cec00922000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec00922000-7cec00924000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec00924000-7cec00925000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec00925000-7cec00926000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec00926000-7cec00927000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec00927000-7cec00928000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec00928000-7cec00929000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01500000-7cec01501000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01501000-7cec01502000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0150a000-7cec0150e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0150e000-7cec01515000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01515000-7cec01518000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01518000-7cec01519000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01519000-7cec0151a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0151a000-7cec01525000 -> /snap/firefox/6565/gnome-platform/usr/share/glib-2.0/schemas/gschemas.compiled
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01529000-7cec0152a000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec0152a000-7cec0152b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec0152b000-7cec0152c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec0152c000-7cec0152d000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01531000-7cec01532000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01532000-7cec01533000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01533000-7cec01534000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01534000-7cec01535000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0157a000-7cec015bd000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01b04000-7cec01b05000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01b05000-7cec01b06000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01b06000-7cec01b07000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec01b07000-7cec01b08000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01b14000-7cec01b15000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01b15000-7cec01b16000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01b16000-7cec01b17000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01b17000-7cec01b18000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01b18000-7cec01b19000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec01b19000-7cec01b3c000 -> /snap/firefox/6565/gnome-platform/usr/share/mime/mime.cache
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec02100000-7cec02101000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec02101000-7cec02102000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec021f1000-7cec031f1000 -> /dev/dri/renderD128
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec031f1000-7cec031f2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec031f2000-7cec031f3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec031f3000-7cec04e0d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec04e0d000-7cec04e0e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec04e0e000-7cec04e0f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec04e0f000-7cec04e75000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec04e75000-7cec04f68000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec04f68000-7cec04ff4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec04ff4000-7cec05007000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05007000-7cec05008000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0500a000-7cec0500c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpciaccess.so.0.11.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0500c000-7cec05011000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpciaccess.so.0.11.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05011000-7cec05013000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpciaccess.so.0.11.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05013000-7cec05014000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpciaccess.so.0.11.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05014000-7cec05015000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpciaccess.so.0.11.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05015000-7cec05044000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05044000-7cec05197000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05197000-7cec051eb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec051eb000-7cec051ec000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec051ec000-7cec051f5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec051f5000-7cec051f6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec051f7000-7cec05205000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05205000-7cec05216000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05216000-7cec05224000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05224000-7cec05228000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05228000-7cec05229000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05229000-7cec05231000 -> /usr/lib/x86_64-linux-gnu/libedit.so.2.0.68
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05231000-7cec0524f000 -> /usr/lib/x86_64-linux-gnu/libedit.so.2.0.68
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0524f000-7cec0525c000 -> /usr/lib/x86_64-linux-gnu/libedit.so.2.0.68
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0525c000-7cec0525e000 -> /usr/lib/x86_64-linux-gnu/libedit.so.2.0.68
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0525e000-7cec0525f000 -> /usr/lib/x86_64-linux-gnu/libedit.so.2.0.68
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05263000-7cec05265000 -> /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05265000-7cec0526c000 -> /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0526c000-7cec0526d000 -> /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0526d000-7cec0526e000 -> /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0526e000-7cec0526f000 -> /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0526f000-7cec05270000 -> /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05270000-7cec05272000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05272000-7cec05274000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05274000-7cec05275000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05275000-7cec05276000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05276000-7cec05277000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05277000-7cec0527a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0527a000-7cec05291000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec05291000-7cec0529b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0529b000-7cec0529c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0529c000-7cec0529d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0529d000-7cec0529f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0529f000-7cec052a4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052a4000-7cec052a6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052a6000-7cec052a7000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052a7000-7cec052a8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_nouveau.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052a8000-7cec052ab000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_amdgpu.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052ab000-7cec052b0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_amdgpu.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052b0000-7cec052b2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_amdgpu.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052b2000-7cec052b3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_amdgpu.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052b3000-7cec052b4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_amdgpu.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052b4000-7cec052b7000 -> /usr/lib/x86_64-linux-gnu/libelf-0.186.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052b7000-7cec052cb000 -> /usr/lib/x86_64-linux-gnu/libelf-0.186.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052cb000-7cec052cf000 -> /usr/lib/x86_64-linux-gnu/libelf-0.186.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052cf000-7cec052d0000 -> /usr/lib/x86_64-linux-gnu/libelf-0.186.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052d0000-7cec052d1000 -> /usr/lib/x86_64-linux-gnu/libelf-0.186.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052d1000-7cec052d2000 -> /usr/lib/x86_64-linux-gnu/libelf-0.186.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052d2000-7cec052d4000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052e0000-7cec052e2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_radeon.so.1.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052e2000-7cec052e9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_radeon.so.1.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052e9000-7cec052ed000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_radeon.so.1.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052ed000-7cec052ee000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_radeon.so.1.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052ee000-7cec052ef000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm_radeon.so.1.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052ef000-7cec052f1000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsensors.so.5.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052f1000-7cec052f8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsensors.so.5.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052f8000-7cec052fc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsensors.so.5.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052fc000-7cec052fd000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsensors.so.5.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052fd000-7cec052fe000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsensors.so.5.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052fe000-7cec052ff000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsensors.so.5.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec052ff000-7cec0ba11000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0ba11000-7cec0c22f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0c22f000-7cec0c275000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0c2f1000-7cec0c387000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0c387000-7cec0d687000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0d687000-7cec0e173000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e173000-7cec0e1fa000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e1fa000-7cec0e20c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e3cc000-7cec0e3d9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e3d9000-7cec0e3e7000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e3e7000-7cec0e3fb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e3fb000-7cec0e3fc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e3fc000-7cec0e400000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e400000-7cec0e401000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e401000-7cec0e408000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e408000-7cec0e40e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e40e000-7cec0e411000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e411000-7cec0e412000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e412000-7cec0e413000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e413000-7cec0e414000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e414000-7cec0e41b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e41b000-7cec0e425000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e425000-7cec0e429000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e429000-7cec0e42a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e42a000-7cec0e42c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e42c000-7cec0e42d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e42d000-7cec0e432000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e432000-7cec0e43d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e43d000-7cec0e441000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e441000-7cec0e442000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e442000-7cec0e443000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e443000-7cec0e445000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e445000-7cec0e448000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e448000-7cec0e44b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e44b000-7cec0e44c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e44c000-7cec0e44d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e44d000-7cec0e44e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e44e000-7cec0e451000 -> /snap/firefox/6565/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e451000-7cec0e497000 -> /snap/firefox/6565/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e497000-7cec0e4a9000 -> /snap/firefox/6565/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e4a9000-7cec0e4aa000 -> /snap/firefox/6565/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e4aa000-7cec0e4ab000 -> /snap/firefox/6565/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e4ab000-7cec0e4ac000 -> /snap/firefox/6565/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e4ac000-7cec0e4c0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e4c0000-7cec0e4c3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e4c3000-7cec0e53a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e53a000-7cec0e556000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e556000-7cec0e557000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e557000-7cec0e55a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e55a000-7cec0e571000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e571000-7cec0e582000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e582000-7cec0e583000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e583000-7cec0e584000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e584000-7cec0e58c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e58c000-7cec0e5b5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5b5000-7cec0e5be000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5be000-7cec0e5bf000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5bf000-7cec0e5c0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5c0000-7cec0e5c3000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5c3000-7cec0e5cc000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5cc000-7cec0e5d3000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5d3000-7cec0e5d4000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5d4000-7cec0e5d5000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5d5000-7cec0e5dc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e5dc000-7cec0e632000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e632000-7cec0e64e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e64e000-7cec0e651000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e651000-7cec0e652000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e654000-7cec0e666000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e666000-7cec0e6af000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e6af000-7cec0e6d6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e6d6000-7cec0e6d8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e6d8000-7cec0e6d9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e6d9000-7cec0e6e5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e6e5000-7cec0e715000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e715000-7cec0e72b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e72b000-7cec0e72d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e72d000-7cec0e72e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0e76f000-7cec0e800000 -> /home/meaow/snap/firefox/common/.mozilla/firefox/jh9j8na6.default/extensions/langpack-en-US@firefox.mozilla.org.xpi
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec0f600000-7cec100a6000 -> /home/meaow/snap/firefox/common/.cache/mozilla/firefox/jh9j8na6.default/startupCache/scriptCache-current.bin
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100a6000-7cec100a9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100a9000-7cec100b1000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100b1000-7cec100b5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100b5000-7cec100b6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100b6000-7cec100b7000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100b7000-7cec100b9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100b9000-7cec100bc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100bc000-7cec100bd000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100bd000-7cec100be000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec100be000-7cec100bf000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec10259000-7cec10300000 -> /home/meaow/snap/firefox/common/.cache/mozilla/firefox/jh9j8na6.default/startupCache/scriptCache-child-current.bin
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec10cad000-7cec10caf000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec10cbb000-7cec10cbc000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec10cbc000-7cec10cbd000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec10cbd000-7cec10cbe000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec10cbe000-7cec10cbf000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec10f00000-7cec10f01000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec10f42000-7cec10f7e000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec11300000-7cec11301000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec11301000-7cec11302000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec11302000-7cec11303000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec1130f000-7cec11310000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec11310000-7cec11311000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec11311000-7cec11312000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec11312000-7cec11313000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec11365000-7cec11367000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec11367000-7cec1136a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1136a000-7cec1136b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1136b000-7cec1136c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1136c000-7cec1136d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1136d000-7cec1136e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1136e000-7cec113c2000 -> /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec11bc7000-7cec11ccf000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec11ccf000-7cec11dd7000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec125dc000-7cec125e0000 -> /home/meaow/snap/firefox/common/.cache/fontconfig/43f658e065f5158ddfde4973ab43b277-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec125e0000-7cec12633000 -> /var/snap/firefox/common/fontconfig/2300eef321c393bfd76478a5c0e95b23-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec12633000-7cec1269b000 -> /var/snap/firefox/common/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1269b000-7cec126a9000 -> /var/snap/firefox/common/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec126a9000-7cec126b9000 -> /var/snap/firefox/common/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec13900000-7cec13901000 -> /home/meaow/snap/firefox/common/.cache/fontconfig/a9d6343bc7e31980fccfa99490e1d1a3-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec13902000-7cec1390d000 -> /var/snap/firefox/common/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1390d000-7cec16394000 -> /snap/firefox/6565/usr/lib/firefox/browser/omni.ja
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec16394000-7cec186be000 -> /snap/firefox/6565/usr/lib/firefox/omni.ja
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec18d01000-7cec18d02000 -> /home/meaow/snap/firefox/common/.cache/fontconfig/595e4d53d9fee604d50aa7ba6d1676cd-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec18d02000-7cec18d09000 -> /var/snap/firefox/common/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec18d09000-7cec18d0a000 -> /var/snap/firefox/common/fontconfig/3f7329c5293ffd510edef78f73874cfd-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec18d0a000-7cec18dbf000 -> /snap/firefox/6565/data-dir/themes/Yaru/gtk-3.0/gtk.gresource
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec18dbf000-7cec18fff000 -> /memfd:wayland-cursor (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19900000-7cec19905000 -> /var/snap/firefox/common/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19905000-7cec19913000 -> /var/snap/firefox/common/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-7
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec1991a000-7cec1991b000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1991c000-7cec1991e000 -> /home/meaow/.config/dconf/user
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec1991e000-7cec1991f000 -> /run/user/1000/dconf/user
+lrw------- 1 meaow meaow 64 Nov 17 19:55 7cec19933000-7cec19934000 -> /memfd:mutter-shared (deleted)
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19938000-7cec1993a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1993a000-7cec1993f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1993f000-7cec19941000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19941000-7cec19942000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19942000-7cec19943000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19943000-7cec19947000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19947000-7cec19956000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec19956000-7cec1995b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1995b000-7cec1995c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1995c000-7cec1995d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b173000-7cec1b174000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b174000-7cec1b175000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b175000-7cec1b176000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b176000-7cec1b177000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b177000-7cec1b178000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b178000-7cec1b179000 -> /snap/firefox/6565/gnome-platform/usr/share/locale/en/LC_MESSAGES/gtk30-properties.mo
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b179000-7cec1b17a000 -> /snap/firefox/6565/gnome-platform/usr/share/locale/en/LC_MESSAGES/gtk30.mo
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b17a000-7cec1b1d1000 -> /usr/lib/locale/C.utf8/LC_CTYPE
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b1d1000-7cec1b1fb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b1fb000-7cec1b292000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b292000-7cec1b2cc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2cc000-7cec1b2d3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2d3000-7cec1b2d4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2d4000-7cec1b2d7000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2d7000-7cec1b2e1000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2e1000-7cec1b2e4000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2e4000-7cec1b2e5000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2e5000-7cec1b2e6000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2e8000-7cec1b2e9000 -> /usr/lib/locale/C.utf8/LC_NUMERIC
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2e9000-7cec1b2ea000 -> /usr/lib/locale/C.utf8/LC_TIME
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2ea000-7cec1b2eb000 -> /usr/lib/locale/C.utf8/LC_COLLATE
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2eb000-7cec1b2f2000 -> /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1b2f6000-7cec1e1eb000 -> /snap/firefox/6565/usr/lib/firefox/libxul.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec1e1eb000-7cec248b4000 -> /snap/firefox/6565/usr/lib/firefox/libxul.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec248b4000-7cec24df0000 -> /snap/firefox/6565/usr/lib/firefox/libxul.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24df0000-7cec24ec5000 -> /snap/firefox/6565/usr/lib/firefox/libxul.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24f73000-7cec24f77000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24f77000-7cec24f8d000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24f8d000-7cec24f97000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24f97000-7cec24f98000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24f98000-7cec24f99000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24f99000-7cec24f9b000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24f9b000-7cec24fa2000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24fa2000-7cec24fa4000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24fa4000-7cec24fa5000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24fa5000-7cec24fa6000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24fa6000-7cec24fb5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec24fb5000-7cec2509b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2509b000-7cec250d9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250d9000-7cec250da000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250da000-7cec250dd000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250dd000-7cec250e3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250e4000-7cec250e7000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250e7000-7cec250eb000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250eb000-7cec250ed000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250ed000-7cec250ee000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250ee000-7cec250ef000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250ef000-7cec250f1000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec250f1000-7cec2510a000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2510a000-7cec2510c000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2510c000-7cec2510d000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2510d000-7cec2510e000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2510e000-7cec2510f000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2510f000-7cec25119000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25119000-7cec251cb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec251cb000-7cec251dc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec251dc000-7cec251dd000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec251dd000-7cec251de000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec251de000-7cec251e1000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec251e1000-7cec251fc000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec251fc000-7cec25207000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25207000-7cec25208000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25208000-7cec25209000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25209000-7cec2520d000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2520d000-7cec2521a000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2521a000-7cec2521d000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2521d000-7cec2521e000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2521e000-7cec2521f000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2521f000-7cec25220000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25221000-7cec25222000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25222000-7cec25223000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25223000-7cec25242000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25242000-7cec25243000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25243000-7cec25244000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25244000-7cec25257000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25257000-7cec252d6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec252d6000-7cec25301000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25301000-7cec25302000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25302000-7cec25309000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25309000-7cec2530a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2530b000-7cec2530d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2530d000-7cec2530f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2530f000-7cec25311000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25311000-7cec25312000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25312000-7cec25313000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25313000-7cec25314000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25314000-7cec25316000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25316000-7cec25317000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25317000-7cec25318000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25318000-7cec25319000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25319000-7cec2531a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2531a000-7cec25322000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25322000-7cec25325000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25325000-7cec25326000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25326000-7cec25327000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25327000-7cec25329000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25329000-7cec2532d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2532d000-7cec2532e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2532e000-7cec2532f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2532f000-7cec25330000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25330000-7cec25337000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25337000-7cec25357000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25357000-7cec25360000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25360000-7cec25361000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25361000-7cec25366000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25366000-7cec25367000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25367000-7cec25377000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25377000-7cec25396000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25396000-7cec253a4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253a4000-7cec253a5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253a5000-7cec253a8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253a8000-7cec253a9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253aa000-7cec253b5000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253b5000-7cec253e3000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253e3000-7cec253f5000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253f5000-7cec253f6000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253f6000-7cec253f7000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253f7000-7cec253f8000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253f8000-7cec253fc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec253fc000-7cec25445000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25445000-7cec25477000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25477000-7cec25478000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25478000-7cec25479000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25479000-7cec2547b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2547b000-7cec2547f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2547f000-7cec25480000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25480000-7cec25481000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25481000-7cec25482000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25482000-7cec25486000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25486000-7cec254a5000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec254a5000-7cec254af000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec254af000-7cec254b0000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec254b0000-7cec254b2000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec254b2000-7cec254b3000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec254b3000-7cec254be000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec254be000-7cec2558c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2558c000-7cec2559f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2559f000-7cec255a7000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255a7000-7cec255a8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255a8000-7cec255a9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255a9000-7cec255aa000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255aa000-7cec255ab000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255ab000-7cec255ac000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255ac000-7cec255ad000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255ad000-7cec255b2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255b2000-7cec255b7000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255b7000-7cec255b9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255b9000-7cec255ba000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255ba000-7cec255bb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255bb000-7cec255bc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255bc000-7cec255c7000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255c7000-7cec255db000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255db000-7cec255e4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255e4000-7cec255e5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255e5000-7cec255e6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255e6000-7cec255e8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255e8000-7cec255ef000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255ef000-7cec255f1000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255f1000-7cec255f2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255f2000-7cec255f3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255f3000-7cec255f8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec255f8000-7cec25621000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25621000-7cec2562c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2562c000-7cec2562d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2562d000-7cec2562e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2562e000-7cec25631000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25631000-7cec2564e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2564e000-7cec25652000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25652000-7cec25654000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25654000-7cec25655000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25655000-7cec25662000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25662000-7cec256eb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec256eb000-7cec25714000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25714000-7cec25715000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25715000-7cec2571c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2571c000-7cec2571d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2571d000-7cec2571f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2571f000-7cec25723000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25723000-7cec25726000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25726000-7cec25727000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25727000-7cec25728000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25728000-7cec2572e000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2572e000-7cec25748000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25748000-7cec2574f000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2574f000-7cec25750000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25750000-7cec25751000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25751000-7cec25752000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25754000-7cec2575c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2575c000-7cec25788000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25788000-7cec25795000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25795000-7cec25796000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25796000-7cec25797000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25797000-7cec25798000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25798000-7cec2579a000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2579a000-7cec257ab000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257ab000-7cec257b1000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b1000-7cec257b2000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b2000-7cec257b3000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b3000-7cec257b4000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b4000-7cec257b5000 -> /usr/lib/locale/C.utf8/LC_MONETARY
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b5000-7cec257b6000 -> /usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b6000-7cec257b7000 -> /usr/lib/locale/C.utf8/LC_PAPER
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b7000-7cec257b8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b8000-7cec257b9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257b9000-7cec257ba000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257ba000-7cec257bb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257bb000-7cec257bc000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257bc000-7cec257bf000 -> /snap/firefox/6565/usr/lib/firefox/libmozwayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257bf000-7cec257c0000 -> /snap/firefox/6565/usr/lib/firefox/libmozwayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257c0000-7cec257c1000 -> /snap/firefox/6565/usr/lib/firefox/libmozwayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257c1000-7cec257c2000 -> /snap/firefox/6565/usr/lib/firefox/libmozwayland.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257c2000-7cec257c4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257c4000-7cec257cb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257cb000-7cec257cd000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257cd000-7cec257ce000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257ce000-7cec257cf000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257cf000-7cec257d1000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec257d1000-7cec2583c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2583c000-7cec25864000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25864000-7cec25865000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25865000-7cec25866000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25866000-7cec25867000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25867000-7cec25868000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25868000-7cec25869000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25869000-7cec2586a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2586a000-7cec2586b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2586b000-7cec2586d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2586d000-7cec25874000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25874000-7cec25876000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25876000-7cec25877000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25877000-7cec25878000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25878000-7cec25879000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25879000-7cec2587a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2587a000-7cec2587b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2587b000-7cec2587c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2587c000-7cec2587d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2587d000-7cec2587e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2587e000-7cec2587f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2587f000-7cec25880000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25880000-7cec25881000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25881000-7cec25882000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25882000-7cec25884000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25884000-7cec2588a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2588a000-7cec2588c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2588c000-7cec2588d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2588d000-7cec2588e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2588e000-7cec25892000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25892000-7cec2589d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2589d000-7cec258a1000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a1000-7cec258a2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a2000-7cec258a3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a3000-7cec258a4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a4000-7cec258a5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a5000-7cec258a6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a6000-7cec258a7000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a7000-7cec258a8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258a8000-7cec258aa000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258aa000-7cec258ac000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258ac000-7cec258ad000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258ad000-7cec258ae000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258ae000-7cec258b2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258b2000-7cec258b8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258b8000-7cec258bf000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258bf000-7cec258c2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258c2000-7cec258c4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258c4000-7cec258c5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258c5000-7cec258c9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258c9000-7cec258e8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec258e8000-7cec25909000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25909000-7cec2590b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2590b000-7cec2590c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2590c000-7cec2590e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2590e000-7cec25911000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25911000-7cec25912000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25912000-7cec25913000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25913000-7cec25914000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25914000-7cec25920000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25920000-7cec2593b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2593b000-7cec2594a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2594a000-7cec2594b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2594b000-7cec2594d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2594e000-7cec25967000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25967000-7cec259f3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec259f3000-7cec25a88000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25a88000-7cec25a89000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25a89000-7cec25a8a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25a8a000-7cec25a8e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25a8e000-7cec25a91000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25a91000-7cec25a9d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25a9d000-7cec25aa0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25aa0000-7cec25aa1000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25aa1000-7cec25aa2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25aa2000-7cec25b02000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25b02000-7cec25b68000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25b68000-7cec25bc5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bc5000-7cec25bc6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bc6000-7cec25bce000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bce000-7cec25bd5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bd6000-7cec25be0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25be0000-7cec25bef000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bef000-7cec25bfb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bfb000-7cec25bfe000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bfe000-7cec25bff000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25bff000-7cec25c07000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c07000-7cec25c23000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c23000-7cec25c2d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c2d000-7cec25c2e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c2e000-7cec25c2f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c2f000-7cec25c30000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c30000-7cec25c34000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c34000-7cec25c36000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c36000-7cec25c38000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c38000-7cec25c39000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c39000-7cec25c3b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c3b000-7cec25c3c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c3c000-7cec25c3e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c3e000-7cec25c45000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c45000-7cec25c5d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c5d000-7cec25c5e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c5e000-7cec25c5f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c5f000-7cec25c66000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c66000-7cec25c8f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25c8f000-7cec25ca5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25ca5000-7cec25ca6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25ca6000-7cec25ca8000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25ca8000-7cec25ca9000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25ca9000-7cec25cb0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25cb0000-7cec25cbd000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25cbd000-7cec25cc1000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25cc1000-7cec25cc2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25cc2000-7cec25cc3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25cc3000-7cec25cc4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25cc4000-7cec25cd6000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25cd6000-7cec25de2000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25de2000-7cec25e22000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25e22000-7cec25e23000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25e23000-7cec25e26000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25e26000-7cec25e28000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25e29000-7cec25e35000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25e35000-7cec25f5f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25f5f000-7cec25f99000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25f99000-7cec25f9a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25f9a000-7cec25f9c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25f9c000-7cec25fae000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25fae000-7cec25fed000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec25fed000-7cec26009000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26009000-7cec2600d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2600d000-7cec2600e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2600e000-7cec26013000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26013000-7cec2601b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2601b000-7cec2601e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2601e000-7cec2601f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2601f000-7cec26020000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26020000-7cec2605b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2605b000-7cec2618c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2618c000-7cec2621b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2621b000-7cec2621c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2621c000-7cec26223000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26223000-7cec26226000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26228000-7cec26236000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26236000-7cec26273000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26273000-7cec2628d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2628d000-7cec26290000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26290000-7cec26291000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26292000-7cec262b0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec262b0000-7cec2635e000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2635e000-7cec263eb000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec263eb000-7cec263ec000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec263ec000-7cec263ed000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec263ee000-7cec2641a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2641a000-7cec264ad000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec264ad000-7cec264fd000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec264fd000-7cec264fe000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec264fe000-7cec26507000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26507000-7cec26509000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2650a000-7cec26591000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26591000-7cec2697d000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2697d000-7cec26d3b000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26d3b000-7cec26d4c000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26d4c000-7cec26d4f000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26d54000-7cec26d70000 -> /snap/firefox/6565/usr/lib/firefox/libssl3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26d70000-7cec26db5000 -> /snap/firefox/6565/usr/lib/firefox/libssl3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26db5000-7cec26dba000 -> /snap/firefox/6565/usr/lib/firefox/libssl3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26dba000-7cec26dbc000 -> /snap/firefox/6565/usr/lib/firefox/libssl3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26dbc000-7cec26df5000 -> /snap/firefox/6565/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26df5000-7cec26f17000 -> /snap/firefox/6565/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f17000-7cec26f1b000 -> /snap/firefox/6565/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f1b000-7cec26f1f000 -> /snap/firefox/6565/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f20000-7cec26f2f000 -> /snap/firefox/6565/usr/lib/firefox/libsmime3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f2f000-7cec26f48000 -> /snap/firefox/6565/usr/lib/firefox/libsmime3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f48000-7cec26f4b000 -> /snap/firefox/6565/usr/lib/firefox/libsmime3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f4b000-7cec26f4c000 -> /snap/firefox/6565/usr/lib/firefox/libsmime3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f4c000-7cec26f8b000 -> /snap/firefox/6565/usr/lib/firefox/libnss3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26f8b000-7cec26ff9000 -> /snap/firefox/6565/usr/lib/firefox/libnss3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26ff9000-7cec26fff000 -> /snap/firefox/6565/usr/lib/firefox/libnss3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec26fff000-7cec27001000 -> /snap/firefox/6565/usr/lib/firefox/libnss3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27002000-7cec27014000 -> /snap/firefox/6565/usr/lib/firefox/libnssutil3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27014000-7cec27029000 -> /snap/firefox/6565/usr/lib/firefox/libnssutil3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27029000-7cec27031000 -> /snap/firefox/6565/usr/lib/firefox/libnssutil3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27031000-7cec27032000 -> /snap/firefox/6565/usr/lib/firefox/libnssutil3.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27033000-7cec2703f000 -> /snap/firefox/6565/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2703f000-7cec2705e000 -> /snap/firefox/6565/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2705e000-7cec27061000 -> /snap/firefox/6565/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27061000-7cec27062000 -> /snap/firefox/6565/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27062000-7cec27213000 -> /snap/firefox/6565/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27213000-7cec27854000 -> /snap/firefox/6565/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec27854000-7cec2787f000 -> /snap/firefox/6565/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2787f000-7cec27883000 -> /snap/firefox/6565/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec278d2000-7cec278df000 -> /snap/firefox/6565/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec278df000-7cec278fc000 -> /snap/firefox/6565/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec278fc000-7cec278fe000 -> /snap/firefox/6565/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec278fe000-7cec278ff000 -> /snap/firefox/6565/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28600000-7cec28601000 -> /usr/lib/locale/C.utf8/LC_NAME
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28601000-7cec28602000 -> /usr/lib/locale/C.utf8/LC_ADDRESS
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28602000-7cec28603000 -> /usr/lib/locale/C.utf8/LC_TELEPHONE
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28603000-7cec28605000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28605000-7cec28607000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28607000-7cec28608000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28608000-7cec28609000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28609000-7cec2860a000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2860a000-7cec2860b000 -> /snap/firefox/6565/usr/lib/firefox/libmozgtk.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2860b000-7cec2860c000 -> /snap/firefox/6565/usr/lib/firefox/libmozgtk.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2860c000-7cec2860d000 -> /snap/firefox/6565/usr/lib/firefox/libmozgtk.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2860d000-7cec2860e000 -> /snap/firefox/6565/usr/lib/firefox/libmozgtk.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2860e000-7cec28620000 -> /snap/firefox/6565/usr/lib/firefox/libnspr4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28620000-7cec28640000 -> /snap/firefox/6565/usr/lib/firefox/libnspr4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28640000-7cec28643000 -> /snap/firefox/6565/usr/lib/firefox/libnspr4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28643000-7cec28644000 -> /snap/firefox/6565/usr/lib/firefox/libnspr4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2864a000-7cec28672000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28672000-7cec28807000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28807000-7cec2885f000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2885f000-7cec28860000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28860000-7cec28864000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28864000-7cec28866000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28875000-7cec28878000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28878000-7cec2888f000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2888f000-7cec28893000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28893000-7cec28894000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28894000-7cec28895000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28895000-7cec288a3000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec288a3000-7cec2891f000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2891f000-7cec2897a000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2897a000-7cec2897b000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2897b000-7cec2897c000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2897c000-7cec2897d000 -> /usr/lib/locale/C.utf8/LC_MEASUREMENT
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2897d000-7cec2897f000 -> /snap/firefox/6565/usr/lib/firefox/libplds4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2897f000-7cec28981000 -> /snap/firefox/6565/usr/lib/firefox/libplds4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28981000-7cec28982000 -> /snap/firefox/6565/usr/lib/firefox/libplds4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28982000-7cec28983000 -> /snap/firefox/6565/usr/lib/firefox/libplds4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28983000-7cec28985000 -> /snap/firefox/6565/usr/lib/firefox/libplc4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28985000-7cec28988000 -> /snap/firefox/6565/usr/lib/firefox/libplc4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28988000-7cec28989000 -> /snap/firefox/6565/usr/lib/firefox/libplc4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28989000-7cec2898a000 -> /snap/firefox/6565/usr/lib/firefox/libplc4.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec2898a000-7cec28a24000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28a24000-7cec28b35000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28b35000-7cec28ba4000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28ba4000-7cec28ba5000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28ba5000-7cec28bb0000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bb0000-7cec28bb3000 -> /snap/firefox/6565/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bb6000-7cec28bb7000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bb7000-7cec28bb8000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bb8000-7cec28bb9000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bb9000-7cec28bba000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bba000-7cec28bbb000 -> /snap/firefox/6565/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bc3000-7cec28bc5000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bc5000-7cec28bef000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bef000-7cec28bfa000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bfa000-7cec28bfb000 -> /usr/lib/locale/C.utf8/LC_IDENTIFICATION
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bfb000-7cec28bfd000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 meaow meaow 64 Nov 17 19:55 7cec28bfd000-7cec28bff000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

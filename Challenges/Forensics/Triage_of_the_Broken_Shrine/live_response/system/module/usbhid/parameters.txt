@@ -1,0 +1,8 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 7 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 ignoreled
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 jspoll
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 kbpoll
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 mousepoll
+-r--r--r-- 1 root root 4096 Nov 17 19:57 quirks

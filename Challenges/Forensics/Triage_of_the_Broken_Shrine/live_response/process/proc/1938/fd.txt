@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 meaow meaow 17 Nov 17 19:43 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:43 ..
+lr-x------ 1 meaow meaow 64 Nov 17 19:43 0 -> /dev/null
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 1 -> socket:[26512]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 10 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 11 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 12 -> socket:[25573]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 13 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 14 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 15 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 16 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 2 -> socket:[26512]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 3 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 4 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 5 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 6 -> anon_inode:[signalfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 7 -> anon_inode:[signalfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 8 -> anon_inode:[eventpoll]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 9 -> anon_inode:[eventfd]

@@ -1,0 +1,7 @@
+[Unit]
+Description=Path trigger for Apport crash notifications
+PartOf=graphical-session.target
+ConditionPathExists=!/var/lib/apport/autoreport
+
+[Path]
+PathChanged=/var/crash/

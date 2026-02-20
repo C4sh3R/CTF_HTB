@@ -1,0 +1,2 @@
+/usr/sbin/wpa_supplicant
+DIR=/run/wpa_supplicant GROUP=netdev

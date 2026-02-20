@@ -1,0 +1,21 @@
+NEXT                            LEFT LAST                           PASSED UNIT                           ACTIVATES
+Mon 2025-11-17 19:58:32 EET  1min 8s -                                   - systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Mon 2025-11-17 20:00:00 EET 2min 35s Mon 2025-11-17 19:50:07 EET  7min ago sysstat-collect.timer          sysstat-collect.service
+Mon 2025-11-17 20:12:41 EET    15min Mon 2025-11-10 20:11:20 EET         - apt-daily-upgrade.timer        apt-daily-upgrade.service
+Mon 2025-11-17 20:27:21 EET    29min Mon 2025-11-10 20:11:20 EET         - fwupd-refresh.timer            fwupd-refresh.service
+Mon 2025-11-17 20:32:59 EET    35min Mon 2025-11-17 19:48:39 EET  8min ago anacron.timer                  anacron.service
+Mon 2025-11-17 21:04:23 EET  1h 6min Mon 2025-11-10 20:11:20 EET         - fstrim.timer                   fstrim.service
+Mon 2025-11-17 22:20:43 EET 2h 23min Mon 2025-11-10 20:11:20 EET         - man-db.timer                   man-db.service
+Tue 2025-11-18 00:00:00 EET  4h 2min Mon 2025-11-17 19:43:40 EET 13min ago dpkg-db-backup.timer           dpkg-db-backup.service
+Tue 2025-11-18 00:00:00 EET  4h 2min Mon 2025-11-17 19:43:40 EET 13min ago logrotate.timer                logrotate.service
+Tue 2025-11-18 00:07:00 EET  4h 9min -                                   - sysstat-summary.timer          sysstat-summary.service
+Tue 2025-11-18 03:38:37 EET       7h Mon 2025-11-10 20:11:20 EET         - motd-news.timer                motd-news.service
+Tue 2025-11-18 08:00:26 EET      12h Mon 2025-11-17 19:46:43 EET 10min ago apt-daily.timer                apt-daily.service
+Tue 2025-11-18 19:48:39 EET      23h Mon 2025-11-17 19:48:39 EET  8min ago update-notifier-download.timer update-notifier-download.service
+Fri 2025-11-21 08:07:36 EET   3 days Mon 2025-11-10 20:11:25 EET         - update-notifier-motd.timer     update-notifier-motd.service
+Sun 2025-11-23 03:10:54 EET   5 days Mon 2025-11-17 19:44:00 EET 13min ago e2scrub_all.timer              e2scrub_all.service
+-                                  - -                                   - apport-autoreport.timer        apport-autoreport.service
+-                                  - -                                   - snapd.snap-repair.timer        snapd.snap-repair.service
+-                                  - -                                   - ua-timer.timer                 ua-timer.service
+
+18 timers listed.

@@ -1,0 +1,11 @@
+[Unit]
+Description=GNOME Remote Desktop
+
+[Service]
+Type=dbus
+BusName=org.gnome.RemoteDesktop.User
+ExecStart=/usr/libexec/gnome-remote-desktop-daemon
+Restart=on-failure
+
+[Install]
+WantedBy=gnome-session.target

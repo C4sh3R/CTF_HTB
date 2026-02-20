@@ -1,0 +1,1 @@
+/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -parentBuildID 20250718161710 -sandboxingKind 0 -prefsHandle 0:44909 -prefMapHandle 1:271626 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {45db8030-8ddb-48c3-b3b6-ecfe2bf21a8d} -parentPid 5309 -crashReporter 5 -crashHelperPid 5374 -appDir /snap/firefox/6565/usr/lib/firefox/browser 6 utility

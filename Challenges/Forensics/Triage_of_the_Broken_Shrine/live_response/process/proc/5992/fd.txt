@@ -1,0 +1,28 @@
+total 0
+dr-x------ 2 meaow meaow 25 Nov 17 19:55 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:51 ..
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 0 -> /dev/null
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 1 -> socket:[38694]
+l-wx------ 1 meaow meaow 64 Nov 17 19:55 10 -> pipe:[45194]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 11 -> anon_inode:[eventpoll]
+l-wx------ 1 meaow meaow 64 Nov 17 19:55 12 -> pipe:[43832]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 13 -> socket:[43661]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 15 -> socket:[43801]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 16 -> socket:[43618]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 17 -> pipe:[43830]
+l-wx------ 1 meaow meaow 64 Nov 17 19:55 18 -> pipe:[43830]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 19 -> pipe:[43831]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 2 -> socket:[38694]
+l-wx------ 1 meaow meaow 64 Nov 17 19:55 20 -> pipe:[43831]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 21 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 23 -> anon_inode:[eventfd]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 24 -> pipe:[45197]
+l-wx------ 1 meaow meaow 64 Nov 17 19:55 25 -> pipe:[45197]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 27 -> socket:[44680]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 3 -> pipe:[45194]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 4 -> pipe:[43832]
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 5 -> /dev/null
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 6 -> /dev/null
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 7 -> /dev/null
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 8 -> /snap/firefox/6565/usr/lib/firefox/omni.ja
+lr-x------ 1 meaow meaow 64 Nov 17 19:55 9 -> /snap/firefox/6565/usr/lib/firefox/browser/omni.ja

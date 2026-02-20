@@ -1,0 +1,9 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+USER=root
+INVOCATION_ID=ec1e16d7325b4f3a905557b5c8d68cd6
+JOURNAL_STREAM=9:25911
+SYSTEMD_EXEC_PID=1399
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/rtkit-daemon.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

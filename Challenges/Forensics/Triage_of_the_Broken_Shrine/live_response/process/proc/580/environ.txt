@@ -1,0 +1,15 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+WATCHDOG_PID=580
+WATCHDOG_USEC=180000000
+USER=systemd-timesync
+LOGNAME=systemd-timesync
+INVOCATION_ID=cc8320a7c1ff45ae996b4b397696bae4
+JOURNAL_STREAM=9:720
+RUNTIME_DIRECTORY=/run/systemd/timesync
+STATE_DIRECTORY=/var/lib/systemd/timesync
+SYSTEMD_EXEC_PID=580
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/systemd-timesyncd.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+SYSTEMD_NSS_RESOLVE_VALIDATE=0

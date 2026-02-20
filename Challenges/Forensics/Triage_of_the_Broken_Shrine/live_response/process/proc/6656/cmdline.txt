@@ -1,0 +1,4 @@
+/bin/sh
+./uac
+ir_triage
+/tmp

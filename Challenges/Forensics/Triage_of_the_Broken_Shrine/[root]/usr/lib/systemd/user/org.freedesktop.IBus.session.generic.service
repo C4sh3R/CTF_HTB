@@ -1,0 +1,14 @@
+[Unit]
+Description=IBus Daemon for generic sessions
+CollectMode=inactive-or-failed
+
+# Never run in GNOME
+Conflicts=gnome-session-initialized.target
+
+[Service]
+Type=dbus
+ExecStart=sh -c 'exec /usr/bin/ibus-daemon $IBUS_DAEMON_ARGS'
+Restart=on-abnormal
+BusName=org.freedesktop.IBus
+TimeoutStopSec=5
+Slice=session.slice

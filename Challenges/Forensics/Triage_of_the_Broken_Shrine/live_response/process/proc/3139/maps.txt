@@ -1,0 +1,32 @@
+5fa409233000-5fa409263000 r--p 00000000 08:02 786991                     /usr/bin/bash
+5fa409263000-5fa409352000 r-xp 00030000 08:02 786991                     /usr/bin/bash
+5fa409352000-5fa409387000 r--p 0011f000 08:02 786991                     /usr/bin/bash
+5fa409387000-5fa40938b000 r--p 00154000 08:02 786991                     /usr/bin/bash
+5fa40938b000-5fa409394000 rw-p 00158000 08:02 786991                     /usr/bin/bash
+5fa409394000-5fa40939f000 rw-p 00000000 00:00 0 
+5fa431169000-5fa4312b9000 rw-p 00000000 00:00 0                          [heap]
+7903e9c00000-7903ea175000 r--p 00000000 08:02 826972                     /usr/lib/locale/locale-archive
+7903ea200000-7903ea228000 r--p 00000000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7903ea228000-7903ea3b0000 r-xp 00028000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7903ea3b0000-7903ea3ff000 r--p 001b0000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7903ea3ff000-7903ea403000 r--p 001fe000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7903ea403000-7903ea405000 rw-p 00202000 08:02 788897                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7903ea405000-7903ea412000 rw-p 00000000 00:00 0 
+7903ea58f000-7903ea592000 rw-p 00000000 00:00 0 
+7903ea592000-7903ea5a0000 r--p 00000000 08:02 798475                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7903ea5a0000-7903ea5b3000 r-xp 0000e000 08:02 798475                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7903ea5b3000-7903ea5c1000 r--p 00021000 08:02 798475                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7903ea5c1000-7903ea5c5000 r--p 0002e000 08:02 798475                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7903ea5c5000-7903ea5c6000 rw-p 00032000 08:02 798475                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7903ea5cd000-7903ea5d4000 r--s 00000000 08:02 788886                     /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7903ea5d4000-7903ea5d6000 rw-p 00000000 00:00 0 
+7903ea5d6000-7903ea5d8000 r--p 00000000 00:00 0                          [vvar]
+7903ea5d8000-7903ea5da000 r--p 00000000 00:00 0                          [vvar_vclock]
+7903ea5da000-7903ea5dc000 r-xp 00000000 00:00 0                          [vdso]
+7903ea5dc000-7903ea5dd000 r--p 00000000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7903ea5dd000-7903ea608000 r-xp 00001000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7903ea608000-7903ea612000 r--p 0002c000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7903ea612000-7903ea614000 r--p 00036000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7903ea614000-7903ea616000 rw-p 00038000 08:02 788894                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fff62eb8000-7fff62ed9000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

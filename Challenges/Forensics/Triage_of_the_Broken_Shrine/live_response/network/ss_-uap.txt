@@ -1,0 +1,9 @@
+State  Recv-Q Send-Q         Local Address:Port      Peer Address:Port  Process                                   
+UNCONN 0      0                    0.0.0.0:mdns           0.0.0.0:*      users:(("avahi-daemon",pid=997,fd=12))   
+UNCONN 0      0                    0.0.0.0:36126          0.0.0.0:*      users:(("avahi-daemon",pid=997,fd=14))   
+UNCONN 0      0                    0.0.0.0:44470          0.0.0.0:*      users:(("firefox",pid=5309,fd=44))       
+UNCONN 0      0                 127.0.0.54:domain         0.0.0.0:*      users:(("systemd-resolve",pid=578,fd=16))
+UNCONN 0      0              127.0.0.53%lo:domain         0.0.0.0:*      users:(("systemd-resolve",pid=578,fd=14))
+ESTAB  0      0      192.168.153.131%ens33:bootpc 192.168.153.254:bootps users:(("NetworkManager",pid=1109,fd=26))
+UNCONN 0      0                       [::]:mdns              [::]:*      users:(("avahi-daemon",pid=997,fd=13))   
+UNCONN 0      0                       [::]:39287             [::]:*      users:(("avahi-daemon",pid=997,fd=15))   

@@ -1,0 +1,14 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+LISTEN_PID=1032
+LISTEN_FDS=2
+LISTEN_FDNAMES=snapd.socket:snapd.socket
+WATCHDOG_PID=1032
+WATCHDOG_USEC=300000000
+USER=root
+INVOCATION_ID=40ae3e73eddd41b2aabe7f94912a5774
+JOURNAL_STREAM=9:19821
+SYSTEMD_EXEC_PID=1032
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/snapd.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

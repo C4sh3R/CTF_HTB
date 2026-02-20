@@ -1,0 +1,15 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 acpi_gtf_filter
+-r--r--r-- 1 root root 4096 Nov 17 19:57 allow_tpm
+-r--r--r-- 1 root root 4096 Nov 17 19:57 ata_probe_timeout
+-r--r--r-- 1 root root 4096 Nov 17 19:57 atapi_an
+-r--r--r-- 1 root root 4096 Nov 17 19:57 atapi_dmadir
+-r--r--r-- 1 root root 4096 Nov 17 19:57 atapi_enabled
+-r--r--r-- 1 root root 4096 Nov 17 19:57 atapi_passthru16
+-r--r--r-- 1 root root 4096 Nov 17 19:57 dma
+-r--r--r-- 1 root root 4096 Nov 17 19:57 fua
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 ignore_hpa
+-r--r--r-- 1 root root 4096 Nov 17 19:57 noacpi
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 zpodd_poweroff_delay

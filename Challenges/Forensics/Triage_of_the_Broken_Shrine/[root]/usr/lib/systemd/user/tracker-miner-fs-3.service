@@ -1,0 +1,17 @@
+[Unit]
+Description=Tracker file system data miner
+ConditionUser=!root
+ConditionUser=!gnome-initial-setup
+After=gnome-session.target
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.Tracker3.Miner.Files
+ExecStart=/usr/libexec/tracker-miner-fs-3
+Restart=on-failure
+# Don't restart after tracker daemon -k (aka tracker-control -k)
+RestartPreventExitStatus=SIGKILL
+Slice=background.slice
+
+[Install]
+WantedBy=gnome-session.target

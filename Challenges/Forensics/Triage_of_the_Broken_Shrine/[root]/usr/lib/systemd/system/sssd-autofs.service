@@ -1,0 +1,19 @@
+[Unit]
+Description=SSSD AutoFS Service responder
+Documentation=man:sssd.conf(5)
+After=sssd.service
+BindsTo=sssd.service
+RefuseManualStart=true
+
+[Install]
+Also=sssd-autofs.socket
+
+[Service]
+Environment=DEBUG_LOGGER=--logger=files
+EnvironmentFile=-/etc/default/sssd
+ExecStartPre=-/bin/chown root:root /var/log/sssd/sssd_autofs.log
+ExecStart=/usr/libexec/sssd/sssd_autofs ${DEBUG_LOGGER} --socket-activated
+Restart=on-failure
+User=root
+Group=root
+PermissionsStartOnly=true

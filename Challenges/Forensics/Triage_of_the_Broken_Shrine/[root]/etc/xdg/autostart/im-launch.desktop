@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=im-launch
+Exec=sh -c 'IM_CONFIG_CHECK_ENV=1 im-launch true'
+TryExec=im-launch
+Type=Application
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=im-config

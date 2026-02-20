@@ -1,0 +1,11 @@
+meaow    tty2         0.0.0.0          Mon Nov 17 19:43   still logged in
+meaow    seat0        0.0.0.0          Mon Nov 17 19:43   still logged in
+reboot   system boot  0.0.0.0          Mon Nov 17 19:43   still running
+meaow    tty2         0.0.0.0          Mon Nov 10 22:56 - crash (6+20:47)
+meaow    seat0        0.0.0.0          Mon Nov 10 22:56 - crash (6+20:47)
+reboot   system boot  0.0.0.0          Mon Nov 10 22:55   still running
+meaow    tty2         0.0.0.0          Mon Nov 10 20:11 - crash  (02:44)
+meaow    seat0        0.0.0.0          Mon Nov 10 20:11 - crash  (02:44)
+reboot   system boot  0.0.0.0          Mon Nov 10 20:11   still running
+
+wtmp begins Mon Nov 10 20:11:15 2025

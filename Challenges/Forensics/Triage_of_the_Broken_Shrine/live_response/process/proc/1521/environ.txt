@@ -1,0 +1,13 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=colord
+LOGNAME=colord
+HOME=/var/lib/colord
+INVOCATION_ID=d6a84f6bd63841c1a797fdce0e54a2b5
+JOURNAL_STREAM=9:26183
+STATE_DIRECTORY=/var/lib/colord
+CACHE_DIRECTORY=/var/cache/colord
+CONFIGURATION_DIRECTORY=/etc/colord
+SYSTEMD_EXEC_PID=1521
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/colord.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

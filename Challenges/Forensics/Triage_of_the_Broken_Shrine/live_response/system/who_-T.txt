@@ -1,0 +1,3 @@
+meaow    ? seat0        Nov 17 19:43 (login screen)
+meaow    + tty2         Nov 17 19:43 (tty2)
+meaow    + pts/2        Nov 17 19:55

@@ -1,0 +1,3 @@
+/usr/bin/ibus-daemon
+--panel
+disable

@@ -1,0 +1,9 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw------- 1 root root 4096 Nov 17 19:57 debug
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 edid_firmware
+-r-------- 1 root root 4096 Nov 17 19:57 edid_fixup
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 panic_screen
+-rw------- 1 root root 4096 Nov 17 19:57 timestamp_precision_usec
+-rw------- 1 root root 4096 Nov 17 19:57 vblankoffdelay

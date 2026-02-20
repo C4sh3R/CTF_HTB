@@ -1,0 +1,4 @@
+total 0
+drwx-----T 3 root root 0 Nov 17 19:43 .
+drwxr-xr-x 9 root root 0 Nov 17 19:43 ..
+drwx------ 2 root root 0 Nov 17 19:51 snap

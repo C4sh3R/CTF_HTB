@@ -1,0 +1,7 @@
+[Unit]
+Description=Check to see whether there is a new version of Ubuntu available
+ConditionFileIsExecutable=/usr/lib/ubuntu-release-upgrader/release-upgrade-motd
+
+[Service]
+ExecStart=/usr/lib/ubuntu-release-upgrader/release-upgrade-motd
+Type=oneshot

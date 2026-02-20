@@ -1,0 +1,62 @@
+total 0
+dr-x------ 2 meaow meaow 59 Nov 17 19:43 .
+dr-xr-xr-x 9 meaow meaow  0 Nov 17 19:43 ..
+lr-x------ 1 meaow meaow 64 Nov 17 19:43 0 -> /dev/null
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 1 -> socket:[27283]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 10 -> /home/meaow/.cache/tracker3/files/meta.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 11 -> /home/meaow/.cache/tracker3/files/meta.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 12 -> /home/meaow/.cache/tracker3/files/meta.db-shm
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 13 -> /home/meaow/.cache/tracker3/files/meta.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 14 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 15 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 16 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-shm
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 17 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 18 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 19 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-shm
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 2 -> socket:[27283]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 20 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 21 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 22 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-shm
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 23 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 24 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 25 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-shm
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 26 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 27 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 28 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-shm
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 29 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 3 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 30 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 31 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-shm
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 32 -> anon_inode:[eventfd]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 33 -> anon_inode:inotify
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 34 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 35 -> /home/meaow/.cache/tracker3/files/meta.db-wal
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 36 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 37 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 38 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 39 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-wal
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 4 -> anon_inode:[eventfd]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 40 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 41 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 42 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 43 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-wal
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 44 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 45 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 46 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:55 47 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-wal
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 48 -> /home/meaow/.cache/tracker3/files/meta.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 5 -> socket:[27287]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 50 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 52 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 54 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 56 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 58 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 6 -> anon_inode:[eventfd]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 60 -> /home/meaow/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 63 -> anon_inode:[eventpoll]
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 64 -> /proc/2678/mountinfo
+lr-x------ 1 meaow meaow 64 Nov 17 19:47 65 -> anon_inode:inotify
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 69 -> /memfd:extract-persistent-storage (deleted)
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 7 -> anon_inode:[eventfd]
+lrwx------ 1 meaow meaow 64 Nov 17 19:47 8 -> socket:[28025]
+lrwx------ 1 meaow meaow 64 Nov 17 19:43 9 -> /memfd:extract-persistent-storage (deleted)

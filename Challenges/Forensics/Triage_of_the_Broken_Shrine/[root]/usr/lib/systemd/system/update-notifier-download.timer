@@ -1,0 +1,10 @@
+[Unit]
+Description=Download data for packages that failed at package install time
+After=network.target network-online.target systemd-networkd.service NetworkManager.service connman.service
+
+[Timer]
+OnStartupSec=5m
+OnUnitActiveSec=24h
+
+[Install]
+WantedBy=timers.target

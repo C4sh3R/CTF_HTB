@@ -1,0 +1,8 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=40704c0aa2d74b489d649b7f2e90db16
+JOURNAL_STREAM=9:21005
+SYSTEMD_EXEC_PID=1065
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/udisks2.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

@@ -1,0 +1,15 @@
+# /usr/lib/systemd/system/sysstat-summary.service
+# (C) 2014 Tomasz Torcz <tomek@pipebreaker.pl>
+#
+# sysstat-12.6.1 systemd unit file:
+#        Generates daily summary of process accounting
+
+[Unit]
+Description=Generate a daily summary of process accounting
+Documentation=man:sa2(8)
+After=sysstat.service
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/lib/sysstat/sa2 -A

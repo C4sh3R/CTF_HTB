@@ -1,0 +1,8 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 feature_persistent
+-r--r--r-- 1 root root 4096 Nov 17 19:57 max_indirect_segments
+-r--r--r-- 1 root root 4096 Nov 17 19:57 max_queues
+-r--r--r-- 1 root root 4096 Nov 17 19:57 max_ring_page_order
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 trusted

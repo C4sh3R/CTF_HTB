@@ -1,0 +1,9 @@
+State  Recv-Q Send-Q      Local Address:Port        Peer Address:Port Process                                                                                              
+LISTEN 0      4096           127.0.0.54:domain           0.0.0.0:*     users:(("systemd-resolve",pid=578,fd=17))                                                           
+LISTEN 0      4096            127.0.0.1:ipp              0.0.0.0:*     users:(("cupsd",pid=1271,fd=7))                                                                     
+LISTEN 0      4096        127.0.0.53%lo:domain           0.0.0.0:*     users:(("systemd-resolve",pid=578,fd=15))                                                           
+ESTAB  0      0         192.168.153.131:54146      34.107.243.93:https users:(("firefox",pid=5309,fd=138))                                                                 
+ESTAB  0      0         192.168.153.131:56400    192.168.153.128:1234  users:(("bash",pid=4238,fd=3),("python3",pid=4237,fd=3),("sh",pid=4235,fd=3),("ncat",pid=4233,fd=3))
+LISTEN 0      100                     *:http-alt               *:*     users:(("java",pid=3318,fd=45))                                                                     
+LISTEN 0      1      [::ffff:127.0.0.1]:8005                   *:*     users:(("java",pid=3318,fd=52))                                                                     
+LISTEN 0      4096                [::1]:ipp                 [::]:*     users:(("cupsd",pid=1271,fd=6))                                                                     

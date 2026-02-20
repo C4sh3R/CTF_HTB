@@ -1,0 +1,14 @@
+total 0
+dr-x------ 2 root root  11 Nov 17 19:47 .
+dr-xr-xr-x 9 root meaow  0 Nov 17 19:43 ..
+lr-x------ 1 root root  64 Nov 17 19:47 0 -> /dev/null
+lrwx------ 1 root root  64 Nov 17 19:47 1 -> socket:[24019]
+l-wx------ 1 root root  64 Nov 17 19:47 13 -> /run/systemd/sessions/2.ref
+lrwx------ 1 root root  64 Nov 17 19:47 2 -> socket:[24020]
+lrwx------ 1 root root  64 Nov 17 19:47 3 -> anon_inode:[eventfd]
+lrwx------ 1 root root  64 Nov 17 19:47 4 -> anon_inode:[eventfd]
+lrwx------ 1 root root  64 Nov 17 19:47 5 -> socket:[24021]
+lrwx------ 1 root root  64 Nov 17 19:47 6 -> anon_inode:[eventfd]
+lrwx------ 1 root root  64 Nov 17 19:47 7 -> socket:[24022]
+lrwx------ 1 root root  64 Nov 17 19:47 8 -> socket:[22281]
+lrwx------ 1 root root  64 Nov 17 19:47 9 -> anon_inode:[pidfd]

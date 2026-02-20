@@ -1,0 +1,61 @@
+Name:	pipewire-pulse
+Umask:	0002
+State:	S (sleeping)
+Tgid:	1951
+Ngid:	0
+Pid:	1951
+PPid:	1921
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+Groups:	4 24 27 30 46 100 114 1000 
+NStgid:	1951
+NSpid:	1951
+NSpgid:	1951
+NSsid:	1951
+Kthread:	0
+VmPeak:	  153556 kB
+VmSize:	  120680 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   14348 kB
+VmRSS:	   13984 kB
+RssAnon:	    4456 kB
+RssFile:	    9476 kB
+RssShmem:	      52 kB
+VmData:	   28716 kB
+VmStk:	     132 kB
+VmExe:	       4 kB
+VmLib:	   12148 kB
+VmPTE:	     120 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	3
+SigQ:	0/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000004002
+SigIgn:	0000000000001000
+SigCgt:	0000000100000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	1
+Seccomp:	2
+Seccomp_filters:	6
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	2322
+nonvoluntary_ctxt_switches:	940
+x86_Thread_features:	
+x86_Thread_features_locked:	

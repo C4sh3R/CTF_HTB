@@ -1,0 +1,6 @@
+total 0
+drwxr-xr-x 2 root root    0 Nov 17 19:57 .
+drwxr-xr-x 3 root root    0 Nov 17 19:57 ..
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 num_request_queues
+-rw-r--r-- 1 root root 4096 Nov 17 19:57 poll_queues
+-r--r--r-- 1 root root 4096 Nov 17 19:57 queue_depth

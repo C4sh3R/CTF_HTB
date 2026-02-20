@@ -1,0 +1,127 @@
+#!/bin/sh
+set -e
+
+if [ -f /usr/lib/grub/grub-mkconfig_lib ]; then
+  . /usr/lib/grub/grub-mkconfig_lib
+else
+  # no grub file, so we notify and exit gracefully
+  echo "Cannot find grub config file, exiting." >&2
+  exit 0
+fi
+
+if [ -f /etc/default/grub ]; then
+  GRUB_DISABLE_MEMTEST=`sed -n 's/^GRUB_DISABLE_MEMTEST=\(.*\)/\1/p' < /etc/default/grub`
+  GRUB_MEMTEST_DISABLE_SERIAL=`sed -n 's/^GRUB_MEMTEST_DISABLE_SERIAL=\(.*\)/\1/p' < /etc/default/grub`
+  GRUB_MEMTEST_SERIAL_PARAMS=`sed -n 's/^GRUB_MEMTEST_SERIAL_PARAMS=\(.*\)/\1/p' < /etc/default/grub`
+fi
+
+if [ "x${GRUB_MEMTEST_SERIAL_PARAMS}" = "x" ] ; then
+  GRUB_MEMTEST_SERIAL_PARAMS="ttyS0,115200"
+fi
+
+# With GRUB_DISABLE_MEMTEST=true don't add memtest entries
+if [ "x${GRUB_DISABLE_MEMTEST}" = "xtrue" ] ; then
+  exit 0
+fi
+
+# We can't cope with loop-mounted devices here.
+case ${GRUB_DEVICE_BOOT} in
+  /dev/loop/*|/dev/loop[0-9]) exit 0 ;;
+esac
+
+prepare_boot_cache="$(prepare_grub_to_access_device ${GRUB_DEVICE_BOOT} | sed -e "s/^/\t/")"
+
+efi_vars_dir=/sys/firmware/efi/efivars
+
+if test -e ${efi_vars_dir} ; then
+  if test -e /boot/memtest86+x64.efi && test -e /boot/grub/x86_64-efi ; then
+    MEMTESTPATH=$( make_system_path_relative_to_its_root "/boot/memtest86+x64.efi" )
+    echo "Found memtest86+ 64bit EFI image: $MEMTESTPATH" >&2
+    cat << EOF
+menuentry "Memory test (memtest86+x64.efi)" --class memtest \$menuentry_id_option 'memtest86+' {
+EOF
+    printf '%s\n' "${prepare_boot_cache}"
+    cat << EOF
+        linux    $MEMTESTPATH
+}
+EOF
+    if [ "x${GRUB_MEMTEST_DISABLE_SERIAL}" != "xtrue" ]; then
+      cat << EOF
+menuentry '$(gettext_printf "Memory test (memtest86+x64.efi, serial console)")' --class memtest \$menuentry_id_option 'memtest86+-serial' {
+EOF
+      printf '%s\n' "${prepare_boot_cache}"
+      cat << EOF
+        linux   $MEMTESTPATH console=${GRUB_MEMTEST_SERIAL_PARAMS}
+}
+EOF
+    fi
+  elif test -e /boot/memtest86+ia32.efi && test -e /boot/grub/i386-efi ; then
+    MEMTESTPATH=$( make_system_path_relative_to_its_root "/boot/memtest86+ia32.efi" )
+    echo "Found memtest86+ 32bit EFI image: $MEMTESTPATH" >&2
+    cat << EOF
+menuentry "Memory test (memtest86+ia32.efi)" --class memtest \$menuentry_id_option 'memtest86+' {
+EOF
+    printf '%s\n' "${prepare_boot_cache}"
+    cat << EOF
+        linux    $MEMTESTPATH
+}
+EOF
+    if [ "x${GRUB_MEMTEST_DISABLE_SERIAL}" != "xtrue" ]; then
+      cat << EOF
+menuentry '$(gettext_printf "Memory test (memtest86+ia32.efi, serial console)")' --class memtest \$menuentry_id_option 'memtest86+-serial' {
+EOF
+      printf '%s\n' "${prepare_boot_cache}"
+      cat << EOF
+        linux    $MEMTESTPATH console=${GRUB_MEMTEST_SERIAL_PARAMS}
+}
+EOF
+    fi
+  fi
+elif [ `getconf LONG_BIT` = "64" ]; then
+ if test -e /boot/memtest86+x64.bin ; then
+  MEMTESTPATH=$( make_system_path_relative_to_its_root "/boot/memtest86+x64.bin" )
+  echo "Found memtest86+x64 image: $MEMTESTPATH" >&2
+  cat << EOF
+menuentry "Memory test (memtest86+x64.bin)" --class memtest \$menuentry_id_option 'memtest86+' {
+EOF
+  printf '%s\n' "${prepare_boot_cache}"
+  cat << EOF
+        linux    $MEMTESTPATH
+}
+EOF
+    if [ "x${GRUB_MEMTEST_DISABLE_SERIAL}" != "xtrue" ]; then
+      cat << EOF
+menuentry '$(gettext_printf "Memory test (memtest86+x64.bin, serial console)")' --class memtest \$menuentry_id_option 'memtest86+-serial' {
+EOF
+      printf '%s\n' "${prepare_boot_cache}"
+      cat << EOF
+        linux    $MEMTESTPATH console=${GRUB_MEMTEST_SERIAL_PARAMS}
+}
+EOF
+    fi
+ fi
+else
+ if test -e /boot/memtest86+ia32.bin ; then
+  MEMTESTPATH=$( make_system_path_relative_to_its_root "/boot/memtest86+ia32.bin" )
+  echo "Found memtest86+ image: $MEMTESTPATH" >&2
+  cat << EOF
+menuentry "Memory test (memtest86+ia32.bin)" --class memtest \$menuentry_id_option 'memtest86+' {
+EOF
+  printf '%s\n' "${prepare_boot_cache}"
+  cat << EOF
+        linux    $MEMTESTPATH
+}
+EOF
+    if [ "x${GRUB_MEMTEST_DISABLE_SERIAL}" != "xtrue" ]; then
+      cat << EOF
+menuentry '$(gettext_printf "Memory test (memtest86+ia32.bin, serial console)")' --class memtest \$menuentry_id_option 'memtest86+-serial' {
+EOF
+      printf '%s\n' "${prepare_boot_cache}"
+      cat << EOF
+        linux    $MEMTESTPATH console=${GRUB_MEMTEST_SERIAL_PARAMS}
+}
+EOF
+    fi
+ fi
+fi
+

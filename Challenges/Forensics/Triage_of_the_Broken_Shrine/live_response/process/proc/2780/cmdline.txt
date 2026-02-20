@@ -1,0 +1,2 @@
+/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js
+/usr/share/gnome-shell/extensions/ding@rastersoft.com/app

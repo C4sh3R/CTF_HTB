@@ -1,0 +1,61 @@
+Name:	accounts-daemon
+Umask:	0022
+State:	S (sleeping)
+Tgid:	1036
+Ngid:	0
+Pid:	1036
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	128
+Groups:	 
+NStgid:	1036
+NSpid:	1036
+NSpgid:	1036
+NSsid:	1036
+Kthread:	0
+VmPeak:	  378564 kB
+VmSize:	  313292 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    7736 kB
+VmRSS:	    7544 kB
+RssAnon:	     640 kB
+RssFile:	    6904 kB
+RssShmem:	       0 kB
+VmData:	   33928 kB
+VmStk:	     132 kB
+VmExe:	      88 kB
+VmLib:	    7880 kB
+VmPTE:	     108 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	4
+SigQ:	1/15153
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100004002
+CapInh:	0000000000000000
+CapPrm:	000001fff7fcffff
+CapEff:	000001fff7fcffff
+CapBnd:	000001fff7fcffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	2
+Seccomp_filters:	19
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	152
+nonvoluntary_ctxt_switches:	66
+x86_Thread_features:	
+x86_Thread_features_locked:	

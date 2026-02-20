@@ -1,0 +1,50 @@
+# Default im-config mode (see im-config(8))
+
+# This im-config helps to start best available input method (IM)
+
+# Always start highest priority IM
+IM_CONFIG_DEFAULT_MODE=auto
+# Start or not to start IM dynamically under CJKV/desktop environment
+#IM_CONFIG_DEFAULT_MODE=cjkv
+# Never start IM by im-config (Leave it to desktop system)
+#IM_CONFIG_DEFAULT_MODE=none
+
+# cjkv mode behavior:
+#  case 1:
+#    * desktop is listed in CJKV_DEFAULT_DESKTOP
+#    * locale is under so-called CJKV environments
+#    --> auto mode
+#  case 2:
+#    * desktop is listed in CJKV_DEFAULT_DESKTOP
+#    * locale is *not* under so-called CJKV environments
+#    --> none mode
+#  case 3:
+#    * desktop is *not* listed in CJKV_DEFAULT_DESKTOP
+#    * locale is under any environments
+#    --> auto mode
+#
+CJKV_DEFAULT_DESKTOP="*"
+#CJKV_DEFAULT_DESKTOP="KDE:LXQt:XFCE"
+
+# List of locales for so-called CJKV environments
+CJKV_LOCALES="zh_TW:zh_HK:zh_SG:zh_CN:ja_JP:ko_KR:vi_VN"
+
+# Set locale dependent preferred IM over standard auto mode if not GNOME
+IM_CONFIG_PREFERRED_RULE="zh_CN,fcitx5:zh_TW,fcitx5:zh_HK,fcitx5:zh_SG,fcitx5"
+
+# User and system wide configuration is normally done via im-config program.
+# The above IM_CONFIG_PREFERRED_RULE sets locale dependent preferred IM
+# override rule.  If you wish to use uim over ibus just for ja_JP,
+# add :ja_JP,uim at the end of the above list. (Marked by "!" in GUI)
+
+# List of desktop systems which starts ibus if available
+#   Applicable desktops are excluded for applying IM_CONFIG_PREFERRED_RULE
+DESKTOP_SETUP_IBUS="GNOME"
+
+# Trace commands for debug
+# (This may cause problem configuration file generated under console mode)
+#IM_CONFIG_SETMODE="-x"
+
+# Verbose output for debug (uncomment following)
+#IM_CONFIG_VERBOSE="true"
+
