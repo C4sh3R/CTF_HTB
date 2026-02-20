@@ -83,7 +83,7 @@ CSP_OBJECT_SRC = ("'none'",)
 
 ### Bot Admin (seleniumSimulator.py)
 - Se ejecuta como usuario Windows `web`
-- Inicia sesión como admin de Eloquia con `admin:MyEl0qu!@Admin`
+- Inicia sesión como admin de Eloquia con `admin:*********`
 - Usa Chrome headless
 - Visita artículos reportados
 - Espera 3 segundos para que "se ejecute el payload XSS"
