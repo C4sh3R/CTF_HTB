@@ -141,7 +141,7 @@ GET /accounts/profile/ → "Howdy, admin"
 ```
 - Panel admin: `/accounts/admin/`
 - SQL Explorer: `/dev/sql-explorer/play/`
-- Credenciales admin encontradas: `admin:MyEl0qu!@Admin`
+- Credenciales admin encontradas: `admin:*********`
 
 ---
 
@@ -299,9 +299,9 @@ Subir como banner de artículo → ejecutar via load_extension → leer salida.
 ### Credenciales Recuperadas
 | URL | Usuario | Contraseña |
 |-----|---------|------------|
-| https://chatgpt.com/ | olivia.kat | S3cureP@sswd3Openai |
-| https://eloquia.htb/ | test | testtest1234! |
-| http://eloquia.htb/accounts/login/ | **Olivia.KAT** | **S3cureP@sswdIGu3ss** |
+| https://chatgpt.com/ | olivia.kat | ******* |
+| https://eloquia.htb/ | test | ****** |
+| http://eloquia.htb/accounts/login/ | **Olivia.KAT** | ****** |
 
 ---
 
@@ -402,11 +402,11 @@ f9f****************
 
 | Sistema | Usuario | Contraseña | Origen |
 |---------|---------|------------|--------|
-| eloquia.htb (Django) | admin | MyEl0qu!@Admin | seleniumSimulator.py |
+| eloquia.htb (Django) | admin | ****** | seleniumSimulator.py |
 | eloquia.htb (Django) | Olivia.KAT | S3cureP@sswdIGu3ss | Edge DPAPI |
-| chatgpt.com | olivia.kat | S3cureP@sswd3Openai | Edge DPAPI |
-| Windows (WinRM) | Olivia.KAT | S3cureP@sswdIGu3ss | Edge DPAPI (reutilización de contraseña) |
-| qooqle.htb | atk1771443256 | FreshAtk123! | Cuenta de atacante registrada |
+| chatgpt.com | olivia.kat | ****** | Edge DPAPI |
+| Windows (WinRM) | Olivia.KAT | ***** | Edge DPAPI (reutilización de contraseña) |
+| qooqle.htb | atk1771443256 | ****** | Cuenta de atacante registrada |
 
 ---
 
