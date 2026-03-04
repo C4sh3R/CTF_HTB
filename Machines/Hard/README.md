@@ -4,7 +4,9 @@ Writeups for Hard difficulty HackTheBox machines.
 
 ## Machines in this category
 
-No machines yet. Add your first writeup!
+| Machine | OS | Key Techniques | Date |
+|---------|----|----------------|------|
+| [Pirate](Pirate/) | Windows (AD) | Pre-2k Accounts, gMSA, NTLM Relay, RBCD, SPN Jacking, KCD | 2026-03-04 |
 
 ## Tips for Hard Machines
 

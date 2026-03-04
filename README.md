@@ -33,9 +33,9 @@ CTF_HTB/
 ### Máquinas Completadas
 - **Easy**: 1
 - **Medium**: 1
-- **Hard**: 0
+- **Hard**: 1
 - **Insane**: 1
-- **Total**: 3
+- **Total**: 4
 
 ### Desafíos Completados
 - **Web**: 1
