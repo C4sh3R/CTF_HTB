@@ -4,7 +4,11 @@ Writeups for Medium difficulty HackTheBox machines.
 
 ## Machines in this category
 
-No machines yet. Add your first writeup!
+| Machine | OS | Key Techniques | Date |
+|---------|----|----------------|------|
+| [AirTouch](AirTouch/) | — | — | — |
+| [Browsed](Browsed/) | — | — | — |
+| [Overwatch](Overwatch/) | — | — | — |
 
 ## Tips for Medium Machines
 

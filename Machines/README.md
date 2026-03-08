@@ -24,9 +24,9 @@ When creating a new machine writeup, copy the template from `/Templates/WRITEUP_
 
 ## Statistics
 
-- **Easy**: 0 machines
-- **Medium**: 0 machines
-- **Hard**: 0 machines
-- **Insane**: 0 machines
+- **Easy**: 1 machines
+- **Medium**: 3 machines
+- **Hard**: 3 machines
+- **Insane**: 3 machines
 
-**Total**: 0 machines
+**Total**: 10 machines

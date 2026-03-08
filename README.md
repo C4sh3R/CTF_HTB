@@ -32,23 +32,23 @@ CTF_HTB/
 
 ### Máquinas Completadas
 - **Easy**: 1
-- **Medium**: 2
-- **Hard**: 2
-- **Insane**: 1
-- **Total**: 6
+- **Medium**: 3
+- **Hard**: 3
+- **Insane**: 3
+- **Total**: 10
 
 ### Desafíos Completados
-- **Web**: 1
-- **Crypto**: 0
+- **Web**: 2
+- **Crypto**: 1
 - **Pwn**: 2
-- **Reversing**: 1
-- **Forensics**: 2
-- **Misc**: 2
+- **Reversing**: 0
+- **Forensics**: 1
+- **Misc**: 3
 - **Steganography**: 0
 - **OSINT**: 0
 - **Hardware**: 0
 - **Mobile**: 0
-- **Total**: 8
+- **Total**: 9
 
 ## 🚀 Cómo Usar Este Repositorio
 
