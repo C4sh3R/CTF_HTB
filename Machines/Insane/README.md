@@ -6,6 +6,7 @@ Writeups for Insane difficulty HackTheBox machines.
 
 | Machine | OS | Key Techniques | Date |
 |---------|----|----------------|------|
+| [Cobblestone](Cobblestone_Writeup.md) | Linux | SQLi 2nd Order, AppArmor Bypass, CVE-2024-47533, Cheetah SSTI | 2026-03-08 |
 | [Eloquia](Eloquia_Writeup.md) | Windows | — | 2026-02-18 |
 | [Hercules](Hercules_Writeup.md) | Windows (AD) | — | — |
 | [Sorcery](Sorcery_Writeup.md) | Linux | — | — |

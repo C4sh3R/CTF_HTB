@@ -34,8 +34,8 @@ CTF_HTB/
 - **Easy**: 1
 - **Medium**: 3
 - **Hard**: 3
-- **Insane**: 3
-- **Total**: 10
+- **Insane**: 4
+- **Total**: 11
 
 ### Desafíos Completados
 - **Web**: 2
